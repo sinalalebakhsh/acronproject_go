@@ -1,5 +1,7 @@
 package main
 
+import "fmt"
+
 func main() {
-	print("Sina Lalebakhsh \n")
+	fmt.Println("Sina Lalebakhsh")
 }
