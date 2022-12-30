@@ -4,6 +4,7 @@ import "fmt"
 
 func main() {
 	var x string = "sina" // Default empty => ""
-	fmt.Printf("%T", x, "\n")
+	var y bool = true
+	fmt.Printf("%T %T", x, y, "\n")
 	println(x)
 }
