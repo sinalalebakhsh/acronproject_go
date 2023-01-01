@@ -1,7 +1,8 @@
 
 package main
 
+import "fmt"
 
 func main(){
-	Print("Hi Sina...")
+	fmt.Print("Hi Sina...")
 }
