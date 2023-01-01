@@ -1,3 +1,7 @@
+
 package main
 
-Print("Hi Sina...")
+
+func main(){
+	Print("Hi Sina...")
+}
