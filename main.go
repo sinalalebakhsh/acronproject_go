@@ -9,6 +9,6 @@ func main(){
 	fmt.Println("Welcome to Acron Project. You can ", confName, ". I like your decision")
 	fmt.Println("Get your Numbers here to attend")
 
-	fmt.Println(confName)
+	
 
 }
