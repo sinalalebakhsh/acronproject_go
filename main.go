@@ -4,5 +4,6 @@ package main
 import "fmt"
 
 func main(){
-	fmt.Println("Hi Sina...")
+	fmt.Println("Welcome to Acron Project.")
+	fmt.Println("Get your Numbers here to attend")
 }
