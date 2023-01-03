@@ -4,9 +4,10 @@ package main
 import "fmt"
 
 func main(){
-	var sinaName = "Go Conf is here"
+	var sinaName = "Sina"
 
-	
-	fmt.Printf("sinaName = %v\n", sinaName )	
+	var ariyamehrName = "Ariya Mehr"
+
+	fmt.Printf("sinaName: %v\nariyamehrName: %v\n", sinaName, ariyamehrName )	
 
 }
