@@ -8,6 +8,6 @@ func main(){
 
 	var ariyamehrName = "Ariya Mehr"
 
-	fmt.Printf("sinaName: %v\nariyamehrName: %v\n", sinaName, ariyamehrName )	
+	fmt.Printf("sinaName: %s\nariya  mehrName: %v\n", sinaName, ariyamehrName )	
 
 }
