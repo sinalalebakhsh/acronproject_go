@@ -6,7 +6,7 @@ import "fmt"
 func main(){
 	
 	var userName string
-	var userAge int
+	var userAge uint8
 
 
 	userName = "Sina"
