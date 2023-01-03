@@ -11,7 +11,7 @@ func main(){
 
 	userName = "Sina"
 	userAge = 29
-	fmt.Printf("%s have a  %v years old.\n", userName, userAge)
+	fmt.Printf("user name Type is: %T. and User Age Type is  %T.\n", userName, userAge)
 
 
 
