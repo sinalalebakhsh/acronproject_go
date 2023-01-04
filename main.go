@@ -9,9 +9,11 @@ func main(){
 	var userAge uint8
 
 
-	userName = "Sina"
+	fmt.Print("What is your name? ")
+	fmt.Scan(&userName)
+
 	userAge = 29
-	fmt.Printf("user name Type is: %T. and User Age Type is  %T.\n", userName, userAge)
+	fmt.Printf("Hello %v. with age of  %v.\n", userName, userAge)
 
 
 
