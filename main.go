@@ -14,7 +14,7 @@ func main(){
 
 	userAge = 29
 	fmt.Printf("Hello %v. with age of  %v.\n", userName, userAge)
-	fmt.Printf("Memory Address(Location) userName: %v \n", &userName)
+	fmt.Printf("Memory Address(Location) %v: %v \n", userName,  &userName)
 
 
 }
