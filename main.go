@@ -5,11 +5,11 @@ import "fmt"
 
 func main(){
 	
-	
+	var person1 = "Lalebakhsh"
 
 	var nameList = [5]string
 
-	nameList[0] = "Sina"
+	nameList[0] = "Sina" + " " + person1
 	nameList[6] = "Miina"
 
 
