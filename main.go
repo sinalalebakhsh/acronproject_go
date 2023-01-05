@@ -5,6 +5,8 @@ import "fmt"
 
 func main(){
 	
+	// Slice section
+
 	var person1 = "Lalebakhsh"
 
 	var nameList  [10]string
