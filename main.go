@@ -12,7 +12,7 @@ func main(){
 	nameList[0] = "Sina" + " " + person1
 	nameList[4] = "Miina"
 
-fmt.Printf("The whole array: %v\n", nameList)
+	fmt.Printf("The whole array: %v\n", nameList)
 
 
 	
