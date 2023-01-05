@@ -20,6 +20,6 @@ func main() {
 
 		var getFullName = strings.Fields(fullNames)
 		onlyFirstNames = append(onlyFirstNames, getFullName[0])
-
 	}
+	fmt.Printf("First Name %v\n", onlyFirstNames)
 }
