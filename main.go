@@ -5,29 +5,21 @@ import (
 	"strings"
 )
 
-func main(){
-	
+func main() {
+
 	// "For-Each" Loop
 	//  Iterating over a list
 
-	var nameList [] string
+	var nameList []string
 	var userInput string
 
 	onlyFirstNames := []string{}
 
-	
-	
-	for {
-		
-		fmt.Print("Name? ")
-		fmt.Scan(&userInput)
-		nameList = append(nameList, userInput)
-		fmt.Printf("nameList: %v\n", nameList)
-	}
-	
-	for index, fullNames := range nameList{
 
-		strings.Fields(fullNames)
+	for _, fullNames := range nameList {
+
+		var getFullName = strings.Fields(fullNames)
+		onlyFirstNames = append(onlyFirstNames, getFullName[0])
 
 	}
 }
