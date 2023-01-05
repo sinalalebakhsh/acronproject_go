@@ -1,7 +1,9 @@
-
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"strings"
+)
 
 func main(){
 	
@@ -14,6 +16,7 @@ func main(){
 	onlyFirstNames := []string{}
 
 	
+	
 	for {
 		
 		fmt.Print("Name? ")
@@ -21,5 +24,10 @@ func main(){
 		nameList = append(nameList, userInput)
 		fmt.Printf("nameList: %v\n", nameList)
 	}
+	
+	for index, fullNames := range nameList{
 
+		strings.Fields(fullNames)
+
+	}
 }
