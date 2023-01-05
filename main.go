@@ -11,6 +11,7 @@ func main(){
 	var nameList [] string
 	var userInput string
 
+	onlyFirstNames := []string{}
 
 	
 	for {
