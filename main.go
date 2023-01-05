@@ -5,7 +5,8 @@ import "fmt"
 
 func main(){
 	
-	// Infinite Loops
+	// "For-Each" Loop
+	//  Iterating over a list
 
 	var nameList [] string
 	var userInput string
