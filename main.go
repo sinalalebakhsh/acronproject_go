@@ -24,6 +24,7 @@ func main() {
 		fmt.Printf("List Full Name: %v\n", listFullName)
 		
 
+		// First Way
 		listFirstNames = append(listFirstNames, firstName)
 		fmt.Printf("List Full Name: %v\n", listFirstNames)
 
