@@ -2,7 +2,6 @@ package main
 
 import (
 	"fmt"
-	"strings"
 )
 
 func main() {
@@ -10,6 +9,9 @@ func main() {
 	// "For-Each" Loop
 	//  Iterating over a list
 
-
+var userInput string
+fmt.Print("What's You Name? ")
+fmt.Scan(&userInput)
+fmt.Printf("Hello %v\n", userInput)
 	
 }
