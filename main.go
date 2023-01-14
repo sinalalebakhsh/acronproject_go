@@ -9,6 +9,8 @@ func main() {
 	// "For-Each" Loop
 	//  Iterating over a list
 	listFullName := []string{}
+	listFirstNames := []string{}
+	
 	for {
 		var firstName string
 		fmt.Print("What's You First Name? ")
@@ -18,15 +20,17 @@ func main() {
 		fmt.Print("What's You Last Name? ")
 		fmt.Scan(&lastName)
 		
-		var sina = "sina"
-
 		listFullName = append(listFullName, firstName + " " + lastName)
-		listFullName = append(listFullName, sina)
-
 		fmt.Printf("List Full Name: %v\n", listFullName)
 		
 
-		// listFirstNames := []string{}
+		listFirstNames = append(listFirstNames, firstName)
+		fmt.Printf("List Full Name: %v\n", listFirstNames)
+
+
+		
+
+
 	}
 
 }
