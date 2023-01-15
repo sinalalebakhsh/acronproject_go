@@ -8,12 +8,12 @@ func main() {
 
 	AllTickets := 10
 
+	var firstName string
+	fmt.Print("What's You First Name? ")
+	fmt.Scan(&firstName)		
+	
 	for {
-		var firstName string
 		var userTickets int
-		
-		fmt.Print("What's You First Name? ")
-		fmt.Scan(&firstName)		
 		fmt.Printf("Hello %v, How many Tickets number? ", firstName)
 		fmt.Scan(&userTickets)		
 
