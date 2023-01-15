@@ -10,7 +10,8 @@ func main() {
 	// "For-Each" Loop
 	//  Iterating over a list
 	listFullName := []string{}
-	
+	Iteration := 3
+
 	for {
 		var firstName string
 		fmt.Print("What's You First Name? ")
@@ -38,7 +39,13 @@ func main() {
 		fmt.Printf("list First Names: %v\n", listFirstNames)
 		
 
+		Iteration = Iteration - 1
 
+		if Iteration == 0 {
+			// End Loop:
+			fmt.Print("Loop's Ended...[*]\n ")
+			break
+		}
+		
 	}
-
 }
