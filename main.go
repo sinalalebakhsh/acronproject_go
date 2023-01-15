@@ -10,7 +10,7 @@ func main() {
 	// "For-Each" Loop
 	//  Iterating over a list
 	listFullName := []string{}
-	Iteration := 3
+	Iteration := 2
 
 	for {
 		var firstName string
@@ -41,7 +41,10 @@ func main() {
 
 		Iteration = Iteration - 1
 
-		if Iteration == 0 {
+		// Boolean
+		IteraionBool := Iteration == 0
+
+		if IteraionBool {
 			// End Loop:
 			fmt.Print("Loop's Ended...[*]\n ")
 			break
