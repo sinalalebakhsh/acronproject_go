@@ -26,6 +26,8 @@ func main() {
 				fmt.Printf("%v! Your city is Capital of the Iran. \n", firstName)
 			case "Gilan":
 				fmt.Printf("%v! Your city is in north of the Iran. \n", firstName)
+			case "New-York", "Washington":
+				fmt.Printf("%v! Your city is in the United States of America. \n", firstName)
 			default:
 				fmt.Printf("I dont know where is it %v\n", userCity)
 			}
