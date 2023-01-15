@@ -21,17 +21,5 @@ func main() {
 			fmt.Printf("Hello %v\n", firstName)
 			break
 		}
-	}
-	//===============================================================================================
-	for {
-		var emailAddress string
-		fmt.Print("Email? ")
-		fmt.Scan(&emailAddress)		
-		isValidEmail := strings.Contains(emailAddress, "@")
-		if isValidEmail{
-			break
-		}
-	}
-	//===============================================================================================
-	
+	}	
 }
