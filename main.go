@@ -17,8 +17,11 @@ func main() {
 		fmt.Printf("Hello %v, How many Tickets number? ", firstName)
 		fmt.Scan(&userTickets)		
 
-		if AllTickets >= userTickets {
+		if AllTickets > userTickets {
 			AllTickets = AllTickets - userTickets
+		}else if AllTickets == userTickets {
+			fmt.Printf("Oh!! You get every tickets! Thank for buying ... [*]\n")
+			break
 		}else{
 			fmt.Print("Teckets Number more than All teckets ...[*] \n")
 			break
