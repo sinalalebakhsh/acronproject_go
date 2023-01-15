@@ -18,7 +18,7 @@ func main() {
 		fmt.Scan(&userTickets)		
 		
 		if AllTickets < userTickets {
-			fmt.Print("user Number more than All...[*] \n")
+			fmt.Print("Teckets Number more than All teckets ...[*] \n")
 			break
 		}
 		
@@ -27,7 +27,7 @@ func main() {
 
 		if AllTickets == 0 {
 			// End Loop:
-			fmt.Print("Loop's Ended...[*]\n ")
+			fmt.Print("Teckets is Finished...[*]\n ")
 			break
 		}
 		
