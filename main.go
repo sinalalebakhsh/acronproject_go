@@ -2,49 +2,30 @@ package main
 
 import (
 	"fmt"
-	"strings"
 )
 
 func main() {
 
-	// "For-Each" Loop
-	//  Iterating over a list
-	listFullName := []string{}
-	Iteration := 2
+	AllTickets := 10
 
 	for {
 		var firstName string
 		fmt.Print("What's You First Name? ")
-		fmt.Scan(&firstName)
+		fmt.Scan(&firstName)		
+
+		var userTickets int
+		fmt.Print("How many Tickets number? ")
+		fmt.Scan(&userTickets)		
 		
-		var lastName string
-		fmt.Print("What's You Last Name? ")
-		fmt.Scan(&lastName)
-		
-		listFullName = append(listFullName, firstName + " " + lastName)
-		fmt.Printf("List Full Name: %v\n", listFullName)
-		
-		
-		// First Way
-		// listFirstNames = append(listFirstNames, firstName)
-		// fmt.Printf("List Full Name: %v\n", listFirstNames)
-		
-		// Second Way
-		listFirstNames := []string{}
-		for _, FullName := range listFullName{
-			var FullName_ = strings.Fields(FullName)
-			listFirstNames = append(listFirstNames, FullName_[0])
+		if AllTickets < userTickets {
+			fmt.Print("user Number more than All...[*] \n")
+			break
 		}
-
-		fmt.Printf("list First Names: %v\n", listFirstNames)
 		
+		AllTickets = AllTickets - userTickets
 
-		Iteration = Iteration - 1
 
-		// Boolean
-		IteraionBool := Iteration == 0
-
-		if IteraionBool {
+		if AllTickets == 0 {
 			// End Loop:
 			fmt.Print("Loop's Ended...[*]\n ")
 			break
