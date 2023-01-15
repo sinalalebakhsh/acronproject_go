@@ -3,7 +3,7 @@ package main
 
 import (
 	"fmt"
-	// "strings"
+	"strings"
 )
 
 func main() {
@@ -21,14 +21,14 @@ func main() {
 			break
 		}
 	}
-	// for {
-	// 	var emailAddress string
-	// 	fmt.Print("What's You First Name? ")
-	// 	fmt.Scan(&emailAddress)		
-	// 	isValidEmail := strings.Contains(emailAddress, "@")
-	// 	if isValidEmail{
-	// 		break
-	// 	}
-	// }
+	for {
+		var emailAddress string
+		fmt.Print("Email? ")
+		fmt.Scan(&emailAddress)		
+		isValidEmail := strings.Contains(emailAddress, "@")
+		if isValidEmail{
+			break
+		}
+	}
 	
 }
