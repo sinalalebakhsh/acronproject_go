@@ -1,4 +1,5 @@
-//  User Input Validation
+//  Improvment:
+//  Giving more useful user feedback
 package main
 
 import (
@@ -21,6 +22,7 @@ func main() {
 			break
 		}
 	}
+	//===============================================================================================
 	for {
 		var emailAddress string
 		fmt.Print("Email? ")
@@ -30,5 +32,6 @@ func main() {
 			break
 		}
 	}
+	//===============================================================================================
 	
 }
