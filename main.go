@@ -15,12 +15,12 @@ func main() {
 
 	Counter := 0
 	for{
-		
 		if Counter == 0 {
+			Counter = 1
+
 			var firstName string
 			fmt.Print("What's You First Name? ")
 			fmt.Scan(&firstName)		
-		
 			isValidUserName := len(userTickets) < 3
 		
 			var emailAddress string
@@ -28,13 +28,18 @@ func main() {
 			fmt.Scan(&emailAddress)
 			isValidEmail := strings.Contains(emailAddress, "@")
 			
-			Counter = 1
+
 			var userTickets int
 			fmt.Printf("Hello %v, How many Tickets number? ", firstName)
 			fmt.Scan(&userTickets)		
-			
 			isValidTicketNumber := userTickets > 0 && AllTickets >= userTickets 
 
+			var userCity string
+			fmt.Print("Write City: ")
+			fmt.Scan(&userCity)
+			isValidCity := userCity == "Tehran" || userCity == "Gilan" || userCity == "Sistan"
+
+			//------------------------------------------------------------------------------------------------
 			if AllTickets > userTickets {
 				AllTickets = AllTickets - userTickets
 			}else if AllTickets == userTickets {
