@@ -10,13 +10,13 @@ func main() {
 
 	for {
 		var firstName string
+		var userTickets int
+		
 		fmt.Print("What's You First Name? ")
 		fmt.Scan(&firstName)		
-
-		var userTickets int
-		fmt.Print("How many Tickets number? ")
+		fmt.Printf("Hello %v, How many Tickets number? ", firstName)
 		fmt.Scan(&userTickets)		
-		
+
 		if AllTickets >= userTickets {
 			AllTickets = AllTickets - userTickets
 		}else{
@@ -28,7 +28,7 @@ func main() {
 
 		if AllTickets == 0 {
 			// End Loop:
-			fmt.Print("Teckets is Finished...[*]\n ")
+			fmt.Printf("You Get %v Teckets, So is Finished...[*]\n ", userTickets)
 			break
 		}
 		
