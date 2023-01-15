@@ -1,5 +1,5 @@
-//  Improvment:
-//  Giving more useful user feedback
+// Switch
+//  Statement
 package main
 
 import (
