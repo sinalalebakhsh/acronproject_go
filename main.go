@@ -1,3 +1,4 @@
+//  User Input Validation
 package main
 
 import (
