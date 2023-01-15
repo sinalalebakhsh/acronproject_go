@@ -1,6 +1,6 @@
 # acronproject_go
 
-First Teacher is Nana. from YouTub: codewithnana
+First Teacher is Nana. from YouTub: TechWorld with Nana
 
 
 
