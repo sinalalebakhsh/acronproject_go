@@ -21,7 +21,7 @@ func main() {
 			var firstName string
 			fmt.Print("What's You First Name? ")
 			fmt.Scan(&firstName)		
-			isValidUserName := len(userTickets) < 3
+			isValidUserName := len(firstName) < 3
 		
 			var emailAddress string
 			fmt.Print("Write Email: ")
@@ -39,23 +39,8 @@ func main() {
 			fmt.Scan(&userCity)
 			isValidCity := userCity == "Tehran" || userCity == "Gilan" || userCity == "Sistan"
 
-			//------------------------------------------------------------------------------------------------
-			if AllTickets > userTickets {
-				AllTickets = AllTickets - userTickets
-			}else if AllTickets == userTickets {
-				fmt.Printf("Oh!! You get every tickets! Thank for buying ... [*]\n")
-				break
-			}else{
-				fmt.Print("Teckets Number more than All teckets ...[*] \n")
-				break
-			}
-				
-			if AllTickets == 0 {
-				// End Loop:
-				fmt.Printf("You Get %v Teckets, So is Finished...[*]\n ", userTickets)
-				break
-			}
-			}else {
+		
+		}else {
 			var userTickets int
 			fmt.Print("How many Tickets number? ")
 			fmt.Scan(&userTickets)		
