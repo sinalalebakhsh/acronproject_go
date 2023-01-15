@@ -3,6 +3,7 @@ package main
 
 import (
 	"fmt"
+	"strings"
 )
 
 func main() {
@@ -10,19 +11,30 @@ func main() {
 	fmt.Println("Welcome to this Program ...[*]")
 	
 	AllTickets := 10
-	var firstName string
-	fmt.Print("What's You First Name? ")
-	fmt.Scan(&firstName)		
-	Counter := 0
 
+
+	Counter := 0
 	for{
 		
 		if Counter == 0 {
+			var firstName string
+			fmt.Print("What's You First Name? ")
+			fmt.Scan(&firstName)		
+		
+			isValidUserName := len(userTickets) < 3
+		
+			var emailAddress string
+			fmt.Print("Write Email: ")
+			fmt.Scan(&emailAddress)
+			isValidEmail := strings.Contains(emailAddress, "@")
+			
 			Counter = 1
 			var userTickets int
 			fmt.Printf("Hello %v, How many Tickets number? ", firstName)
 			fmt.Scan(&userTickets)		
 			
+			isValidTicketNumber := userTickets > 0 && AllTickets >= userTickets 
+
 			if AllTickets > userTickets {
 				AllTickets = AllTickets - userTickets
 			}else if AllTickets == userTickets {
