@@ -1,5 +1,5 @@
-// Switch
-//  Statement
+// Functi`ons
+//  in Go`
 package main
 
 import (
