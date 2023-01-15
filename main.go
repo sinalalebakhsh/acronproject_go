@@ -6,8 +6,9 @@ import (
 
 func main() {
 
+	fmt.Print("Welcome to this Program ...[*]")
+	
 	AllTickets := 10
-
 	var firstName string
 	fmt.Print("What's You First Name? ")
 	fmt.Scan(&firstName)		
