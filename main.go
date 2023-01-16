@@ -13,6 +13,8 @@ func main() {
 	user_input := amount_of_money()
 
 	result_amount_of_money(user_input)
+
+	Goodbye()
 }
 
 
@@ -60,3 +62,12 @@ func result_amount_of_money(user_input int){
 	}
 }
 
+func Goodbye()  {
+	fmt.Println("   ")
+	fmt.Println("   ")
+	fmt.Println(" [*]----------------------[*]  ")
+	fmt.Println(" [*]----THANKS.GOODBYE----[*]  ")
+	fmt.Println(" [*]----------------------[*]  ")
+	fmt.Println("   ")
+	fmt.Println("   ")
+}
