@@ -7,9 +7,7 @@ import (
 )
 
 func main() {
-
-	fmt.Println("Welcome to this Program ...[*]")
-
+	Wellcome()
 	//===============================================================================================
 	for{
 	var firstName string
@@ -35,4 +33,9 @@ func main() {
 		}
 	}
 	
+}
+
+
+func Wellcome()  {
+	fmt.Println("Welcome to this Program ...[*]")	
 }
