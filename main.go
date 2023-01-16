@@ -10,7 +10,9 @@ func main() {
 	//===============================================================================================
 	Get_User_Input()	
 
-	amount_of_money()
+	user_input := amount_of_money()
+
+	result_amount_of_money(user_input)
 }
 
 
@@ -45,14 +47,16 @@ func Get_User_Input()  {
 		}
 }
 
-func amount_of_money(){
+func amount_of_money() int {
 	var user_input int
 	fmt.Print("How much dollers with you? ")
 	fmt.Scan(&user_input)
 	return user_input
 }
 
-// if user_input < 10{
-// 	fmt.Printf("%v dollers is not enough... [*]", user_input)
-// }
+func result_amount_of_money(user_input int){
+	if user_input < 10{
+		fmt.Printf("%v dollers is not enough... [*]", user_input)
+	}
+}
 
