@@ -1,4 +1,4 @@
-// Function Parameters
+// Returning values from a function	
 package main
 
 import (
