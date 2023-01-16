@@ -1,5 +1,4 @@
-// Functi`ons
-//  in Go`
+// Function Parameters
 package main
 
 import (
