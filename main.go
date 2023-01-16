@@ -10,9 +10,7 @@ func main() {
 	//===============================================================================================
 	Get_User_Input()	
 	//===============================================================================================
-	user_input := amount_of_money()
-	//===============================================================================================
-	result_amount_of_money(user_input)
+
 	//===============================================================================================
 	Goodbye()
 }
@@ -48,18 +46,14 @@ func Get_User_Input()  {
 			}
 		}
 }
-
-func amount_of_money() int {
-	var user_input int
-	fmt.Print("How much dollers with you? ")
-	fmt.Scan(&user_input)
-	return user_input
-}
-
-func result_amount_of_money(user_input int){
-	if user_input < 10{
-		fmt.Printf("%v dollers is not enough... [*] \n", user_input)
-	}
+// ==================================================================
+// func Returning_Multiple_values(Input) (Out put Finction OR returned)
+// ==================================================================
+func Returning_Multiple_values() (string, string, string){
+	firstValue := "firstValue"
+	secondValue := "secondValue" 
+	thirdValue := "thirdValue"
+	return firstValue, secondValue, thirdValue
 }
 
 func Goodbye()  {
