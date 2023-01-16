@@ -56,7 +56,7 @@ func amount_of_money() int {
 
 func result_amount_of_money(user_input int){
 	if user_input < 10{
-		fmt.Printf("%v dollers is not enough... [*]", user_input)
+		fmt.Printf("%v dollers is not enough... [*] \n", user_input)
 	}
 }
 
