@@ -8,9 +8,8 @@ import (
 func main() {
 	Wellcome()
 	//===============================================================================================
-	firstName, userCountry, userCity := Get_User_Input()	
+	firstName, userCountry, userCity := get_user_Input()	
 	//===============================================================================================
-
 	//===============================================================================================
 	Goodbye()
 }
@@ -20,7 +19,7 @@ func Wellcome()  {
 	fmt.Println("Welcome to this Program ...[*]")	
 }
 
-func Get_User_Input() (string, string, string) {
+func get_user_Input() (string, string, string) {
 	for{
 		var firstName string
 		var userCountry string
@@ -47,13 +46,18 @@ func Get_User_Input() (string, string, string) {
 // ==================================================================
 // func Returning_Multiple_values(Input) (Out put Finction OR returned)
 // ==================================================================
-func get_user_input(firstName string, userCountry string, userCity string)  {
+func use_user_input(firstName string, userCountry string, userCity string)  {
 	fmt.Println("   ")
 	fmt.Printf(" Hello %v\n  ", firstName)
 	fmt.Println("   ")
 
 	switch userCountry{
-		
+	case "Iran":
+		fmt.Println("Iran is in continent of Asia.")
+	case "America":
+		fmt.Println("America is in continent of North America.")
+	default:
+		fmt.Printf("For now I don't know where is it %v\n.", userCountry)
 	}
 
 	switch userCity {
