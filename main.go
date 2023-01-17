@@ -21,7 +21,6 @@ func Wellcome()  {
 }
 
 func Get_User_Input() (string, string, string) {
-	
 	for{
 		var firstName string
 		var userCountry string
@@ -40,14 +39,11 @@ func Get_User_Input() (string, string, string) {
 		isValidUserCity := len(userCity) >= 4
 
 		if isValidUserName && isValidUserCountry && isValidUserCity{
-			
+				return firstName, userCountry, userCity
 			}
-		
-
-		}
-
-		
+		}		
 }
+
 // switch userCity {
 // case "Tehran":
 // 	fmt.Printf("%v! Your city is Capital of the Iran. \n", firstName)
