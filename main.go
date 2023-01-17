@@ -52,7 +52,9 @@ func get_user_input(firstName string, userCountry string, userCity string)  {
 	fmt.Printf(" Hello %v\n  ", firstName)
 	fmt.Println("   ")
 
-	
+	switch userCountry{
+		
+	}
 
 	switch userCity {
 	case "Tehran":
