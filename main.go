@@ -10,6 +10,7 @@ func main() {
 	//===============================================================================================
 	firstName, userCountry, userCity := get_user_Input()	
 	//===============================================================================================
+	use_user_input(firstName, userCountry, userCity)
 	//===============================================================================================
 	Goodbye()
 }
@@ -46,6 +47,7 @@ func get_user_Input() (string, string, string) {
 // ==================================================================
 // func Returning_Multiple_values(Input) (Out put Finction OR returned)
 // ==================================================================
+
 func use_user_input(firstName string, userCountry string, userCity string)  {
 	fmt.Println("   ")
 	fmt.Printf(" Hello %v\n  ", firstName)
