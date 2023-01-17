@@ -44,20 +44,26 @@ func Get_User_Input() (string, string, string) {
 		}		
 }
 
-// switch userCity {
-// case "Tehran":
-// 	fmt.Printf("%v! Your city is Capital of the Iran. \n", firstName)
-// case "Gilan":
-// 	fmt.Printf("%v! Your city is in north of the Iran. \n", firstName)
-// case "New-York", "Washington":
-// 	fmt.Printf("%v! Your city is in the United States of America. \n", firstName)
-// default:
-// 	fmt.Printf("I dont know where is it %v\n", userCity)
-// }
 // ==================================================================
 // func Returning_Multiple_values(Input) (Out put Finction OR returned)
 // ==================================================================
 func get_user_input(firstName string, userCountry string, userCity string)  {
+	fmt.Println("   ")
+	fmt.Printf(" Hello %v\n  ", firstName)
+	fmt.Println("   ")
+
+	
+
+	switch userCity {
+	case "Tehran":
+		fmt.Printf("%v! Your city is Capital of the Iran. \n", firstName)
+	case "Gilan":
+		fmt.Printf("%v! Your city is in north of the Iran. \n", firstName)
+	case "New-York", "Washington":
+		fmt.Printf("%v! Your city is in the United States of America. \n", firstName)
+	default:
+		fmt.Printf("I dont know where is it %v\n", userCity)
+	}
 	
 }
 
