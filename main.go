@@ -20,21 +20,26 @@ func Wellcome()  {
 	fmt.Println("Welcome to this Program ...[*]")	
 }
 
-func Get_User_Input() (string, string) {
+func Get_User_Input() (string, string, string) {
 	
 	for{
 		var firstName string
+		var userCountry string
 		var userCity string
-	
+
 		fmt.Print("What's You First Name? ")
-		fmt.Scan(&firstName)	
+		fmt.Scan(&firstName)
+
 		isValidUserName := len(firstName) >= 3
 		if isValidUserName{
-				fmt.Print("What's Your City Name? ")
-				fmt.Scan(&userCity)		
-				return firstName, userCity
+				fmt.Print("What's Your Country Name? ")
+				fmt.Scan(&userCountry)		
 			}
+		
+			
 		}
+
+		
 }
 // switch userCity {
 // case "Tehran":
