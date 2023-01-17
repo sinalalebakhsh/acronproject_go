@@ -29,14 +29,18 @@ func Get_User_Input() (string, string, string) {
 
 		fmt.Print("What's You First Name? ")
 		fmt.Scan(&firstName)
-
 		isValidUserName := len(firstName) >= 3
+
+		fmt.Print("What's Your Country Name? ")
+		fmt.Scan(&userCountry)		
+		isValidUserCountry := len(userCountry) >= 4
+		
+
+		
 		if isValidUserName{
-				fmt.Print("What's Your Country Name? ")
-				fmt.Scan(&userCountry)		
 			}
 		
-			
+
 		}
 
 		
