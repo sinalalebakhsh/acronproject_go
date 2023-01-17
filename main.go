@@ -35,9 +35,12 @@ func Get_User_Input() (string, string, string) {
 		fmt.Scan(&userCountry)		
 		isValidUserCountry := len(userCountry) >= 4
 		
+		fmt.Print("What's Yout City Name? ")
+		fmt.Scan(&userCity)
+		isValidUserCity := len(userCity) >= 4
 
-		
-		if isValidUserName{
+		if isValidUserName && isValidUserCountry && isValidUserCity{
+			
 			}
 		
 
