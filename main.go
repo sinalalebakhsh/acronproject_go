@@ -57,11 +57,8 @@ func Get_User_Input() (string, string, string) {
 // ==================================================================
 // func Returning_Multiple_values(Input) (Out put Finction OR returned)
 // ==================================================================
-func Returning_Multiple_values() (string, string, string){
-	firstValue := "firstValue"
-	secondValue := "secondValue" 
-	thirdValue := "thirdValue"
-	return firstValue, secondValue, thirdValue
+func get_user_input(firstName string, userCountry string, userCity string)  {
+	
 }
 
 func Goodbye()  {
