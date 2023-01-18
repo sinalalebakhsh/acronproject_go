@@ -3,14 +3,20 @@ package main
 
 import (
 	"fmt"
+	"strings"
 )
 
 func main() {
 	Wellcome()
+
+	sina := " asinans"
+
+	fmt.Println(strings.Contains(sina, "sina"))
+
 	//===============================================================================================
-	firstName, userCountry, userCity := get_user_Input()	
+	// firstName, userCountry, userCity := get_user_Input()	
 	//===============================================================================================
-	use_user_input(firstName, userCountry, userCity)
+	// use_user_input(firstName, userCountry, userCity)
 	//===============================================================================================
 	Goodbye()
 }
