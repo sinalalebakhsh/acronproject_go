@@ -31,7 +31,9 @@ by calling the function name just like variables where we define something once 
 if you were hosting 10 conferences at the same time and needed to ask for and validate user input you can reuse that code
 for all 10 conferences instead of writing that same login 10 times.
 =======================================================================================================================
-
+Packages in Go:
+Until now we worked only with 1 file.
+What if I'm writing a more complex Go application with a lot of logic?
 
 
 
