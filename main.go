@@ -11,6 +11,8 @@ import (
 	"os"
 )
 
+var global_variable = "Sina Lalebakhsh...[*]"
+
 func main() {
 	Wellcome()
 	first_name, country_name  := get_Informations()
@@ -20,7 +22,13 @@ func main() {
 }
 
 func Wellcome() {
+	fmt.Println(" ")
 	fmt.Println("Welcome to this Program ...[*]")
+	fmt.Println(" ")
+	fmt.Printf("Program by: %v\n", global_variable)
+	fmt.Println(" ")
+	fmt.Println(" ")
+	
 }
 
 func get_Informations() (string, string){
