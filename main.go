@@ -1,6 +1,7 @@
 // Make Code cleaner with
 // package level variables
 // Defined at the top outside all functions
+// They can be accesses inside any of the functions
 package main
 
 import (
