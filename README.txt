@@ -28,4 +28,9 @@ _________________________________________________________________
 More Use Cases of functions
 Another important purpose which is that, same block of code can be reused in many different places in your Application
 by calling the function name just like variables where we define something once and reuse it hundred times so far example
-if you were hosting 10 conferences at the same time and  
+if you were hosting 10 conferences at the same time and needed to ask for and validate user input you can reuse that code
+for all 10 conferences instead of writing that same login 10 times.
+
+
+
+
