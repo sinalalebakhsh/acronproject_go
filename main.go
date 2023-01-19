@@ -8,7 +8,7 @@ import (
 func main() {
 	Wellcome()	
 	// ===============================================================================================
-	get_user_Input()	
+	get_Informations()	
 	// ===============================================================================================	
 	// ===============================================================================================
 	Goodbye()
@@ -19,17 +19,20 @@ func Wellcome()  {
 	fmt.Println("Welcome to this Program ...[*]")	
 }
 
-func get_user_Input()  {
+func get_Informations()  {
 
 	var firstName string
-	
 	fmt.Print("What's You First Name? ")
 	fmt.Scan(&firstName)
-
-	for len(firstName) <= 3 {
-		fmt.Print("Pleas write name more than 3 caracters, What's You First Name? ")
-		fmt.Scan(&firstName)	
+	for {
+		if len(firstName) <= 3{
+			fmt.Print("Pleas write name more than 3 caracters, What's You First Name? ")
+			fmt.Scan(&firstName)	
+		}else if len(firstName) > 3 {
+			break
+		}
 	}
+	
 	
 }
 
