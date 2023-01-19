@@ -14,7 +14,7 @@ tag 0.0.37:
 - Array and Options that
 
 
-_________________________________________________________________
+=======================================================================================================================
 Make Code cleaner with
 package level variables
 Defined at the top outside all functions
@@ -24,12 +24,13 @@ Belike Python language is global variable
 Local Variables:
 > Difined inside a function or a block
 > They can be accessed only inside that function or block of code
-_________________________________________________________________
+=======================================================================================================================
 More Use Cases of functions
 Another important purpose which is that, same block of code can be reused in many different places in your Application
 by calling the function name just like variables where we define something once and reuse it hundred times so far example
 if you were hosting 10 conferences at the same time and needed to ask for and validate user input you can reuse that code
 for all 10 conferences instead of writing that same login 10 times.
+=======================================================================================================================
 
 
 
