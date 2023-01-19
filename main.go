@@ -1,4 +1,4 @@
-// Returning Multiple values from a function
+// The best algorithm I have written so far
 package main
 
 import (
@@ -9,8 +9,9 @@ import (
 
 func main() {
 	Wellcome()
-	sina := get_Informations()
-	fmt.Printf("%v", sina)
+	first_name, country_name  := get_Informations()
+
+	fmt.Printf("%v\n%v\n", first_name, country_name)
 	Goodbye()
 }
 
@@ -18,7 +19,17 @@ func Wellcome() {
 	fmt.Println("Welcome to this Program ...[*]")
 }
 
-func get_Informations() (string){
+func get_Informations() (string, string){
+
+	get_first_name := get_first_name()
+
+	get_country_name := get_country_name()
+
+	return get_first_name, get_country_name
+
+}
+
+func get_first_name() (string) {
 	reader := bufio.NewReader(os.Stdin)
 	fmt.Print("Enter First-Name: ")
 	firstName, _ := reader.ReadString('\n')	
@@ -32,6 +43,25 @@ func get_Informations() (string){
 			continue
 		}else if len(firstName) >=5{
 			return firstName
+		} 
+
+	}
+}
+
+func get_country_name() (string) {
+	reader := bufio.NewReader(os.Stdin)
+	fmt.Print("Enter Country-Name: ")
+	country_name, _ := reader.ReadString('\n')	
+	if len(country_name) >= 6 {
+		return country_name
+	}
+	for {
+		fmt.Print("Country-Name must be more than 4 characters: ")	
+		country_name, _ := reader.ReadString('\n')	
+		if len(country_name) < 6 {
+			continue
+		}else if len(country_name) >= 6 {
+			return country_name
 		} 
 
 	}
