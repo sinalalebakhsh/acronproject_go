@@ -2,6 +2,7 @@
 // package level variables
 // Defined at the top outside all functions
 // They can be accesses inside any of the functions
+//  And in all files, which are in the same package
 package main
 
 import (
