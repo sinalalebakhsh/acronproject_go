@@ -1,4 +1,4 @@
-// Packages in Go
+// Muliple Packages
 package main
 
 import (
