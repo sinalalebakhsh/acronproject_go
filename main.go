@@ -9,10 +9,8 @@ import (
 
 func main() {
 	Wellcome()
-	// ===============================================================================================
-	get_Informations()
-	// ===============================================================================================
-	// ===============================================================================================
+	sina := get_Informations()
+	fmt.Printf("%v", sina)
 	Goodbye()
 }
 
@@ -20,45 +18,23 @@ func Wellcome() {
 	fmt.Println("Welcome to this Program ...[*]")
 }
 
-func get_Informations() {
-
+func get_Informations() (string){
 	reader := bufio.NewReader(os.Stdin)
 	fmt.Print("Enter First-Name: ")
-	firstName, err := reader.ReadString('\n')
-	if err != nil {
-		panic(err) // Don't forget to check and handle returned errors!
+	firstName, _ := reader.ReadString('\n')	
+	if len(firstName) >= 5 {
+		return firstName
 	}
-// sdfdsf
-	for len(firstName) < 5 {
-		fmt.Print("First-Name must be more than 3 characters: ")
-		firstName, err := reader.ReadString('\n')
-		if err != nil {
-			panic(err) // Don't forget to check and handle returned errors!
-		}
-		if len(firstName) > 4 {
-			fmt.Scan(&firstName) 
-			break
-		}
+	for {
+		fmt.Print("First-Name must be more than 3 characters: ")	
+		firstName, _ := reader.ReadString('\n')	
+		if len(firstName) < 5 {
+			continue
+		}else if len(firstName) >=5{
+			return firstName
+		} 
+
 	}
-
-	fmt.Println("Hello", firstName)
-
-	// var firstName string
-	// fmt.Print("What's Your First Name? ")
-	// fmt.Scan(&firstName)
-
-	// if firstName == "\n"{
-	// 	for {
-	// 		fmt.Print("Pleas write name more than 3 caracters, What's Your First Name? ")
-	// 		fmt.Scan(&firstName)
-	// 		if len(firstName) > 3 {
-	// 			break
-	// 		}
-	// 	}
-	// }
-
-	// fmt.Printf("Your first name = %v\n", firstName)
-
 }
 
 func Goodbye() {
