@@ -1,5 +1,6 @@
 // Make Code cleaner with
 // package level variables
+// Defined at the top outside all functions
 package main
 
 import (
@@ -27,7 +28,6 @@ func get_Informations() (string, string){
 	get_country_name := get_country_name()
 
 	return get_first_name, get_country_name
-
 }
 
 func get_first_name() (string) {
