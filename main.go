@@ -1,66 +1,78 @@
-//Go Compact Code
-package main; import ("fmt"); func main() { fmt.Println("Hello World!");}
+// Returning Multiple values from a function	
+package main
 
-// // Returning Multiple values from a function	
-// package main
+import (
+	"fmt"
+	"bufio"
+	"os"
+)
 
-// import (
-// 	"fmt"
-// )
-
-// func main() {
-// 	Wellcome()	
-// 	// ===============================================================================================
-// 	get_Informations()	
-// 	// ===============================================================================================	
-// 	// ===============================================================================================
-// 	Goodbye()
-// }
+func main() {
+	Wellcome()	
+	// ===============================================================================================
+	get_Informations()	
+	// ===============================================================================================	
+	// ===============================================================================================
+	Goodbye()
+}
 
 
-// func Wellcome()  {
-// 	fmt.Println("Welcome to this Program ...[*]")	
-// }
+func Wellcome()  {
+	fmt.Println("Welcome to this Program ...[*]")	
+}
 
-// func get_Informations()  {
+func get_Informations()  {
 
-// 	var firstName string
-// 	fmt.Print("What's Your First Name? ")
-// 	fmt.Scan(&firstName)
-// 	for {
-// 		if len(firstName) <= 3{
-// 			fmt.Print("Pleas write name more than 3 caracters, What's Your First Name? ")
-// 			fmt.Scan(&firstName)	
-// 		}else if len(firstName) > 3 {
-// 			break
-// 		}
-// 	}
 
-// 	var country_name string
-// 	fmt.Print("What's You Country Name? ")
-// 	fmt.Scan(&country_name)
-// 	for {
-// 		if len(country_name) <= 4{
-// 			fmt.Print("Pleas write name more than 4 caracters, What's Your Coutry Name? ")
-// 			fmt.Scan(&country_name)	
-// 		}else if len(country_name) > 4 {
-// 			break
-// 		}
-// 	}
+	reader := bufio.NewReader(os.Stdin)
+	fmt.Print("Enter First-Name: ")
+	firstName, err := reader.ReadString('\n')
+	if err != nil {
+		panic(err) // Don't forget to check and handle returned errors!
+	}
 
-// 	fmt.Printf("Your first name = %v\n Your Country = %v\n", firstName, country_name)
+	if firstName == "\n" {
+		for{
+			fmt.Print("Enter firstName again: ")
+			firstName, err := reader.ReadString('\n')
+			if err != nil {
+				panic(err) // Don't forget to check and handle returned errors!
+			}
+			if firstName != "\n"{
+				break
+			}
+		}
+	} else {
+		fmt.Println("Hello", text)
+	}
+	// var firstName string
+	// fmt.Print("What's Your First Name? ")
+	// fmt.Scan(&firstName)
 	
-// }
+	// if firstName == "\n"{
+	// 	for {
+	// 		fmt.Print("Pleas write name more than 3 caracters, What's Your First Name? ")
+	// 		fmt.Scan(&firstName)	
+	// 		if len(firstName) > 3 {
+	// 			break
+	// 		}
+	// 	}
+	// }
 
-// func Goodbye()  {
-// 	fmt.Println("   ")
-// 	fmt.Println("   ")
-// 	fmt.Println(" [*]----------------------[*]  ")
-// 	fmt.Println(" [*]----THANKS.GOODBYE----[*]  ")
-// 	fmt.Println(" [*]----------------------[*]  ")
-// 	fmt.Println("   ")
-// 	fmt.Println("   ")
-// }
+
+	// fmt.Printf("Your first name = %v\n", firstName)
+	
+}
+
+func Goodbye()  {
+	fmt.Println("   ")
+	fmt.Println("   ")
+	fmt.Println(" [*]----------------------[*]  ")
+	fmt.Println(" [*]----THANKS.GOODBYE----[*]  ")
+	fmt.Println(" [*]----------------------[*]  ")
+	fmt.Println("   ")
+	fmt.Println("   ")
+}
 
 
 
