@@ -4,6 +4,9 @@
 // They can be accesses inside any of the functions
 //  And in all files, which are in the same package
 // Belike Python language is global variable
+// Local Variables:
+// 		> Difined inside a function or a block
+// 		> They can be accessed only inside that function or block of code
 package main
 
 import (
