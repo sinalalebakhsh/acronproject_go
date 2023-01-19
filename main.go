@@ -1,4 +1,5 @@
-// The best algorithm I have written so far
+// Make Code cleaner with
+// package level variables
 package main
 
 import (
