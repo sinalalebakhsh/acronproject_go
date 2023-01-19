@@ -34,6 +34,12 @@ for all 10 conferences instead of writing that same login 10 times.
 Packages in Go:
 Until now we worked only with 1 file.
 What if I'm writing a more complex Go application with a lot of logic?
+For run this To file:
+go run main.go helper.go
+Or write:
+go run .
+
+
 
 
 
