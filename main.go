@@ -28,7 +28,7 @@ func get_Informations() {
 	if err != nil {
 		panic(err) // Don't forget to check and handle returned errors!
 	}
-
+// sdfdsf
 	for len(firstName) < 5 {
 		fmt.Print("First-Name must be more than 3 characters: ")
 		firstName, err := reader.ReadString('\n')
