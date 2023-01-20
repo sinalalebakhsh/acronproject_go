@@ -17,6 +17,13 @@ tag 0.0.37:
 tag 0.0.41:
 - Add Packages = helper
 
+tag 0.0.42:
+- Learn how build Program for another OS(Operation System):
+    For mac:
+        GOOS="darwin" go build
+    For windows:
+        GOOS="windows" go build
+
 =================================================================
 Make Code cleaner with
 package level variables
