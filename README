@@ -24,6 +24,10 @@ tag 0.0.42:
     For windows:
         GOOS="windows" go build
 
+tag 0.0.43:
+- Delete mac & Windows 
+
+
 =================================================================
 Make Code cleaner with
 package level variables
