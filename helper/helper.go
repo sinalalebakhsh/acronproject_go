@@ -15,6 +15,11 @@ func Get_Informations() (string, string){
 	return get_first_name, get_country_name
 }
 
+func Get_email_Address() (string){
+	
+}
+
+
 func Get_first_name() (string) {
 	reader := bufio.NewReader(os.Stdin)
 	fmt.Print("Enter First-Name: ")
