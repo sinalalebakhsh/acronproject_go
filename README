@@ -56,6 +56,11 @@ ________________________________________________________________________________
 You can export: variables, functions, constant, types
 ___________________________________________________________________________________
 Scope Rules (Variable Scopes) in Go
+
+Variable Scope Definetion:
+    Scope is the region of a program, where a defined variable can be accessed
+
+
 3 Levels of Scope:
     Local:
         1-Declaration within function (Or assertion Or statement):
