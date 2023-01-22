@@ -12,11 +12,11 @@ func Get_Informations() (string, string){
 
 	get_country_name := Get_country_name()
 
-	return get_first_name, get_country_name
-}
-
-func Get_email_Address() (string){
 	var user_Data = make(map[string]string)
+	user_Data["first_name"] = get_first_name
+	user_Data["country_name"] = get_country_name
+
+	return get_first_name, get_country_name
 }
 
 
