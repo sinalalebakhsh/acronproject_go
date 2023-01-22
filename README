@@ -28,7 +28,7 @@ tag 0.0.43:
 - Delete mac & Windows 
 
 
-=================================================================
+___________________________________________________________________________________
 Make Code cleaner with
 package level variables
 Defined at the top outside all functions
@@ -38,13 +38,13 @@ Belike Python language is global variable
 Local Variables:
 > Difined inside a function or a block
 > They can be accessed only inside that function or block of code
-=================================================================
+___________________________________________________________________________________
 More Use Cases of functions
 Another important purpose which is that, same block of code can be reused in many different places in your Application
 by calling the function name just like variables where we define something once and reuse it hundred times so far example
 if you were hosting 10 conferences at the same time and needed to ask for and validate user input you can reuse that code
 for all 10 conferences instead of writing that same login 10 times.
-=================================================================
+___________________________________________________________________________________
 Packages in Go:
 Until now we worked only with 1 file.
 What if I'm writing a more complex Go application with a lot of logic?
@@ -52,8 +52,9 @@ For run this To file:
 go run main.go helper.go
 Or write:
 go run .
-
-
+___________________________________________________________________________________
+You can export: variables, functions, constant, types
+___________________________________________________________________________________
 
 
 
