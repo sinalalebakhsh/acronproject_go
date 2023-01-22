@@ -16,7 +16,7 @@ func Get_Informations() (string, string){
 }
 
 func Get_email_Address() (string){
-	
+	var user_Data = make(map[string]string)
 }
 
 
