@@ -62,5 +62,7 @@ Scope Rules (Variable Scopes) in Go
             Can be used only within that function
         2- Declaration within block
             Can be used only within that block
-
+    Package:
+        1- Declaration outside all functions:
+            Can be used everywhere in the same package
 
