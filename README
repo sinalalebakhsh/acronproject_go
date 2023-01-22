@@ -65,4 +65,6 @@ Scope Rules (Variable Scopes) in Go
     Package:
         1- Declaration outside all functions:
             Can be used everywhere in the same package
-
+    Global:
+        1-Declaration outside all functions & uppercase first letter:
+            Can be used everywhere across all package
