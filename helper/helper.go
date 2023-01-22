@@ -58,6 +58,26 @@ func Get_country_name() (string) {
 	}
 }
 
+func Get_age_number() (int) {
+	reader := bufio.NewReader(os.Stdin)
+	fmt.Print("Enter Age number: ")
+	country_name, _ := reader.ReadString('\n')	
+	if len(country_name) >= 5 {
+		return country_name
+	}
+	for {
+		fmt.Print("Country-Name must be more than 4 characters: ")	
+		country_name, _ := reader.ReadString('\n')	
+		if len(country_name) < 5 {
+			continue
+		}else if len(country_name) >= 5 {
+			return country_name
+		} 
+
+	}
+}
+
+
 func Print(userinput string){
 	fmt.Println(userinput)
 }
