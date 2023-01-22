@@ -56,5 +56,11 @@ ________________________________________________________________________________
 You can export: variables, functions, constant, types
 ___________________________________________________________________________________
 Scope Rules (Variable Scopes) in Go
+3 Levels of Scope:
+    Local:
+        1-Declaration within function (Or assertion Or statement):
+            Can be used only within that function
+        2- Declaration within block
+            Can be used only within that block
 
 
