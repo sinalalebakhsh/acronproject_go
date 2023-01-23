@@ -32,8 +32,14 @@
         var selected_chat = "general";
 
         function changeChatRoom(){
-            
+            var newchat = document.getElementById("chatroom");
+            if(newchat != null && newchat.value != selected_chat){
+                console.log(newchat);
+            }
+            return false
         }
+
+        
     </script>
 </body>
 </html>
