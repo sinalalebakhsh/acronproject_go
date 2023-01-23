@@ -87,3 +87,15 @@ func Get_age_number() (int) {
 func Print(userinput string){
 	fmt.Println(userinput)
 }
+
+
+
+func Goodbye() {
+	fmt.Println("   ")
+	fmt.Println("   ")
+	fmt.Println(" [*]----------------------[*]  ")
+	fmt.Println(" [*]----THANKS.GOODBYE----[*]  ")
+	fmt.Println(" [*]----------------------[*]  ")
+	fmt.Println("   ")
+	fmt.Println("   ")
+}
