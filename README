@@ -89,6 +89,8 @@ Maps
     Or
     var my_map = make(map[string]string)
 
+Definetion:
+    > my_map["Keys"] = Values
 
 
 
