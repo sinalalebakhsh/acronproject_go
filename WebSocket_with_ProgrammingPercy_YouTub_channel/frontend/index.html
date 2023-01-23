@@ -55,6 +55,7 @@
             if(window["WebSocket"])  {
                 console.log("supports websocket");
                 // Connect to WebSocket
+                conn = new WebSocket("ws://" + document.location.host + "/ws")
             } else {
                 alert("Browser Does not Support WebSocket")
             }
@@ -78,7 +79,7 @@
             width: 50%;
             border: 3px solid green;
             padding: 10px;
-            
+
         }
         
     </style>
