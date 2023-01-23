@@ -78,7 +78,8 @@ Revert "helper" package in tag 0.0.43  (Revert like = return, reflux, reversal, 
 
 ___________________________________________________________________________________
 Maps
-
+    > Maps unique keys to values
+    > You can retrieve the value by using its key later
 
 
 
