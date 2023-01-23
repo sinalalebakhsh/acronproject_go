@@ -1,27 +1,27 @@
 // Muliple Packages
 package main
 
-import (
-	"acronproject/helper"
-	"fmt"
-)
+import "acronproject/helper"
+
+// "acronproject/helper"
 
 
 func main() {
+	// helper.Get_Informations()
+	// helper.Goodbye()
 
-	helper.Print("Salam Sina")
+	var user_input = 30
+	var user_ai = 20
 
-	helper.Get_Informations()
+	isValid := user_ai > user_input
 
-	Goodbye()
+	if isValid{
+		helper.Print("Is valid")
+	} else if !isValid {
+		helper.Print("Is invalid")
+	}
+
+
 }
 
-func Goodbye() {
-	fmt.Println("   ")
-	fmt.Println("   ")
-	fmt.Println(" [*]----------------------[*]  ")
-	fmt.Println(" [*]----THANKS.GOODBYE----[*]  ")
-	fmt.Println(" [*]----------------------[*]  ")
-	fmt.Println("   ")
-	fmt.Println("   ")
-}
+
