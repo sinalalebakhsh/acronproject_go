@@ -80,7 +80,8 @@ ________________________________________________________________________________
 Maps
     > Maps unique keys to values
     > You can retrieve the value by using its key later
-
+    > All keys have the same data type 
+    > All values have the same data type
 
 
 
