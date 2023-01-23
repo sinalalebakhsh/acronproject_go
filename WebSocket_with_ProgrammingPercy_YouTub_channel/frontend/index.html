@@ -53,9 +53,13 @@
             document.getElementById("chatroom-message").onsubmit = sendMessage;
 
             if(window["WebSocket"])  {
-                
+                console.log("supports websocket");
+                // Connect to WebSocket
+            } else {
+                alert("Browser Does not Support WebSocket")
             }
         }
+        
 
     </script>
 </body>
