@@ -36,7 +36,7 @@
             if(newchat != null && newchat.value != selected_chat){
                 console.log(newchat);
             }
-            return false
+            return false;
         }
 
         function sendMessage(){
@@ -44,13 +44,17 @@
             if(new_message != null){
                 console.log(new_message);
             }
-            return false
+            return false;
         }
 
 
         window.onload = function() {
-            document.getElementById("chatroom-selection").onsubmit = changeChatRoom
-            document.getElementById("chatroom-message").onsubmit = sendMessage
+            document.getElementById("chatroom-selection").onsubmit = changeChatRoom;
+            document.getElementById("chatroom-message").onsubmit = sendMessage;
+
+            if(window["WebSocket"])  {
+                
+            }
         }
 
     </script>
