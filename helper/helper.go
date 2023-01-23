@@ -99,7 +99,7 @@ func Goodbye() {
 //----------------6-------------------------------------------------------------------------
 func Get_email() (string){
 	var user_email string
-	fmt.Printf("Enter %v: ", user_email)
+	fmt.Print("Enter Email Address: ")
 	fmt.Scan(&user_email)
 	return user_email
 }
