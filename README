@@ -85,7 +85,9 @@ Maps
     Example, Slice Like List PYTHON:
     var my_slice []string
     Example, Map Like Dictionary PYTHON:
-    var my_map = map[string]string
+    var my_map map[string]string
+    Or
+    var my_map = make(map[string]string)
 
 
 
