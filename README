@@ -91,6 +91,10 @@ Maps
 
 Definetion:
     > my_map["Keys"] = Values
+    > my_map["Keys1"] = Values2
+    > my_map["Keys3"] = Values3
+
+    For adding another type, We need to convert that to default Keys and Values Type
 
 
 
