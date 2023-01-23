@@ -7,7 +7,7 @@ import (
 	"strconv"
 )
 
-func Get_Informations() (string, string){
+func Get_Informations() (){
 
 	get_first_name := Get_first_name()
 
@@ -20,7 +20,11 @@ func Get_Informations() (string, string){
 	user_Data["country_name"] = get_country_name
 	user_Data["age_number"] = strconv.FormatUint(uint64(get_age_number), 10)
 
-	return get_first_name, get_country_name
+	var data_center = make([]map[string]string, 0)
+
+	data_center = append(data_center, user_Data)
+
+	fmt.Printf("Data Center: %v", data_center)
 }
 
 
