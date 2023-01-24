@@ -1,7 +1,10 @@
 // Muliple Packages
 package main
 
-import "acronproject/helper"
+import (
+	"acronproject/helper"
+	"fmt"
+)
 
 // "acronproject/helper"
 
@@ -17,7 +20,8 @@ func main() {
 		age_numner string 
 	}
 
-
+	var data_center = make([]user_data, 0)
+	fmt.Println(data_center)
 
 }
 
