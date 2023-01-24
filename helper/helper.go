@@ -9,9 +9,7 @@ import (
 func Get_Informations() (){
 
 	get_first_name := Get_first_name()
-
 	get_country_name := Get_country_name()
-
 	get_age_number := Get_age_number()
 
 	
@@ -28,12 +26,10 @@ func Get_Informations() (){
 	}
 	
 	var data_center = make([]User_Data, 0)
-	
 	data_center = append(data_center, user_Data)
-
 	fmt.Printf("Data Center: %v", data_center)
 }
-//----------------1-------------------------------------------------------------------------
+
 func Get_first_name() (string) {
 	reader := bufio.NewReader(os.Stdin)
 	fmt.Print("Enter First-Name: ")
@@ -52,7 +48,6 @@ func Get_first_name() (string) {
 
 	}
 }
-//----------------2-------------------------------------------------------------------------
 func Get_country_name() (string) {
 	reader := bufio.NewReader(os.Stdin)
 	fmt.Print("Enter Country-Name: ")
@@ -71,7 +66,7 @@ func Get_country_name() (string) {
 
 	}
 }
-//----------------3-------------------------------------------------------------------------
+
 func Get_age_number() (int) {
 	var age_number int
 	fmt.Print("Enter Age number: ")
@@ -88,11 +83,11 @@ func Get_age_number() (int) {
 		} 
 	}
 }
-//----------------4-------------------------------------------------------------------------
+
 func Print(userinput string){
 	fmt.Println(userinput)
 }
-//----------------5-------------------------------------------------------------------------
+
 func Goodbye() {
 	fmt.Println("   ")
 	fmt.Println("   ")
