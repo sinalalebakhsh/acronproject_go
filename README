@@ -110,12 +110,15 @@ Struct Data Type
     - Collect different data types of data on users 
 
     - For Create use like this:
-	type user_data struct {
-		first_name string
-		country_name string
-		age_numner string 
-	}
-    
+        type user_data struct {
+            first_name string
+            country_name string
+            age_numner string 
+        }
+        
+    - "type" statment-Custom Types
+    - The type keyword creates a new type, with the name you specify.
+
 
 
 
