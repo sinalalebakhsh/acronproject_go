@@ -109,7 +109,13 @@ Struct Data Type
     - Can hold mixed data types
     - Collect different data types of data on users 
 
-
+    - For Create use like this:
+	type user_data struct {
+		first_name string
+		country_name string
+		age_numner string 
+	}
+    
 
 
 
