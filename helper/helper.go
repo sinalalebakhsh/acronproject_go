@@ -25,9 +25,9 @@ func Get_Informations() (){
 		age_numner: get_age_number,
 	}
 	
-	var data_center = make([]User_Data, 0)
-	data_center = append(data_center, user_Data)
-	fmt.Printf("Data Center: %v", data_center)}
+
+	fmt.Printf("Data Center: %v", user_Data.first_name)}
+
 
 func Get_first_name() (string) {
 	reader := bufio.NewReader(os.Stdin)
