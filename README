@@ -108,16 +108,20 @@ Struct Data Type
     - Stands for "Structure"
     - Can hold mixed data types
     - Collect different data types of data on users 
-
     - For Create use like this:
         type user_data struct {
             first_name string
             country_name string
             age_numner string 
         }
-        
+    ________________________________________
     - "type" statment-Custom Types
     - The type keyword creates a new type, with the name you specify.
+    - In fact, you could also create a type based on every other data type like int, string etc.
+    ________________________________________
+    - Defining a structure:
+      Mixed data type
+      Defining a structure (which fields) of the User Type
 
 
 
