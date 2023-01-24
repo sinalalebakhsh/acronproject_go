@@ -27,8 +27,7 @@ func Get_Informations() (){
 	
 	var data_center = make([]User_Data, 0)
 	data_center = append(data_center, user_Data)
-	fmt.Printf("Data Center: %v", data_center)
-}
+	fmt.Printf("Data Center: %v", data_center)}
 
 func Get_first_name() (string) {
 	reader := bufio.NewReader(os.Stdin)
@@ -46,8 +45,8 @@ func Get_first_name() (string) {
 			return firstName
 		} 
 
-	}
-}
+	}}
+
 func Get_country_name() (string) {
 	reader := bufio.NewReader(os.Stdin)
 	fmt.Print("Enter Country-Name: ")
@@ -64,8 +63,7 @@ func Get_country_name() (string) {
 			return country_name
 		} 
 
-	}
-}
+	}}
 
 func Get_age_number() (int) {
 	var age_number int
@@ -81,12 +79,10 @@ func Get_age_number() (int) {
 		}else if age_number >= 10 {
 			return age_number
 		} 
-	}
-}
+	}}
 
 func Print(userinput string){
-	fmt.Println(userinput)
-}
+	fmt.Println(userinput)}
 
 func Goodbye() {
 	fmt.Println("   ")
@@ -95,6 +91,5 @@ func Goodbye() {
 	fmt.Println(" [*]----THANKS.GOODBYE----[*]  ")
 	fmt.Println(" [*]----------------------[*]  ")
 	fmt.Println("   ")
-	fmt.Println("   ")
-}
+	fmt.Println("   ")}
 
