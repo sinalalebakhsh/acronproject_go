@@ -4,7 +4,6 @@ import (
 	"bufio"
 	"fmt"
 	"os"
-	"strconv"
 )
 
 func Get_Informations() (){
@@ -15,14 +14,21 @@ func Get_Informations() (){
 
 	get_age_number := Get_age_number()
 
-	get_email_address := Get_email()
+	
+	type User_Data struct {
+		first_name string
+		country_name string
+		age_numner int
+	}
 
-	var user_Data = make(map[string]string)
-	user_Data["first_name"] = get_first_name
-	user_Data["country_name"] = get_country_name
-	user_Data["age_number"] = strconv.FormatUint(uint64(get_age_number), 10)
-	user_Data["email_address"] = get_email_address
-	var data_center = make([]map[string]string, 0)
+	var user_Data = User_Data{
+		first_name: get_first_name,
+		country_name: get_country_name,
+		age_numner: get_age_number,
+	}
+	
+	var data_center = make([]User_Data, 0)
+	
 	data_center = append(data_center, user_Data)
 
 	fmt.Printf("Data Center: %v", data_center)
@@ -96,10 +102,4 @@ func Goodbye() {
 	fmt.Println("   ")
 	fmt.Println("   ")
 }
-//----------------6-------------------------------------------------------------------------
-func Get_email() (string){
-	var user_email string
-	fmt.Print("Enter Email Address: ")
-	fmt.Scan(&user_email)
-	return user_email
-}
+
