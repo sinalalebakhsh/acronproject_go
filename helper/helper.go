@@ -7,11 +7,9 @@ import (
 )
 
 func Get_Informations() (){
-
 	get_first_name := Get_first_name()
 	get_country_name := Get_country_name()
 	get_age_number := Get_age_number()
-
 	
 	type User_Data struct {
 		first_name string
@@ -25,7 +23,6 @@ func Get_Informations() (){
 		age_numner: get_age_number,
 	}
 	
-
 	fmt.Printf("Data Center: %v", user_Data.first_name)}
 
 
