@@ -122,8 +122,12 @@ Struct Data Type
     - Defining a structure:
       Mixed data type
       Defining a structure (which fields) of the User Type
+    - It's like a lightweight class, which e.g doesn't support inheritance از وراثت پشتیبانی نمی کند
 
 
+___________________________________________________________________________________
+When to Use “e.g.” and “i.e.” While Writing Your Paper
+We see them often in text, usually in parentheses, and we can usually figure out the context from the text before them, but what do those letters mean? The abbreviation “e.g.” stands for the Latin exempli gratia, which means “for example” or “for the sake of example.” The abbreviation “i.e.” stands for the Latin phrase id est, which means “that is to say” or “in other words.” When writing, we often use these terms like examples (e.g.) to emphasize a point or use (i.e.) to state the point in a different way without a long explanation.
 
 
 
