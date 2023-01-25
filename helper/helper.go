@@ -29,10 +29,13 @@ func Get_Informations() (){
 		country_name: get_country_name,
 		age_numner: get_age_number,
 	}
+
 	
 	TimeDelay3()
-	fmt.Printf("Data Center: %v", user_Data.first_name)}
-
+	fmt.Printf("Data Center: %v", user_Data.first_name)
+	
+	TimeDelay3()}
+	
 
 func Get_first_name() (string) {
 	reader := bufio.NewReader(os.Stdin)
