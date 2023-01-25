@@ -1,3 +1,0 @@
-1- Create Directory
-2- run this command ->  go mod init name_module(for example WebSocket_acron)
-3- Create file with this name -> main.go 
