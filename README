@@ -140,5 +140,7 @@ Go Routines - Concurrency
     - Simulate a long processing task
     - Generate and send ticket
 
-
+___________________________________________________________________________________
+"time" - functionality for time
+    - The sleep function stops or blocks the current "tread" (gorotine) execution for the defined duration.
 
