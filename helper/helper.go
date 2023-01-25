@@ -8,28 +8,14 @@ import (
 )
 
 func Get_Informations() (){
-	fmt.Println(".")
-	time.Sleep(1 * time.Second)
-	fmt.Println(".")
-	time.Sleep(1 * time.Second)
-	fmt.Println(".")
-	time.Sleep(1 * time.Second)
-	get_first_name := Get_first_name()	
 
-	fmt.Println(".")
-	time.Sleep(1 * time.Second)
-	fmt.Println(".")
-	time.Sleep(1 * time.Second)
-	fmt.Println(".")
-	time.Sleep(1 * time.Second)
+	TimeDelay3()	
+	get_first_name := Get_first_name()	
+	
+	TimeDelay3()
 	get_country_name := Get_country_name()
 
-	fmt.Println(".")
-	time.Sleep(1 * time.Second)
-	fmt.Println(".")
-	time.Sleep(1 * time.Second)
-	fmt.Println(".")
-	time.Sleep(1 * time.Second)
+	TimeDelay3()
 	get_age_number := Get_age_number()
 	
 	type User_Data struct {
@@ -44,6 +30,7 @@ func Get_Informations() (){
 		age_numner: get_age_number,
 	}
 	
+	TimeDelay3()
 	fmt.Printf("Data Center: %v", user_Data.first_name)}
 
 
@@ -111,3 +98,11 @@ func Goodbye() {
 	fmt.Println("   ")
 	fmt.Println("   ")}
 
+func TimeDelay3()  {
+	fmt.Println(".")
+	time.Sleep(1 * time.Second)
+	fmt.Println(".")
+	time.Sleep(1 * time.Second)
+	fmt.Println(".")
+	time.Sleep(1 * time.Second)
+}
