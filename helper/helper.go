@@ -4,11 +4,32 @@ import (
 	"bufio"
 	"fmt"
 	"os"
+	"time"
 )
 
 func Get_Informations() (){
-	get_first_name := Get_first_name()
+	fmt.Println(".")
+	time.Sleep(1 * time.Second)
+	fmt.Println(".")
+	time.Sleep(1 * time.Second)
+	fmt.Println(".")
+	time.Sleep(1 * time.Second)
+	get_first_name := Get_first_name()	
+
+	fmt.Println(".")
+	time.Sleep(1 * time.Second)
+	fmt.Println(".")
+	time.Sleep(1 * time.Second)
+	fmt.Println(".")
+	time.Sleep(1 * time.Second)
 	get_country_name := Get_country_name()
+
+	fmt.Println(".")
+	time.Sleep(1 * time.Second)
+	fmt.Println(".")
+	time.Sleep(1 * time.Second)
+	fmt.Println(".")
+	time.Sleep(1 * time.Second)
 	get_age_number := Get_age_number()
 	
 	type User_Data struct {
