@@ -32,9 +32,13 @@ func Get_Informations() (){
 
 	
 	TimeDelay3()
-	fmt.Printf("Data Center: %v", user_Data.first_name)
-	
-	TimeDelay3()}
+	fmt.Printf("Data Center:\n{First name: %vCountry name: %vAge number: %v\n}", 
+		user_Data.first_name, 
+		user_Data.country_name,
+		user_Data.age_numner)
+
+	TimeDelay3()
+	fmt.Println("")}
 	
 
 func Get_first_name() (string) {
