@@ -144,3 +144,4 @@ ________________________________________________________________________________
 "time" - functionality for time
     - The sleep function stops or blocks the current "tread" (gorotine) execution for the defined duration.
 
+Handle this blocking code with Goroutines
