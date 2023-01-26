@@ -145,3 +145,7 @@ ________________________________________________________________________________
     - The sleep function stops or blocks the current "tread" (gorotine) execution for the defined duration.
 
 Handle this blocking code with Goroutines
+
+    - "go" keyword
+    - "go ..." - starts a new goroutine
+    - A goroutine is a lightweight thread managed by the Go runtime 
