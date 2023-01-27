@@ -147,3 +147,5 @@ Synchronizing the Goroutines:
         * Done: Decrements the Waitgroup counter by 1 so this is called by the goroutine to indicate that it's finished.
 -----------------------------------------------------------------------------------------------
 Comparsion to other languages:
+    Concurency available in other languages 
+        Java
