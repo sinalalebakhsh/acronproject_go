@@ -153,3 +153,4 @@ Comparsion to other languages:
         * Go is using, what's called a "Green thread"
         * Abstraction of an actual thread
         * Managed by the go routine, we are only interacting with these high level goroutine.
+        * You can run hundreds of thousands or millions goroutines without affecting the performance.
