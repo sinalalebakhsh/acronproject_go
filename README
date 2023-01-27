@@ -5,3 +5,12 @@ tag 0.1.00NanaJanashia:
 -----------------------------------------
 tag 0.1.01:
     Learn from YouTube channel neonlearn
+-----------------------------------------------------------------------
+for add module:
+write in import inside "here"
+Coomand:
+    go mod tidy
+result:
+    go: finding module for package github.com/jalaali/go-jalaali
+    go: downloading github.com/jalaali/go-jalaali v0.0.0-20210801064154-80525e88d958
+    go: found github.com/jalaali/go-jalaali in github.com/jalaali/go-jalaali v0.0.0-20210801064154-80525e88d958
