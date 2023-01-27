@@ -140,3 +140,8 @@ Go Routines - Concurrency
     - A goroutine is a lightweight thread managed by the Go runtime 
 -----------------------------------------------------------------------------------------------
 Synchronizing the Goroutines:
+
+    Waitgroup:
+        * Waits for the launched goroutine to finish
+        * Package "sync" provides basic synchronization functionality
+        * Add: Sets the number of goroutines to wait for (increase the counter by provided number)
