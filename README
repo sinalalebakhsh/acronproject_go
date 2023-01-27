@@ -133,16 +133,17 @@ Go Routines - Concurrency
 --------------------------------------------------------
 "time" - functionality for time
     - The sleep function stops or blocks the current "tread" (gorotine) execution for the defined duration.
-
     Handle this blocking code with Goroutines
     - "go" keyword
     - "go ..." - starts a new goroutine
     - A goroutine is a lightweight thread managed by the Go runtime 
 -----------------------------------------------------------------------------------------------
 Synchronizing the Goroutines:
-
     Waitgroup:
         * Waits for the launched goroutine to finish
         * Package "sync" provides basic synchronization functionality
         * Add: Sets the number of goroutines to wait for (increase the counter by provided number)
         * Wait: blocks until the Waitgroup counter is 0
+        * Done: Decrements the Waitgroup counter by 1 so this is called by the goroutine to indicate that it's finished.
+-----------------------------------------------------------------------------------------------
+Comparsion to other languages:
