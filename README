@@ -149,3 +149,6 @@ Synchronizing the Goroutines:
 Comparsion to other languages:
     Concurency available in other languages 
         Java
+    Why?What exactly is different?
+        * Go is using, what's called a "Green thread"
+        * Abstraction of an actual thread
