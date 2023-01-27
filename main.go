@@ -1,11 +1,9 @@
-// Muliple Packages
+// Synchronizing the Goroutines
 package main
 
 import (
 	"acronproject/helper"
 )
-
-// "acronproject/helper"
 
 
 func main() {
