@@ -145,3 +145,4 @@ Synchronizing the Goroutines:
         * Waits for the launched goroutine to finish
         * Package "sync" provides basic synchronization functionality
         * Add: Sets the number of goroutines to wait for (increase the counter by provided number)
+        * Wait: blocks until the Waitgroup counter is 0
