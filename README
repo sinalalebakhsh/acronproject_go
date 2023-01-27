@@ -152,3 +152,4 @@ Comparsion to other languages:
     Why?What exactly is different?
         * Go is using, what's called a "Green thread"
         * Abstraction of an actual thread
+        * Managed by the go routine, we are only interacting with these high level goroutine.
