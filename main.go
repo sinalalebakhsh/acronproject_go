@@ -2,13 +2,13 @@ package main
 
 import (
 	"fmt"
+	"time"
+
 	"github.com/jalaali/go-jalaali"
 )
 
 func main()  {
-
-	date :=	jalaali.Now()
-
-	fmt.Println(date)
+	fmt.Println(time.Now().Date())
+	fmt.Println(jalaali.ToJalaali(time.Now().Date()))
 }
 
