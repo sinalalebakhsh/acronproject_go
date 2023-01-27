@@ -9,13 +9,15 @@ import (
 
 func Get_Informations() (){
 
-	TimeDelay3()	
+		
+	go TimeDelay3()
+		
 	get_first_name := Get_first_name()	
 	
-	TimeDelay3()
+	
 	get_country_name := Get_country_name()
 
-	TimeDelay3()
+	
 	get_age_number := Get_age_number()
 	
 	type User_Data struct {
@@ -31,17 +33,29 @@ func Get_Informations() (){
 	}
 
 	
-	TimeDelay3()
+	go TimeDelay3()
+	fmt.Print("")
+	time.Sleep(3 * time.Second)
+	fmt.Println()
 	fmt.Printf("Data Center:\n{First name: %vCountry name: %vAge number: %v\n}", 
 		user_Data.first_name, 
 		user_Data.country_name,
 		user_Data.age_numner)
 
-	TimeDelay3()
+	fmt.Println()
+
+	go TimeDelay3()
+	fmt.Print("")
+	time.Sleep(3 * time.Second)
+	fmt.Println()
+
 	fmt.Println("")}
 	
 
 func Get_first_name() (string) {
+	fmt.Print("")
+	time.Sleep(3 * time.Second)
+	fmt.Println()
 	reader := bufio.NewReader(os.Stdin)
 	fmt.Print("Enter First-Name: ")
 	firstName, _ := reader.ReadString('\n')	
@@ -106,10 +120,10 @@ func Goodbye() {
 	fmt.Println("   ")}
 
 func TimeDelay3()  {
-	fmt.Println(".")
+	fmt.Print(".")
 	time.Sleep(1 * time.Second)
-	fmt.Println(".")
+	fmt.Print(".")
 	time.Sleep(1 * time.Second)
-	fmt.Println(".")
+	fmt.Print(".")
 	time.Sleep(1 * time.Second)
 }
