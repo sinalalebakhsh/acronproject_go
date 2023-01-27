@@ -25,6 +25,7 @@ tag 0.0.45:
 -----------------------------------------------------------------------------------------------
 tag 0.0.46:
 - Implement codes for better showing in CLI and give sence of AI something is doing ... [*]
+- End course with Nana Janashia is here
 -----------------------------------------------------------------------------------------------
 Make Code cleaner with
 package level variables
