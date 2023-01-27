@@ -154,3 +154,5 @@ Comparsion to other languages:
         * Abstraction of an actual thread
         * Managed by the go routine, we are only interacting with these high level goroutine.
         * You can run hundreds of thousands or millions goroutines without affecting the performance.
+        * Built-in functionality for goroutines to talk with one another.
+        * Better connection between two or more thread goroutines.
