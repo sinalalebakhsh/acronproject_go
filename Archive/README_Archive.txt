@@ -131,3 +131,21 @@ Comparsion to other languages:
         * You can run hundreds of thousands or millions goroutines without affecting the performance.
         * Built-in functionality for goroutines to talk with one another.
         * Better connection between two or more thread goroutines.
+------------------------------------------------------------------------------------------------
+for add module:
+1-  write in import inside "here"
+Example:
+import (
+	"github.com/jalaali/go-jalaali"
+)
+2-  Command in Terminal:
+       go mod tidy
+3-  result:
+       go: finding module for package github.com/jalaali/go-jalaali
+       go: downloading github.com/jalaali/go-jalaali v0.0.0-20210801064154-80525e88d958
+       go: found github.com/jalaali/go-jalaali in github.com/jalaali/go-jalaali v0.0.0-20210801064154-80525e88d958
+-----------------------------------------------------------------------
+for import your package after you wrote it
+you must use uppercase name function(or variable etc) like this = Sina
+                                                     like this = Mina
+                                                     like this = PrintSina
