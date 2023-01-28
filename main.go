@@ -20,6 +20,8 @@ func main()  {
 		userInput, _ := reader.ReadString('\n')
 	
 		response := doctor.Response(userInput)
+
+		fmt.Println(response)
 	}
 }
 
