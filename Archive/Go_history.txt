@@ -9,3 +9,6 @@ Creation History:
         Write once and run anywhere guarantee that
     Publicly announced in 2009, and version 1.0 was released in March 2012.
     Since it's introduction, it has become widely used.
+
+    Some of companies use it: 
+        Docker, Kubernetes, Uber, much of google, Dropbox, Twitch, SoundCloud, and many others.
