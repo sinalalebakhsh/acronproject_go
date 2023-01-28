@@ -10,3 +10,8 @@ Starting to Code:
 |   Types, Expression, and Composition
 |   Introduction
 |   Variables and Dot Notation
+
+
+
+About Iliza:
+|   Iliza was written by a gentleman called Josph Weizenbaum
