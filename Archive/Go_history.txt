@@ -6,3 +6,4 @@ Creation History:
     Designed for readability and usability
         that makes it easy to learn and easy to maintain your code over time.
     Compiles for Windows, Macintosh, Linux, and many other operating systems.
+        Write once and run anywhere guarantee that
