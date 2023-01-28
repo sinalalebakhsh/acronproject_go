@@ -2,3 +2,4 @@ Creation History:
     Designed by Google (Robert Griesmer, Rob Pike and Ken Thompson)
     Compiled, so very fast.
     No run time required
+    Concurrency out of the box
