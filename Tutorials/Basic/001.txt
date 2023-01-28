@@ -9,3 +9,4 @@ Starting to Code:
 |---------------------------------------------------------------------------
 |   Types, Expression, and Composition
 |   Introduction
+|   Variables and Dot Notation
