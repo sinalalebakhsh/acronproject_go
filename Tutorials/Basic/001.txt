@@ -4,3 +4,5 @@ Starting to Code:
 |   Learn how to get input from user
 |   Learn how to display results
 |   Created a couple of programs we'll be using throughout the course
+|   Eliza, Hammurabi
+|   Using these to show how programs works
