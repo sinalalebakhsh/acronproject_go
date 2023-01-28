@@ -3,3 +3,4 @@ Creation History:
     Compiled, so very fast.
     No run time required
     Concurrency out of the box
+    Designed for readability and usability
