@@ -21,7 +21,7 @@ func main()  {
 		fmt.Print("-> ")
 		userInput, _ := reader.ReadString('\n')
 	
-		userInput = strings.Replace()
+		userInput = strings.Replace(userInput, "\r\n", "", -1)
 
 
 		if userInput == "quit"  {
