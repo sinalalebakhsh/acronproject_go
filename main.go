@@ -25,11 +25,10 @@ func main()  {
 		if userInput == "quit"  {
 			break
 		} else  {
-
+			fmt.Println(response)
 		}
 
 
-		fmt.Println(response)
 	}
 }
 
