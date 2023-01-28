@@ -1,17 +1,19 @@
 Creation History:
-    Designed by Google (Robert Griesmer, Rob Pike and Ken Thompson)
-    Compiled, so very fast.
-    No run time required
-    Concurrency out of the box
-    Designed for readability and usability
-        that makes it easy to learn and easy to maintain your code over time.
-    Compiles for Windows, Macintosh, Linux, and many other operating systems.
-        Write once and run anywhere guarantee that
-    Publicly announced in 2009, and version 1.0 was released in March 2012.
-    Since it's introduction, it has become widely used.
-
-    Some of companies use it: 
-        Docker, Kubernetes, Uber, much of google, Dropbox, Twitch, SoundCloud, and many others.
-
-    
+    |    Designed by Google (Robert Griesmer, Rob Pike and Ken Thompson)
+    |    Compiled, so very fast.
+    |    No run time required
+    |    Concurrency out of the box
+    |    Designed for readability and usability
+    |    that makes it easy to learn and easy to maintain your code over time.
+    -----------------------------------------------------------------------------------------------
+    |    Compiles for Windows, Macintosh, Linux, and many other operating systems.
+    |    Write once and run anywhere guarantee that
+    |    Publicly announced in 2009, and version 1.0 was released in March 2012.
+    |    Since it's introduction, it has become widely used.
+    |
+    |    Some of companies use it: 
+    |    Docker, Kubernetes, Uber, much of google, Dropbox, Twitch, SoundCloud, and many others.
+    ------------------------------------------------------------------------------------------------
     The basic philosophy behind Go is one problem, one solution.
+    |   Go is strutured with such a rich standard library that when you'r faced with a problem.
+    |   
