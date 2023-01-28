@@ -10,4 +10,3 @@ acronproject_go
 |   Learn from the other teachers
 |   Udemy:
 |   with Mr Trevor Sawler
-|
