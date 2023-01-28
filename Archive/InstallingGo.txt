@@ -1,4 +1,5 @@
 Installing Go:
-|   1 https://golang.org
+|   1 https://go.dev/
 |   2 Download Go
 |   3 Choose the installer that's appropriate for your operating system.
+|   4 
