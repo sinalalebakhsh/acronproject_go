@@ -15,6 +15,8 @@ func main()  {
 	whatToSay := doctor.Intro()
 
 	fmt.Println(whatToSay)
+
+	userInput, _ := reader.ReadString('\n')
 }
 
 
