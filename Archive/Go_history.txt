@@ -8,3 +8,4 @@ Creation History:
     Compiles for Windows, Macintosh, Linux, and many other operating systems.
         Write once and run anywhere guarantee that
     Publicly announced in 2009, and version 1.0 was released in March 2012.
+    Since it's introduction, it has become widely used.
