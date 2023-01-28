@@ -4,6 +4,7 @@ import (
 	"bufio"
 	"fmt"
 	"os"
+	"strings"
 
 	"github.com/sinalalebakhsh/acronproject_go/doctor"
 )
@@ -20,6 +21,9 @@ func main()  {
 		fmt.Print("-> ")
 		userInput, _ := reader.ReadString('\n')
 	
+		userInput = strings.Replace()
+
+
 		if userInput == "quit"  {
 			break
 			} else  {
