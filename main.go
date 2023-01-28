@@ -23,9 +23,9 @@ func main()  {
 		response := doctor.Response(userInput)
 
 		if userInput == "quit"  {
-
+			break
 		} else  {
-			
+
 		}
 
 
