@@ -19,7 +19,7 @@ func main()  {
 	for  {
 		userInput, _ := reader.ReadString('\n')
 	
-		
+		response := doctor.Response(userInput)
 	}
 }
 
