@@ -6,3 +6,6 @@ Starting to Code:
 |   Created a couple of programs we'll be using throughout the course
 |   Eliza, Hammurabi
 |   Using these to show how programs works
+|---------------------------------------------------------------------------
+|   Types, Expression, and Composition
+|   Introduction
