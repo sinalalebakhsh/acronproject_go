@@ -16,4 +16,7 @@ Creation History:
     ------------------------------------------------------------------------------------------------
     The basic philosophy behind Go is one problem, one solution.
     |   Go is strutured with such a rich standard library that when you'r faced with a problem.
-    |   
+    |   for example:
+    |   When you have teams of programmers working on a large project if there aren't 10 or 12 
+    |   possible paths to success, But there's one singularly obvious one that makes working 
+    |   with others on a team much, much easier.
