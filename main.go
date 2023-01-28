@@ -6,9 +6,9 @@ import (
 )
 
 func main()  {
-	var whatToSay string
+	
 
-	whatToSay = doctor.Intro()
+	whatToSay := doctor.Intro()
 
 	fmt.Println(whatToSay)
 }
