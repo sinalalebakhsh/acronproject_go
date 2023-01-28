@@ -12,3 +12,6 @@ Creation History:
 
     Some of companies use it: 
         Docker, Kubernetes, Uber, much of google, Dropbox, Twitch, SoundCloud, and many others.
+
+    
+    The basic philosophy behind Go is one problem, one solution.
