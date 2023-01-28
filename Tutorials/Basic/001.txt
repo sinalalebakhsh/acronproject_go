@@ -1,0 +1,3 @@
+Starting to Code:
+|   Variabes
+|   Review the built in types, and how choose the right one
