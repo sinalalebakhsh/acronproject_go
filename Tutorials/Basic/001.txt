@@ -2,3 +2,4 @@ Starting to Code:
 |   Variabes
 |   Review the built in types, and how choose the right one
 |   Learn how to get input from user
+|   Learn how to display results
