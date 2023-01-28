@@ -5,12 +5,12 @@ import (
 )
 
 func main()  {
-	fmt.Println(Intro())
+	Intro()
 }
 
 
-func Intro() string  {
-	return `
+func Intro()  {
+	fmt.Print(`
 | Hello
 | I'm Sina.
 |-----------------
@@ -21,6 +21,6 @@ func Intro() string  {
 | Linkedin profile is Sinalalebakhsh.
 | to my Target.
 	
-	`
+	`)
 }
 
