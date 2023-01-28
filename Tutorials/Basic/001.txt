@@ -3,3 +3,4 @@ Starting to Code:
 |   Review the built in types, and how choose the right one
 |   Learn how to get input from user
 |   Learn how to display results
+|   Created a couple of programs we'll be using throughout the course
