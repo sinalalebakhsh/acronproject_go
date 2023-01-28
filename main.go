@@ -22,6 +22,13 @@ func main()  {
 	
 		response := doctor.Response(userInput)
 
+		if userInput == "quit"  {
+
+		} else  {
+			
+		}
+
+
 		fmt.Println(response)
 	}
 }
