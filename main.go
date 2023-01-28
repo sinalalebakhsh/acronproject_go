@@ -3,12 +3,14 @@ package main
 import (
 	"bufio"
 	"fmt"
+	"os"
+
 	"github.com/sinalalebakhsh/acronproject_go/doctor"
 )
 
 func main()  {
 	
-	reader := bufio.NewReader()
+	reader := bufio.NewReader(os.Stdin)
 
 	whatToSay := doctor.Intro()
 
