@@ -15,6 +15,8 @@ func main()  {
 
 	// 1- Display a wellcome/instructions 
 
+	// 2- take them through the games
+
 }
 
 
