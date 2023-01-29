@@ -27,7 +27,7 @@ func main()  {
 	reader.ReadString('\n')
 
 	// 2- take them through the games
-	
+	fmt.Println("Multiply your number by", firstNumber, "and press ")
 
 }
 
