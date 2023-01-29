@@ -9,6 +9,10 @@ func main()  {
 	var	firstNumber = 2 
 	var secondNumber = 5
 	var subtraction = 7
+
+
+	// Answer to this question:    What I need to do in this program ?
+
 }
 
 
