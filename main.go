@@ -5,6 +5,7 @@ import (
 )
 
 func main()  {
+	// Guess the Number Game
 	// one way - declare, then assign (two steps)
 	var firstNumber int
 	firstNumber = 2 
