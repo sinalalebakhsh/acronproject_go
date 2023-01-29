@@ -12,13 +12,10 @@ Starting to Code:
 |   Variables and Dot Notation
 |---------------------------------------------------------------------------
 |   Every Go program has to have a main package
-|
-
+|---------------------------------------------------------------------------
 About Iliza:
 |   Iliza was written by a gentleman called Josph Weizenbaum
-
-
-
+|---------------------------------------------------------------------------
 Three way to define variables:
 |	// one way - declare, then assign (two steps)
 |	var firstNumber int
@@ -27,3 +24,6 @@ Three way to define variables:
 |	var secondNumber = 5
 |	// one step variable: declare name, assign value and let Go figure out the type
 |	subtraction := 7
+|---------------------------------------------------------------------------
+Why Use Variables
+|   
