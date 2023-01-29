@@ -26,4 +26,4 @@ Three way to define variables:
 |	subtraction := 7
 |---------------------------------------------------------------------------
 Why Use Variables
-|   
+|   It just makes our programs much, much easier to manage
