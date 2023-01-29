@@ -1,6 +1,10 @@
 package main
 
-import "fmt"
+import (
+	"bufio"
+	"fmt"
+	"os"
+)
 
 func main()  {
 	// Guess the Number Game
@@ -14,7 +18,7 @@ func main()  {
 	var subtraction = 7
 	var answer int
 
-	
+	reader := bufio.NewReader(os.Stdin)
 
 	fmt.Println("")
 	fmt.Println("	||==========================||")
