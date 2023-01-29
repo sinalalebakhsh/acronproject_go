@@ -16,3 +16,8 @@ Starting to Code:
 
 About Iliza:
 |   Iliza was written by a gentleman called Josph Weizenbaum
+
+
+
+Three way to define variables:
+|   var firstName 
