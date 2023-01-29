@@ -6,15 +6,9 @@ import (
 
 func main()  {
 	// Guess the Number Game
-	// one way - declare, then assign (two steps)
-	var firstNumber int
-	firstNumber = 2 
-
-	// another way, declare type and name and assign value 
+	var	firstNumber = 2 
 	var secondNumber = 5
-
-	// one step variable: declare name, assign value and let Go figure out the type
-	subtraction := 7
+	var subtraction = 7
 }
 
 
