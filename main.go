@@ -20,6 +20,7 @@ func main()  {
 	var subtraction = 7
 	var answer int
 	reader := bufio.NewReader(os.Stdin)
+	// 1- Display a wellcome/instructions 
 	fmt.Println("")
 	fmt.Println("	||==========================||")
 	fmt.Println("	||  Guess the Number Game   ||")
