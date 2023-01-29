@@ -11,6 +11,7 @@ import (
 const prompt = "and don't type you number here, just press ENTER when ready"
 
 func main()  {
+	// Guess the Number Challenge
 	// seed the random number generator
 	rand.Seed(time.Now().UnixNano())
 	// Guess the Number Game
