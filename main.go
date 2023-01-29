@@ -46,6 +46,12 @@ func main()  {
 	answer = firstNumber * secondNumber - subtraction
 	fmt.Println("The answer is", answer)
 
+
+	fmt.Println("")
+	fmt.Println("	||==========================||")
+	fmt.Println("	||         GoodBye          ||")
+	fmt.Println("	||==========================||")
+	fmt.Println("")	
 }
 
 
