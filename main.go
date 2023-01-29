@@ -39,6 +39,8 @@ func main()  {
 	reader.ReadString('\n')
 
 	fmt.Println("Now subtract", subtraction, prompt)
+	reader.ReadString('\n')
+
 
 }
 
