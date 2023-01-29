@@ -11,6 +11,8 @@ func main()  {
 
 	// another way, declare type and name and assign value 
 	var secondNumber = 5
+
+	// one step variable: declare name, assign value and let Go figure out the type
 }
 
 
