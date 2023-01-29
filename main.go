@@ -14,9 +14,9 @@ func main()  {
 	// 3- give them the answer
 	//-------------------------------------------------------------------------
 	var	firstNumber = 2 
-	var secondNumber = 5
-	var subtraction = 7
-	var answer int
+	// var secondNumber = 5
+	// var subtraction = 7
+	// var answer int
 	reader := bufio.NewReader(os.Stdin)
 	fmt.Println("")
 	fmt.Println("	||==========================||")
