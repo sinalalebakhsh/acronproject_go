@@ -10,6 +10,7 @@ func main()  {
 	firstNumber = 2 
 
 	// another way, declare type and name and assign value 
+	var secondNumber = 5
 }
 
 
