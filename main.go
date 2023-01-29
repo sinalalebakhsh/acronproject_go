@@ -34,6 +34,8 @@ func main()  {
 
 
 	fmt.Println("Now multiply the result by", secondNumber, prompt)
+	reader.ReadString('\n')
+
 
 
 }
