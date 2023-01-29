@@ -44,7 +44,7 @@ func main()  {
 
 	// 3- give them the answer
 	answer = firstNumber * secondNumber - subtraction
-	
+	fmt.Println("The answer is", answer)
 
 }
 
