@@ -6,7 +6,7 @@ import (
 	"os"
 )
 
-const prompt = "and press ENTER when ready"
+const prompt = "don't type you number here, just press ENTER when ready"
 
 func main()  {
 	// Guess the Number Game
