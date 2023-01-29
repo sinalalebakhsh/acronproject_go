@@ -3,6 +3,7 @@ package main
 import (
 	"bufio"
 	"fmt"
+	"math/rand"
 	"os"
 )
 
@@ -15,9 +16,9 @@ func main()  {
 	// 2- take them through the games
 	// 3- give them the answer
 	//-------------------------------------------------------------------------
-	var	firstNumber = 2 
-	var secondNumber = 5
-	var subtraction = 7
+	var	firstNumber = rand.Intn(8) + 2 
+	var secondNumber = rand.Intn(8) + 2
+	var subtraction = rand.Intn(8) + 2
 	var answer int
 	reader := bufio.NewReader(os.Stdin)
 	// 1- Display a wellcome/instructions 
