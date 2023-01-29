@@ -38,6 +38,8 @@ func main()  {
 	fmt.Println("Divide the result by the number you originally thought of", prompt)
 	reader.ReadString('\n')
 
+	fmt.Println("Now subtract", subtraction, prompt)
+
 }
 
 
