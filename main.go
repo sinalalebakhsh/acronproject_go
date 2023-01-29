@@ -33,6 +33,8 @@ func main()  {
 	reader.ReadString('\n')
 
 
+	fmt.Println("Now multiply the result by", secondNumber, prompt)
+
 
 }
 
