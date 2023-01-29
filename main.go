@@ -25,7 +25,7 @@ func main()  {
 	fmt.Println("	||  Guess the Number Game   ||")
 	fmt.Println("	||==========================||")
 	fmt.Println("")	
-	fmt.Println("Think of a number between 1 and 10")
+	fmt.Println("Think of a number between 1 and 10", prompt)
 	reader.ReadString('\n')
 
 	// 2- take them through the games
