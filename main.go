@@ -5,11 +5,14 @@ import (
 	"fmt"
 	"math/rand"
 	"os"
+	"time"
 )
 
 const prompt = "and don't type you number here, just press ENTER when ready"
 
 func main()  {
+	// seed the random number generator
+	rand.Seed(time.Now().UnixNano())
 	// Guess the Number Game
 	// Answer to this question:    What I need to do in this program ?
 	// 1- Display a wellcome/instructions 
