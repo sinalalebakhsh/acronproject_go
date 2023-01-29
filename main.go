@@ -12,10 +12,10 @@ func main()  {
 	// 1- Display a wellcome/instructions 
 	// 2- take them through the games
 	// 3- give them the answer
-	var	firstNumber = 2 
-	var secondNumber = 5
-	var subtraction = 7
-	var answer int
+	// var	firstNumber = 2 
+	// var secondNumber = 5
+	// var subtraction = 7
+	// var answer int
 
 	reader := bufio.NewReader(os.Stdin)
 
