@@ -13,6 +13,7 @@ func main()  {
 	var secondNumber = 5
 
 	// one step variable: declare name, assign value and let Go figure out the type
+	subtraction := 7
 }
 
 
