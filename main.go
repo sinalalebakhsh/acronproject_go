@@ -9,7 +9,7 @@ func main()  {
 	var firstNumber int
 	firstNumber = 2 
 
-	// another way, declare type and name and assign value
+	// another way, declare type and name and assign value 
 }
 
 
