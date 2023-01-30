@@ -8,32 +8,17 @@ import (
 	"time"
 )
 
-func Introduction ()  {
-	fmt.Println(`
-	Guess the Number Challenge
-	seed the random number generator
-	Guess the Number Game
-	Answer to this question:    What I need to do in this program ?
-	1- Display a wellcome/instructions 
-	2- take them through the games
-	3- give them the answer`)
-}
-
-
-
 const prompt = "and don't type you number here, just press ENTER when ready"
 
 func main()  {
 	Wellcome() 
-	//--------------------------------------------------------------------------------------------------
 	
 	rand.Seed(time.Now().UnixNano())
-
 	var	firstNumber = rand.Intn(4) + 2 
 	var secondNumber = rand.Intn(4) + 2
 	var subtraction = rand.Intn(4) + 2
 	var answer = firstNumber * secondNumber - subtraction
-	
+		
 	PlayTheGame(firstNumber, secondNumber, subtraction, answer)
 	
 	GoodBye()
@@ -62,7 +47,6 @@ func PlayTheGame(firstNumber, secondNumber, subtraction, answer int) {
 	fmt.Println("The answer is", answer)	
 }
 //----------------------------------------------------------------------------
-
 func Wellcome()  {
 	// 1- Display a wellcome/instructions 
 	fmt.Println("")
@@ -79,6 +63,20 @@ func GoodBye()  {
 	fmt.Println("	||==========================||")
 	fmt.Println("")	
 }
-//------------------------------------------Finishing Guess of the Number Game
+//----------------------------------------------------------------------------
+func Introduction ()  {
+	fmt.Println(`
+
+  Guess the Number Challenge
+  seed the random number generator
+  Guess the Number Game
+  Answer to this question:    What I need to do in this program ?
+  1- Display a wellcome/instructions 
+  2- take them through the games
+  3- give them the answer
+  
+  `)
+}
+//******************************************Finishing Guess of the Number Game
 
 
