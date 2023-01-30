@@ -30,3 +30,5 @@ Why Use Variables
 |   It just makes our programs much, much easier to manage
 |---------------------------------------------------------------------------
 |You can make even more concise to write codes.
+|---------------------------------------------------------------------------
+Console Input with a Package
