@@ -23,7 +23,7 @@ func Introduction ()  {
 
 func main()  {
 	Wellcome() 
-	Calculation()
+	PlayTheGame()
 	GoodBye()
 	Introduction()
 }
@@ -43,7 +43,7 @@ func GoodBye()  {
 	fmt.Println("	||==========================||")
 	fmt.Println("")	
 }
-func Calculation() {
+func PlayTheGame() {
 	const prompt = "and don't type you number here, just press ENTER when ready"
 	rand.Seed(time.Now().UnixNano())
 	//-------------------------------------------------------------------------
