@@ -1,3 +1,5 @@
+|------------------------------------
+|in main.go file
 package main
 
 import (
@@ -20,3 +22,5 @@ func main() {
 	//function in packageone
 	packageone.PrintMe(myVar, blockVar)
 }
+---------------------
+|in directory sina/package file
