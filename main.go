@@ -44,11 +44,10 @@ func main()  {
 
 	fmt.Println("Now subtract", subtraction, prompt)
 	reader.ReadString('\n')
-
 	// 3- give them the answer
 	fmt.Println("The answer is", answer)
-
-
+	
+	GoodBye()
 }
 
 func Wellcome()  {
