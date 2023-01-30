@@ -5,7 +5,7 @@ import "fmt"
 
 // declare a package level variable for the main
 // package name myVar
-var myVar string
+var myVar = "Package level variable"
 
 func main()  {
 	// variables
@@ -15,6 +15,8 @@ func main()  {
 	// called blockVar
 	blockVar := "blockVar"
 	fmt.Println(blockVar)
+
+
 	// declare a package level variable in the package
 	// package named PackageVar
 
