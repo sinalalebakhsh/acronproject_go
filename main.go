@@ -15,6 +15,7 @@ func main()  {
 // called blockVar
 
 // declare a package level variable in the package
+// package named PackageVar
 
 }
 
