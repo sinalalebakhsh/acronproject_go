@@ -23,6 +23,7 @@ func Introduction ()  {
 
 func main()  {
 	Wellcome() 
+	
 	PlayTheGame()
 	GoodBye()
 	Introduction()
