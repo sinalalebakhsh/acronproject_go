@@ -1,8 +1,7 @@
 package main
 
 import (
-	"fmt"
-	"acronproject/package"
+	"acronproject/sina"
 )
 
 // declare a package level variable for the main
@@ -11,14 +10,13 @@ var myVar = "Package level variable"
 
 func main() {
 	// variables
-
+	var blockVar = "block level variable"
 	// declare a block variable for the main function
 	// called blockVar
 
 
 	// in the main function, print out the values of myVar,
-	fmt.Println(myVar)
 	// blockVar, and PackageVar on one line
 	//function in packageone
-	packageone.PrintMe()
+	packageone.PrintMe(myVar, blockVar)
 }
