@@ -22,9 +22,28 @@ func Introduction ()  {
 
 
 func main()  {
-	
 	Wellcome() 
-	
+	Calculation()
+	GoodBye()
+	Introduction()
+}
+
+func Wellcome()  {
+	// 1- Display a wellcome/instructions 
+	fmt.Println("")
+	fmt.Println("	||==========================||")
+	fmt.Println("	||  Guess the Number Game   ||")
+	fmt.Println("	||==========================||")
+	fmt.Println("")	
+}
+func GoodBye()  {
+	fmt.Println("")
+	fmt.Println("	||==========================||")
+	fmt.Println("	||         GoodBye          ||")
+	fmt.Println("	||==========================||")
+	fmt.Println("")	
+}
+func Calculation() {
 	const prompt = "and don't type you number here, just press ENTER when ready"
 	rand.Seed(time.Now().UnixNano())
 	//-------------------------------------------------------------------------
@@ -52,27 +71,8 @@ func main()  {
 	reader.ReadString('\n')
 	// 3- give them the answer
 	fmt.Println("The answer is", answer)
-	
-	GoodBye()
-	Introduction()
-}
 
-func Wellcome()  {
-	// 1- Display a wellcome/instructions 
-	fmt.Println("")
-	fmt.Println("	||==========================||")
-	fmt.Println("	||  Guess the Number Game   ||")
-	fmt.Println("	||==========================||")
-	fmt.Println("")	
 }
-func GoodBye()  {
-	fmt.Println("")
-	fmt.Println("	||==========================||")
-	fmt.Println("	||         GoodBye          ||")
-	fmt.Println("	||==========================||")
-	fmt.Println("")	
-}
-
 // Finishing Guess of the Number Game
 
 
