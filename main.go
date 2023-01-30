@@ -73,7 +73,7 @@ func GoodBye()  {
 	fmt.Println("	||==========================||")
 	fmt.Println("")	
 }
-func PlayTheGame(firstNumber, secondNumber, subtraction int) {
+func PlayTheGame(firstNumber, secondNumber, subtraction, answer int) {
 }
 // Finishing Guess of the Number Game
 
