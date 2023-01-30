@@ -2,6 +2,7 @@ package main
 
 import (
 	"bufio"
+	"fmt"
 	"os"
 )
 
@@ -9,4 +10,8 @@ import (
 
 func main()  {
 	reader := bufio.NewReader(os.Stdin)
+
+	for  {
+		fmt.Print("-> ")
+	}
 }
