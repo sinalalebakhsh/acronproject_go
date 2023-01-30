@@ -10,3 +10,10 @@ func main()  {
 	fmt.Println(one)
 
 }
+
+
+func MyFunc()  {
+	
+}
+
+
