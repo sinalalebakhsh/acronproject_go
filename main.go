@@ -4,9 +4,10 @@ import(
 	"fmt"
 )
 
+var one = " Is global access One"
+
 func main()  {
 	var one = "One"
-	
 	fmt.Println(one)
 
 	// What do you think will happen ?
@@ -15,7 +16,7 @@ func main()  {
 
 
 func MyFunc()  {
-	var one = "the number one"
+	
 	fmt.Println(one)
 }
 
