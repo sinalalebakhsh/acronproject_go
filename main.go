@@ -13,7 +13,8 @@ func main()  {
 
 
 func MyFunc()  {
-	
+	var one = "the number one"
+	fmt.Println(onr)
 }
 
 
