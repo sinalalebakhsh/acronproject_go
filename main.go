@@ -11,7 +11,7 @@ import (
 const prompt = "and don't type you number here, just press ENTER when ready"
 
 func main()  {
-	
+
 	Wellcome() 
 	// Guess the Number Challenge
 	// seed the random number generator
@@ -49,11 +49,6 @@ func main()  {
 	fmt.Println("The answer is", answer)
 
 
-	fmt.Println("")
-	fmt.Println("	||==========================||")
-	fmt.Println("	||         GoodBye          ||")
-	fmt.Println("	||==========================||")
-	fmt.Println("")	
 }
 
 func Wellcome()  {
@@ -64,7 +59,13 @@ func Wellcome()  {
 	fmt.Println("	||==========================||")
 	fmt.Println("")	
 }
-
+func GoodBye()  {
+	fmt.Println("")
+	fmt.Println("	||==========================||")
+	fmt.Println("	||         GoodBye          ||")
+	fmt.Println("	||==========================||")
+	fmt.Println("")	
+}
 // Finishing Guess of the Number Game
 
 
