@@ -26,6 +26,7 @@ fmt.Println(blockVar)
 // create an exported function in package called PrintMe
 
 // in the main function, print out the values of myVar,
+fmt.Println(myVar)
 // blockVar, and PackageVar on one line
 //function in packageone
 }
