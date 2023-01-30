@@ -4,6 +4,7 @@ import (
 	"bufio"
 	"fmt"
 	"os"
+	"strings"
 )
 
 
@@ -15,6 +16,8 @@ func main()  {
 		fmt.Print("-> ")
 
 		userInput, _ := reader.ReadString('\n')
+
+		userInput = strings.Replace(userInput, "\n", "", -1)
 
 	}
 }
