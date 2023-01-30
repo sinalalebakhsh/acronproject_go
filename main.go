@@ -17,6 +17,8 @@ func main()  {
 // declare a package level variable in the package
 // package named PackageVar
 
+
+// create an exported function in package called PrintMe
 }
 
 
