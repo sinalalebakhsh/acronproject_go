@@ -23,10 +23,9 @@ func main()  {
 	var	firstNumber = rand.Intn(4) + 2 
 	var secondNumber = rand.Intn(4) + 2
 	var subtraction = rand.Intn(4) + 2
-	var answer int
 	reader := bufio.NewReader(os.Stdin)
-	answer = firstNumber * secondNumber - subtraction
-	
+	var answer = firstNumber * secondNumber - subtraction
+
 	// 1- Display a wellcome/instructions 
 	fmt.Println("")
 	fmt.Println("	||==========================||")
