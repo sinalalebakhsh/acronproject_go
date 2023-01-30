@@ -22,7 +22,7 @@ func main()  {
 
 // in the main function, print out the values of myVar,
 // blockVar, and PackageVar on one line
-//function in package
+//function in packageone
 }
 
 
