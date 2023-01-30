@@ -26,12 +26,7 @@ func main()  {
 	reader := bufio.NewReader(os.Stdin)
 	var answer = firstNumber * secondNumber - subtraction
 
-	// 1- Display a wellcome/instructions 
-	fmt.Println("")
-	fmt.Println("	||==========================||")
-	fmt.Println("	||  Guess the Number Game   ||")
-	fmt.Println("	||==========================||")
-	fmt.Println("")	
+
 	fmt.Println("Think of a number between 1 and 10", prompt)
 	reader.ReadString('\n')
 
@@ -59,7 +54,14 @@ func main()  {
 	fmt.Println("")	
 }
 
-
+func Wellcome()  {
+	// 1- Display a wellcome/instructions 
+	fmt.Println("")
+	fmt.Println("	||==========================||")
+	fmt.Println("	||  Guess the Number Game   ||")
+	fmt.Println("	||==========================||")
+	fmt.Println("")	
+}
 
 // Finishing Guess of the Number Game
 
