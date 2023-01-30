@@ -19,6 +19,9 @@ func main()  {
 
 
 // create an exported function in package called PrintMe
+
+// in the main function, print out the values of myVar,
+// blo
 }
 
 
