@@ -28,7 +28,7 @@ func main()  {
 	//--------------------------------------------------------------------------------------------------
 	
 	rand.Seed(time.Now().UnixNano())
-	//-------------------------------------------------------------------------
+
 	var	firstNumber = rand.Intn(4) + 2 
 	var secondNumber = rand.Intn(4) + 2
 	var subtraction = rand.Intn(4) + 2
@@ -36,7 +36,6 @@ func main()  {
 	
 	PlayTheGame(firstNumber, secondNumber, subtraction, answer)
 	
-	//--------------------------------------------------------------------------------------------------
 	GoodBye()
 	Introduction()
 }
@@ -60,9 +59,9 @@ func PlayTheGame(firstNumber, secondNumber, subtraction, answer int) {
 	fmt.Println("Now subtract", subtraction, prompt)
 	reader.ReadString('\n')
 	// 3- give them the answer
-	fmt.Println("The answer is", answer)
-	
+	fmt.Println("The answer is", answer)	
 }
+//----------------------------------------------------------------------------
 
 func Wellcome()  {
 	// 1- Display a wellcome/instructions 
@@ -72,6 +71,7 @@ func Wellcome()  {
 	fmt.Println("	||==========================||")
 	fmt.Println("")	
 }
+//----------------------------------------------------------------------------
 func GoodBye()  {
 	fmt.Println("")
 	fmt.Println("	||==========================||")
@@ -79,6 +79,6 @@ func GoodBye()  {
 	fmt.Println("	||==========================||")
 	fmt.Println("")	
 }
-// Finishing Guess of the Number Game
+//------------------------------------------Finishing Guess of the Number Game
 
 
