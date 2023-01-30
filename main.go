@@ -9,12 +9,14 @@ func main()  {
 	
 	fmt.Println(one)
 
+	// What do you think will happen ?
+	MyFunc() 
 }
 
 
 func MyFunc()  {
 	var one = "the number one"
-	fmt.Println(onr)
+	fmt.Println(one)
 }
 
 
