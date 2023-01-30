@@ -14,7 +14,7 @@ func main()  {
 // declare a block variable for the main function
 // called blockVar
 
-
+// declare a package level variable in the package
 
 }
 
