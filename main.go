@@ -19,5 +19,11 @@ func main()  {
 
 		userInput = strings.Replace(userInput, "\n", "", -1)
 
+		if userInput == "quit"  {
+			break
+		} else  {
+			fmt.Print(userInput)
+		}
+
 	}
 }
