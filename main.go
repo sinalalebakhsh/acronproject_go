@@ -22,7 +22,7 @@ func main()  {
 		if userInput == "quit"  {
 			break
 		} else  {
-			fmt.Print(userInput)
+			fmt.Println(userInput)
 		}
 
 	}
