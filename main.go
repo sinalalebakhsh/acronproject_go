@@ -14,8 +14,7 @@ func main()  {
 	for  {
 		fmt.Print("-> ")
 
-		userInput, sina := reader.ReadString('\n')
+		userInput, _ := reader.ReadString('\n')
 
-		fmt.Print(userInput,  sina)
 	}
 }
