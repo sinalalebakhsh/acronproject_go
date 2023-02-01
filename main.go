@@ -22,6 +22,7 @@ func main()  {
 	fmt.Println("====")
 	fmt.Println("1- ")
 	fmt.Println("2- ")
+	fmt.Println("3- ")
 
 	for  {
 		char, key, err := keyboard.GetSingleKey()
