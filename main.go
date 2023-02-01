@@ -19,6 +19,6 @@ func main()  {
 	}
 
 	defer func ()  {
-		
+		_ = keyboard.Close()
 	}
 }
