@@ -28,9 +28,13 @@ func main()  {
 		}
 
 		if key != 0  {
-			
+
 		} else  {
 
+		}
+
+		if key == keyboard.KeyEsc  {
+			break
 		}
 	}
 
