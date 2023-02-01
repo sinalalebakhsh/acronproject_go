@@ -34,6 +34,9 @@ func main()  {
 			log.Fatal(err)
 		}
 
+
+		fmt.Println("You chose", char)
+
 		if char == 'q' || char == 'Q'  {
 			break
 		}
