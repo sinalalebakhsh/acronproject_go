@@ -17,7 +17,6 @@ func main()  {
 		_ = keyboard.Close()
 	}()
 
-	fmt.Println("Press ESC to quit.")
 	fmt.Println("MENU")
 	fmt.Println("====")
 	fmt.Println("1- Cappucino")
