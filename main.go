@@ -53,8 +53,8 @@ func main()  {
 			break
 		}
 	}
-
-
-	fmt.Println(" Program exiting ... ")
+	
+	
+	fmt.Println("Program exiting ... ")
 
 }
