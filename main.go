@@ -35,8 +35,8 @@ func main()  {
 			log.Fatal(err)
 		}
 		i, _ := strconv.Atoi(string(char))
-		
-		t := fmt.Sprintf("You chose %q", char)
+
+		t := fmt.Sprintf("You chose %q | %d", i, i)
 		fmt.Println(t)
 
 		if char == 'q' || char == 'Q'  {
