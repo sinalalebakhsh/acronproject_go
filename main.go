@@ -44,13 +44,13 @@ func main()  {
 		if err != nil  {
 			log.Fatal(err)
 		}
-		
+
 		if char == 'q' || char == 'Q'  {
 			break
 		}
 
 		i, _ := strconv.Atoi(string(char))
-		t := fmt.Sprintf("You chose %s", coffees[i])
+		// t := fmt.Sprintf("You chose %s", coffees[i])
 		fmt.Println(t)
 
 	}
