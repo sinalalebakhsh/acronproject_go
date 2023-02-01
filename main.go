@@ -21,7 +21,7 @@ func main()  {
 	fmt.Println("MENU")
 	fmt.Println("====")
 	fmt.Println("1- ")
-	fmt.Println("")
+	fmt.Println("2- ")
 
 	for  {
 		char, key, err := keyboard.GetSingleKey()
