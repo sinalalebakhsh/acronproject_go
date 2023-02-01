@@ -20,9 +20,9 @@ func main()  {
 	fmt.Println("Press ESC to quit.")
 	fmt.Println("MENU")
 	fmt.Println("====")
-	fmt.Println("1- ")
-	fmt.Println("2- ")
-	fmt.Println("3- ")
+	fmt.Println("1- Cappucino")
+	fmt.Println("2- Dark Coffee")
+	fmt.Println("3- Americano")
 
 	for  {
 		char, key, err := keyboard.GetSingleKey()
