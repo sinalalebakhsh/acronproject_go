@@ -35,7 +35,7 @@ func main()  {
 		}
 
 		t := fmt.Sprintf("You chose %q", char)
-		fmt.Println("You chose", char)
+		fmt.Println(t)
 
 		if char == 'q' || char == 'Q'  {
 			break
