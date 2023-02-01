@@ -1,11 +1,8 @@
 package main
 
 import (
-	// "bufio"
 	"fmt"
 	"log"
-	// "os"
-	// "strings"
 
 	"github.com/eiannone/keyboard"
 )
@@ -31,7 +28,7 @@ func main()  {
 		if key != 0  {
 			fmt.Println("You pressed", char, key)
 		} else  {
-
+			fmt.Println("You pressed", char)
 		}
 
 		if key == keyboard.KeyEsc  {
