@@ -21,4 +21,8 @@ func main()  {
 	defer func ()  {
 		_ = keyboard.Close()
 	}()
+
+	fmt.Println("Press any key on the keyboard. Or press ESC to quit. ")
+
+
 }
