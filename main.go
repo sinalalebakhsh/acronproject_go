@@ -23,6 +23,7 @@ func main()  {
 	fmt.Println("1- Cappucino")
 	fmt.Println("2- Dark Coffee")
 	fmt.Println("3- Americano")
+	fmt.Println("4- Mocha")
 
 	for  {
 		char, key, err := keyboard.GetSingleKey()
