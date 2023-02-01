@@ -1,11 +1,11 @@
 package main
 
 import (
-	"bufio"
+	// "bufio"
 	"fmt"
 	"log"
-	"os"
-	"strings"
+	// "os"
+	// "strings"
 
 	"github.com/eiannone/keyboard"
 )
