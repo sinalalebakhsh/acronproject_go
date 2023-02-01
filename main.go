@@ -9,9 +9,6 @@ import (
 
 	"github.com/eiannone/keyboard"
 )
-
-
-
 func main()  {
 	err := keyboard.Open()
 	if err != nil  {
@@ -23,6 +20,12 @@ func main()  {
 	}()
 
 	fmt.Println("Press any key on the keyboard. Or press ESC to quit. ")
+
+	for  {
+		
+	}
+
+
 
 
 }
