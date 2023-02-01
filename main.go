@@ -48,7 +48,7 @@ func main()  {
 		}
 		i, _ := strconv.Atoi(string(char))
 
-		t := fmt.Sprintf("You chose %d", i)
+		t := fmt.Sprintf("You chose %d", coffees[i])
 		fmt.Println(t)
 
 		if char == 'q' || char == 'Q'  {
