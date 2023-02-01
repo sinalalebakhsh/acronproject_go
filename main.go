@@ -17,7 +17,11 @@ func main()  {
 		_ = keyboard.Close()
 	}()
 
-	fmt.Println("Press any key on the keyboard. Or press ESC to quit. ")
+	fmt.Println("Press ESC to quit.")
+	fmt.Println("MENU")
+	fmt.Println("====")
+	fmt.Println("")
+	fmt.Println("")
 
 	for  {
 		char, key, err := keyboard.GetSingleKey()
