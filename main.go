@@ -50,7 +50,8 @@ func main()  {
 		}
 
 		i, _ := strconv.Atoi(string(char))
-		// t := fmt.Sprintf("You chose %s", coffees[i])
+		t := fmt.Sprintf("You chose %s", coffees[i])
+		// fmt.Println(fmt.Sprintf("You chose %s", coffees[i]))
 		fmt.Println(t)
 
 	}
