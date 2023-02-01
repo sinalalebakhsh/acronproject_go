@@ -21,6 +21,14 @@ func main()  {
 
 
 	coffees := make(map[int]string)
+	coffees[1] = "Cappucino"
+	coffees[2] = "Dark"
+	coffees[3] = "Americano"
+	coffees[4] = "Mocha"
+	coffees[5] = "Cappucino"
+	coffees[6] = "Cappucino"
+	coffees[7] = "Cappucino"
+	coffees[8] = "Cappucino"
 
 	fmt.Println("MENU")
 	fmt.Println("====")
