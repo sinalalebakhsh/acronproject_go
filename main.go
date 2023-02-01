@@ -18,6 +18,9 @@ func main()  {
 		_ = keyboard.Close()
 	}()
 
+
+	coffees := make(map)
+
 	fmt.Println("MENU")
 	fmt.Println("====")
 	fmt.Println("1- Cappucino")
