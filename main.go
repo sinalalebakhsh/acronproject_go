@@ -3,6 +3,7 @@ package main
 import (
 	"fmt"
 	"log"
+	"strconv"
 
 	"github.com/eiannone/keyboard"
 )
@@ -33,7 +34,8 @@ func main()  {
 		if err != nil  {
 			log.Fatal(err)
 		}
-
+		i, _ := strconv.Atoi(string(char))
+		
 		t := fmt.Sprintf("You chose %q", char)
 		fmt.Println(t)
 
