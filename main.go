@@ -28,7 +28,7 @@ func main()  {
 		}
 
 		if key != 0  {
-			fmt.Println("You pressed", char)
+			fmt.Println("You pressed", char, key)
 		} else  {
 
 		}
