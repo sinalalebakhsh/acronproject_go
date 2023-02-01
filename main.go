@@ -27,7 +27,7 @@ func main()  {
 	coffees[4] = "Mocha"
 	coffees[5] = "Macchiato"
 	coffees[6] = "Latte"
-	coffees[7] = "Cappucino"
+	coffees[7] = "Espresso"
 	coffees[8] = "Cappucino"
 
 	fmt.Println("MENU")
