@@ -21,7 +21,7 @@ func main()  {
 	fmt.Println("MENU")
 	fmt.Println("====")
 	fmt.Println("1- Cappucino")
-	fmt.Println("2- Dark Coffee")
+	fmt.Println("2- Dark")
 	fmt.Println("3- Americano")
 	fmt.Println("4- Mocha")
 
