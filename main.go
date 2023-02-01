@@ -34,11 +34,6 @@ func main()  {
 			log.Fatal(err)
 		}
 
-		if key != 0  {
-			fmt.Println("You pressed", char, key)
-		} else  {
-			fmt.Println("You pressed", char)
-		}
 
 		if key == keyboard.KeyEsc  {
 			break
