@@ -39,6 +39,6 @@ func main()  {
 	}
 
 
-
+	fmt.Println(" Program exiting ... ")
 
 }
