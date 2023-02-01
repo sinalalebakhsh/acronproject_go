@@ -4,6 +4,7 @@ import (
 	"fmt"
 	"log"
 	"strconv"
+	"strings"
 
 	"github.com/eiannone/keyboard"
 )
@@ -19,7 +20,7 @@ func main()  {
 	}()
 
 
-	coffees := make(map)
+	coffees := make(map[int]string)
 
 	fmt.Println("MENU")
 	fmt.Println("====")
