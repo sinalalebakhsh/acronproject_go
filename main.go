@@ -3,6 +3,7 @@ package main
 import (
 	"bufio"
 	"fmt"
+	"log"
 	"os"
 	"strings"
 
@@ -14,6 +15,6 @@ import (
 func main()  {
 	err := keyboard.Open()
 	if err != nil  {
-		
+		log.Fatal(err)
 	}
 }
