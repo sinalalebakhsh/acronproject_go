@@ -28,7 +28,7 @@ func main()  {
 	coffees[5] = "Macchiato"
 	coffees[6] = "Latte"
 	coffees[7] = "Espresso"
-	coffees[8] = "Cappucino"
+	// coffees[8] = "Quit the program"
 
 	fmt.Println("MENU")
 	fmt.Println("====")
