@@ -1,14 +1,15 @@
 package main
 
 import (
-	"bufio"
+	// "bufio"
 	"fmt"
 	"log"
-	"os"
-	"strings"
+	// "os"
+	// "strings"
 
 	"github.com/eiannone/keyboard"
 )
+
 func main()  {
 	err := keyboard.Open()
 	if err != nil  {
