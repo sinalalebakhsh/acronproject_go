@@ -13,4 +13,7 @@ import (
 
 func main()  {
 	err := keyboard.Open()
+	if err != nil  {
+		
+	}
 }
