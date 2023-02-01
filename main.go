@@ -4,7 +4,6 @@ import (
 	"fmt"
 	"log"
 	"strconv"
-	"strings"
 
 	"github.com/eiannone/keyboard"
 )
@@ -46,9 +45,9 @@ func main()  {
 		if err != nil  {
 			log.Fatal(err)
 		}
-		
+
 		i, _ := strconv.Atoi(string(char))
-		t := fmt.Sprintf("You chose %d", i)
+		t := fmt.Sprintf("You chose %s", coffees[i])
 		fmt.Println(t)
 
 		if char == 'q' || char == 'Q'  {
