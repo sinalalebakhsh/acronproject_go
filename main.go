@@ -26,7 +26,7 @@ func main()  {
 	coffees[3] = "Americano"
 	coffees[4] = "Mocha"
 	coffees[5] = "Macchiato"
-	coffees[6] = "Cappucino"
+	coffees[6] = "Latte"
 	coffees[7] = "Cappucino"
 	coffees[8] = "Cappucino"
 
