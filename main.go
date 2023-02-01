@@ -22,8 +22,10 @@ func main()  {
 	fmt.Println("Press any key on the keyboard. Or press ESC to quit. ")
 
 	for  {
-
 		char, key, err := keyboard.GetSingleKey()
+		if err != nil  {
+			log.Fatal(err)
+		}
 	}
 
 
