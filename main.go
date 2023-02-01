@@ -34,8 +34,7 @@ func main()  {
 			log.Fatal(err)
 		}
 
-
-		if key == keyboard.KeyEsc  {
+		if char == 'q' || char == 'Q'  {
 			break
 		}
 	}
