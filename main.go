@@ -12,5 +12,5 @@ import (
 
 
 func main()  {
-	
+	err := keyboard.Open()
 }
