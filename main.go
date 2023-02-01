@@ -26,6 +26,7 @@ func main()  {
 	fmt.Println("4- Mocha")
 	fmt.Println("5- Macchiato")
 	fmt.Println("6- Latte")
+	fmt.Println("7- Espresso")
 
 	for  {
 		char, key, err := keyboard.GetSingleKey()
