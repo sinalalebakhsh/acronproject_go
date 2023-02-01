@@ -20,7 +20,7 @@ func main()  {
 	fmt.Println("Press ESC to quit.")
 	fmt.Println("MENU")
 	fmt.Println("====")
-	fmt.Println("")
+	fmt.Println("1- ")
 	fmt.Println("")
 
 	for  {
