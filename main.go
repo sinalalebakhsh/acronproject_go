@@ -22,6 +22,6 @@ func prompt()  {
 	fmt.Print("->  ")
 }
 
-func readSting()  {
-	
+func readSting(a string) string  {
+
 }
