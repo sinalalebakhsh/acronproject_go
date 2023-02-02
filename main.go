@@ -2,17 +2,20 @@ package main
 
 import (
 	"fmt"
-	"myapp/game"
+	"os"
+	// "myapp/game"
 )
 
 func main() {
-	playAgain := true
+	// playAgain := true
 
-	for playAgain {
-		// game.Play()
-		playAgain = game.GetYesOrNo("Would you like to play again (y/n)?")
-	}
+	// for playAgain {
+	// 	// game.Play()
+	// 	playAgain = game.GetYesOrNo("Would you like to play again (y/n)?")
+	// }
 
-	fmt.Println("")
-	fmt.Println("Goodbye.")
+	// fmt.Println("")
+	// fmt.Println("Goodbye.")
+
+	fmt.Println("Home:", os.Getenv("HOME"))
 }
