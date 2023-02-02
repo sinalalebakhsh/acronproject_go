@@ -9,5 +9,6 @@ import (
 
 func main()  {
 	reader := bufio.NewReader(os.Stdin)
-	fmt.Println
+	fmt.Println("What is your name?")
+	fmt.Print("->  ")
 }
