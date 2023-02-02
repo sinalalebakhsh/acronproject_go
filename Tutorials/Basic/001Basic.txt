@@ -34,3 +34,5 @@
 |Console Input with a Package
 |---------------------------------------------------------------------------
 |Listening for Keypasses in Hammer Bitcoin. 025 course
+|---------------------------------------------------------------------------
+|Console Input and Output Sting Interpolation
