@@ -19,4 +19,10 @@ func main() {
 
 	fmt.Println("Home:", os.Getenv("HOME"))
 	fmt.Println("Shell:", os.Getenv("SHELL"))
+
+	shell, ok := os.LookupEnv("SHELL")
+	
+
+
+
 }
