@@ -21,3 +21,7 @@ func main()  {
 func prompt()  {
 	fmt.Print("->  ")
 }
+
+func readSting()  {
+	
+}
