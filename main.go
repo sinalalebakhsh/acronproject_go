@@ -21,7 +21,9 @@ func main() {
 	fmt.Println("Shell:", os.Getenv("SHELL"))
 
 	shell, ok := os.LookupEnv("SHELL")
-	
+	if !ok  {
+		fmt.Println("The Env var SHELL is not set")
+	}
 
 
 
