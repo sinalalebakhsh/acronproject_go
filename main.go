@@ -7,6 +7,7 @@ import (
 	"strings"
 )
 
+var reader *bufio.Reader
 
 func main()  {
 	reader := bufio.NewReader(os.Stdin)
@@ -23,5 +24,5 @@ func prompt()  {
 }
 
 func readSting(a string) string  {
-
+	
 }
