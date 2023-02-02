@@ -9,7 +9,7 @@ func main() {
 	playAgain := true
 
 	for playAgain {
-		game.Play()
+		// game.Play()
 		playAgain = game.GetYesOrNo("Would you like to play again (y/n)?")
 	}
 
