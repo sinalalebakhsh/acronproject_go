@@ -27,6 +27,7 @@ func main() {
 		fmt.Println("Shell:", shell)
 	}
 
-
+	err := os.Setenv("NAME", "Sina")
+	
 
 }
