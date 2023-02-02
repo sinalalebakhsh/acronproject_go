@@ -18,7 +18,7 @@ func main() {
 	// fmt.Println("Goodbye.")
 
 	fmt.Println("Home:", os.Getenv("HOME"))
-	fmt.Println("Shell:", os.Getenv("SHELL"))
+	// fmt.Println("Shell:", os.Getenv("SHELL"))
 
 	shell, ok := os.LookupEnv("SHELL")
 	if !ok  {
