@@ -18,4 +18,5 @@ func main() {
 	// fmt.Println("Goodbye.")
 
 	fmt.Println("Home:", os.Getenv("HOME"))
+	fmt.Println("Shell:", os.Getenv("SHELL"))
 }
