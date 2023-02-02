@@ -15,5 +15,9 @@ func main()  {
 	userInput, _ := reader.ReadString('\n')
 	userInput = strings.Replace(userInput, "\n", "", -1)
 
-	fmt.Println("Your name is", userInput+ ".")
+	fmt.Println("Your name is", userInput + ".")
+}
+
+func prompt()  {
+	
 }
