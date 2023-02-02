@@ -28,6 +28,10 @@ func main() {
 	}
 
 	err := os.Setenv("NAME", "Sina")
-	
+	if err != nil  {
+		fmt.Printf("Could not set the env var NAME")
+	} else {
+		fmt.Printf("NAME: %s\n", os.Getenv("NAME"))
+	}
 
 }
