@@ -4,6 +4,7 @@ import (
 	"bufio"
 	"fmt"
 	"os"
+	"strconv"
 	"strings"
 )
 
@@ -35,6 +36,9 @@ func readInt(a string) int  {
 	prompt()
 	userInput, _ := reader.ReadString('\n')
 	userInput = strings.Replace(userInput, "\n", "", -1)
+
+	number, err := strconv.Atoi(userInput)
+
 
 }
 
