@@ -62,3 +62,20 @@ func readInt(a string) int  {
 	
 }
 
+func readFloat(a string) float64  {
+	for  {
+		fmt.Println(a)
+		prompt()
+		userInput, _ := reader.ReadString('\n')
+		userInput = strings.Replace(userInput, "\n", "", -1)
+	
+		number, err := strconv.ParseFloat(userInput)
+		if err != nil  {
+			fmt.Println("Please enter a whole number")
+		} else  {
+			return number
+		}
+	}
+	
+}
+
