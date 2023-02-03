@@ -22,14 +22,16 @@ func prompt()  {
 }
 
 func readSting(a string) string  {	
-	fmt.Println(a)
-	prompt()
-	userInput, _ := reader.ReadString('\n')
-	userInput = strings.Replace(userInput, "\n", "", -1)
-	if userInput != ""  {
-		return userInput
-	} else  {
-		fmt.Println("Please enter name with a value")
+	for  {
+		fmt.Println(a)
+		prompt()
+		userInput, _ := reader.ReadString('\n')
+		userInput = strings.Replace(userInput, "\n", "", -1)
+		if userInput != ""  {
+			return userInput
+		} else  {
+			fmt.Println("Please enter name with a value")
+		}
 	}
 }
 
