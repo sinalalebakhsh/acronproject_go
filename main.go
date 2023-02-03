@@ -43,9 +43,10 @@ func readInt(a string) int  {
 		number, err := strconv.Atoi(userInput)
 		if err != nil  {
 			fmt.Println("Please enter a whole number")
+		} else  {
+			return number
 		}
 	}
 	
-	return number
 }
 
