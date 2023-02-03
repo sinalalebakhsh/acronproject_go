@@ -28,6 +28,8 @@ func readSting(a string) string  {
 	userInput = strings.Replace(userInput, "\n", "", -1)
 	if userInput != ""  {
 		return userInput
+	} else  {
+		
 	}
 }
 
