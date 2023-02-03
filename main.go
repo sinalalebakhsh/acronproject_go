@@ -25,4 +25,5 @@ func prompt()  {
 
 func readSting(a string) string  {
 	
+	reader.ReadString('\n')
 }
