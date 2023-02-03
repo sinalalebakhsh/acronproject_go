@@ -38,6 +38,9 @@ func readInt(a string) int  {
 	userInput = strings.Replace(userInput, "\n", "", -1)
 
 	number, err := strconv.Atoi(userInput)
+	if err != nill  {
+		fmt.Println("Please enter a whole number")
+	}
 
 
 }
