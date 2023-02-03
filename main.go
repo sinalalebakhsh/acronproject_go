@@ -11,10 +11,9 @@ var reader *bufio.Reader
 
 func main()  {
 	reader = bufio.NewReader(os.Stdin)
-	fmt.Println("What is your name?")
-	prompt()
-	userInput, _ := reader.ReadString('\n')
 
+	readSting("What's your name?")
+	
 	fmt.Println("Your name is", userInput + ".")
 }
 
@@ -23,10 +22,8 @@ func prompt()  {
 }
 
 func readSting(a string) string  {	
-
 	fmt.Println(a)
 	prompt()
-
 	userInput, _ := reader.ReadString('\n')
 	userInput = strings.Replace(userInput, "\n", "", -1)
 
