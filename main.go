@@ -31,6 +31,6 @@ func readSting(a string) string  {
 
 
 func readInt(a string) int  {
-	
+	fmt.Println(a)
 }
 
