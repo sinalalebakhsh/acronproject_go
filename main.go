@@ -19,12 +19,10 @@ type User struct  {
 
 func main()  {
 	reader = bufio.NewReader(os.Stdin)
-
 	var user User
 	user.UserName = readSting("What's your name?")
 	user.Age = readInt("How old are you?")
 	user.FavouriteNumber = readFloat("What is your favourite number?")
-
 	
 	fmt.Println(fmt.Sprintf("Your name's %s, and you'r %d years old. Your Favourite number's %.2f.", 
 	user.UserName, 
@@ -50,7 +48,6 @@ func readSting(a string) string  {
 		}
 	}
 }
-
 
 func readInt(a string) int  {
 	for  {
@@ -83,6 +80,5 @@ func readFloat(a string) float64  {
 			return number
 		}
 	}
-	
 }
 
