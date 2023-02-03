@@ -16,6 +16,7 @@ func main()  {
 
 	age := readInt("How old are you?")
 
+	fmt.Println("Your name is" , userInput , ", and you are" , age, "years old.")
 }
 
 func prompt()  {
