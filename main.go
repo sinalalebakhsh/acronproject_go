@@ -26,4 +26,5 @@ func readSting(a string) string  {
 	userInput, _ := reader.ReadString('\n')
 	userInput = strings.Replace(userInput, "\n", "", -1)
 
+	return userInput
 }
