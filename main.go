@@ -1,4 +1,4 @@
-// String Interpolation 026 number course
+// Expermenting with String Interpolation 027
 package main
 
 import (
@@ -10,14 +10,11 @@ import (
 )
 
 var reader *bufio.Reader
-
 type User struct  {
 	UserName string
 	Age int
 	FavouriteNumber float64
 }
-
-
 
 func main()  {
 	reader = bufio.NewReader(os.Stdin)
