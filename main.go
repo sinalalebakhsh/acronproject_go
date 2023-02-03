@@ -41,7 +41,7 @@ func readInt(a string) int  {
 	if err != nil  {
 		fmt.Println("Please enter a whole number")
 	}
-
-
+	
+	return number
 }
 
