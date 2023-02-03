@@ -11,11 +11,6 @@ import (
 
 var reader *bufio.Reader
 
-type User struct  {
-	UserName string
-	Age int
-}
-
 
 func main()  {
 	reader = bufio.NewReader(os.Stdin)
