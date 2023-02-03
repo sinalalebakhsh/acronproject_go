@@ -1,4 +1,4 @@
-// Expermenting with String Interpolation 027
+// Challenge 
 package main
 
 import (
@@ -82,3 +82,18 @@ func readFloat(a string) float64  {
 	}
 }
 
+// func OwnADog(a string) bool  {
+// 	for  {
+// 		fmt.Println(a)
+// 		prompt()
+// 		userInput, _ := reader.ReadString('\n')
+// 		userInput = strings.Replace(userInput, "\n", "", -1)
+	
+// 		number, err := strconv.ParseFloat(userInput, 64)
+// 		if err != nil  {
+// 			fmt.Println("Please enter a number")
+// 		} else  {
+// 			return number
+// 		}
+// 	}
+// }
