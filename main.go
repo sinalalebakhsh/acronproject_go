@@ -30,5 +30,7 @@ func readSting(a string) string  {
 }
 
 
-func readInt(a string)
+func readInt(a string) int  {
+	
+}
 
