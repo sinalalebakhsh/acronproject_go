@@ -11,6 +11,12 @@ import (
 
 var reader *bufio.Reader
 
+type User struct  {
+	UserName string
+
+}
+
+
 func main()  {
 	reader = bufio.NewReader(os.Stdin)
 	userInput := readSting("What's your name?")
