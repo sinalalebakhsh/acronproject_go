@@ -14,7 +14,6 @@ func main()  {
 	fmt.Println("What is your name?")
 	prompt()
 	userInput, _ := reader.ReadString('\n')
-	userInput = strings.Replace(userInput, "\n", "", -1)
 
 	fmt.Println("Your name is", userInput + ".")
 }
@@ -23,7 +22,8 @@ func prompt()  {
 	fmt.Print("->  ")
 }
 
-func readSting(a string) string  {
-	
+func readSting(a string) string  {	
 	userInput, _ := reader.ReadString('\n')
+	userInput = strings.Replace(userInput, "\n", "", -1)
+
 }
