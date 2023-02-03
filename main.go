@@ -8,6 +8,7 @@ import (
 	"strconv"
 	"strings"
 	"github.com/eiannone/keyboard"
+	"log"
 )
 
 var reader *bufio.Reader
