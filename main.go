@@ -7,6 +7,7 @@ import (
 	"os"
 	"strconv"
 	"strings"
+	"github.com/eiannone/keyboard"
 )
 
 var reader *bufio.Reader
@@ -82,18 +83,25 @@ func readFloat(a string) float64  {
 	}
 }
 
-// func OwnADog(a string) bool  {
-// 	for  {
-// 		fmt.Println(a)
-// 		prompt()
-// 		userInput, _ := reader.ReadString('\n')
-// 		userInput = strings.Replace(userInput, "\n", "", -1)
-	
-// 		number, err := strconv.ParseFloat(userInput, 64)
-// 		if err != nil  {
-// 			fmt.Println("Please enter a number")
-// 		} else  {
-// 			return number
-// 		}
-// 	}
-// }
+func OwnADog(a string) bool  {
+	err := keyboard.Open()
+	if err != nil {
+		log.Fatal(err)
+	}
+
+	defer func() {
+		_ = keyboard.Close()
+	}()
+
+	for {
+		fmt.Println(q)
+		char, _, err := keyboard.GetSingleKey()
+		if err != nil {
+			log.Fatal(err)
+		}
+		if char == 'n' || char == 'N' {
+			return false
+		}
+		return true
+	}
+}
