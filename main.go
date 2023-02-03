@@ -11,7 +11,6 @@ var reader *bufio.Reader
 
 func main()  {
 	reader = bufio.NewReader(os.Stdin)
-
 	userInput := readSting("What's your name?")
 	
 	fmt.Println("Your name is", userInput + ".")
@@ -29,3 +28,7 @@ func readSting(a string) string  {
 
 	return userInput
 }
+
+
+func readInt(a string)
+
