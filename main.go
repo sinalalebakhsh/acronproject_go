@@ -84,7 +84,8 @@ func readFloat(a string) float64  {
 	}
 }
 
-func OwnADog(a string) bool  {
+func OwnADog(q string) bool  {
+	
 	err := keyboard.Open()
 	if err != nil {
 		log.Fatal(err)
