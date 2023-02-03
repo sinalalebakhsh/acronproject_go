@@ -13,9 +13,7 @@ var reader *bufio.Reader
 func main()  {
 	reader = bufio.NewReader(os.Stdin)
 	userInput := readSting("What's your name?")
-
 	age := readInt("How old are you?")
-
 	fmt.Println("Your name is" , userInput + ", and you are" , age, "years old.")
 }
 
@@ -28,8 +26,9 @@ func readSting(a string) string  {
 	prompt()
 	userInput, _ := reader.ReadString('\n')
 	userInput = strings.Replace(userInput, "\n", "", -1)
-
-	return userInput
+	if userInput != ""  {
+		return userInput
+	}
 }
 
 
