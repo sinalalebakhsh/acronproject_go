@@ -13,7 +13,7 @@ var reader *bufio.Reader
 
 type User struct  {
 	UserName string
-
+	Age int
 }
 
 
