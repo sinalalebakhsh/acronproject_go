@@ -29,7 +29,7 @@ func readSting(a string) string  {
 	if userInput != ""  {
 		return userInput
 	} else  {
-		
+		fmt.Println("Please enter name with a value")
 	}
 }
 
