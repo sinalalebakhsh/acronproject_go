@@ -21,6 +21,9 @@ type User struct  {
 
 func main()  {
 	reader = bufio.NewReader(os.Stdin)
+
+	var user User
+
 	userInput := readSting("What's your name?")
 	age := readInt("How old are you?")
 
