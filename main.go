@@ -24,7 +24,7 @@ func main()  {
 
 	var user User
 
-	userInput := readSting("What's your name?")
+	user.UserName = readSting("What's your name?")
 	age := readInt("How old are you?")
 
 	fmt.Println(fmt.Sprintf("Your name's %s, and you'r %d years old.", userInput, age))
