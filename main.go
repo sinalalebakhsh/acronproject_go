@@ -34,6 +34,7 @@ func readInt(a string) int  {
 	fmt.Println(a)
 	prompt()
 	userInput, _ := reader.ReadString('\n')
+	userInput = strings.Replace(userInput, "\n", "", -1)
 
 }
 
