@@ -22,7 +22,9 @@ func main()  {
 	var user User
 	user.UserName = readSting("What's your name?")
 	user.Age = readInt("How old are you?")
+	user.FavouriteNumber = readFloat("What is your favourite number?")
 
+	
 	fmt.Println(fmt.Sprintf("Your name's %s, and you'r %d years old.", user.UserName, user.Age))
 }
 
@@ -69,9 +71,9 @@ func readFloat(a string) float64  {
 		userInput, _ := reader.ReadString('\n')
 		userInput = strings.Replace(userInput, "\n", "", -1)
 	
-		number, err := strconv.ParseFloat(userInput)
+		number, err := strconv.ParseFloat(userInput, 64)
 		if err != nil  {
-			fmt.Println("Please enter a whole number")
+			fmt.Println("Please enter a number")
 		} else  {
 			return number
 		}
