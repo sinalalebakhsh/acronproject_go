@@ -109,8 +109,7 @@ func OwnADog(q string) bool  {
 			fmt.Println("Please type y or n")
 			return false
 		} else  {
-			
+			return true
 		}
-		return true
 	}
 }
