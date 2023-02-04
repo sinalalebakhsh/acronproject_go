@@ -18,3 +18,12 @@ Expressions:
     Boolean if
     Compound boolean if 
     switch()
+
+Composition:
+    Composition vs. Inheritance
+    Go is not OOP
+    Example: car is OOP, car with composition.
+    ------
+    If you have an object oriented programming language,
+    you might have something called a class and that class might be occur and you can inherit 
+    from that class to create a new class say type fought.
