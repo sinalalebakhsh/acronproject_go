@@ -1,3 +1,4 @@
 use a particular type at a particular place in your program.
 Go is not an object oriented programming language like Java or C sharp.
 Instead, it uses something called composition.
+And that's something we need to learn about in a bit more detail. 
