@@ -105,7 +105,7 @@ func OwnADog(q string) bool  {
 		if err != nil {
 			log.Fatal(err)
 		}
-		if char == 'n' || char == 'N' {
+		if strings.ToLower(string(char)) != "y"  {
 			return false
 		}
 		return true
