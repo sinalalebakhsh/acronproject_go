@@ -106,6 +106,7 @@ func OwnADog(q string) bool  {
 			log.Fatal(err)
 		}
 		if strings.ToLower(string(char)) != "y" ||  strings.ToLower(string(char)) != "n" {
+			fmt.Println("Please type y or n")
 			return false
 		}
 		return true
