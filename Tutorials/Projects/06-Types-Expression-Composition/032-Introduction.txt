@@ -26,4 +26,9 @@ Composition:
     ------
     If you have an object oriented programming language,
     you might have something called a class and that class might be occur and you can inherit 
-    from that class to create a new class say type fought.
+    from that class to create a new class say type ford.
+    So you might make a class ford that extends the class cur.
+    but:
+    with composition you might define your own type called cut 
+    and a car would have a steering wheel, tires, seats, an engine.
+    
