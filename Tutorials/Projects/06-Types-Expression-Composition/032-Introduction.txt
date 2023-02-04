@@ -7,4 +7,5 @@ Category of types:
 Basic Types: numbers, strings, booleans.
 Aggregate Types: arrays, structs.
 Reference Types: Pointers, slices, maps, functions, channels.
-Interface Type.
+Interface Type: The very general type known as the interface type,
+which is a type that can hold literally anything you want for expression's.
