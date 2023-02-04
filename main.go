@@ -20,16 +20,20 @@ type User struct  {
 }
 
 func main()  {
+	playAgain := true
+
 	reader = bufio.NewReader(os.Stdin)
 	var user User
 	user.UserName = readSting("What's your name?")
 	user.Age = readInt("How old are you?")
 	user.FavouriteNumber = readFloat("What is your favourite number?")
+	user.OwnADog = OwnADog("Do you have a dog?")
 	
-	fmt.Println(fmt.Sprintf("Your name's %s, and you'r %d years old. Your Favourite number's %.2f.", 
+	fmt.Println(fmt.Sprintf("Your name's %s, and you'r %d years old. Your Favourite number's %.2f. Owns a dog: %t", 
 	user.UserName, 
 	user.Age,
 	user.FavouriteNumber,
+	playAgain,
 	))
 }
 
@@ -85,7 +89,7 @@ func readFloat(a string) float64  {
 }
 
 func OwnADog(q string) bool  {
-	
+
 	err := keyboard.Open()
 	if err != nil {
 		log.Fatal(err)
