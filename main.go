@@ -9,6 +9,18 @@ import "fmt"
 // interface type
 
 func main() {
+
+	// type MyStruct struct  {
+	// 	name string
+	// 	sureName string
+	// }
+	// fullName := MyStruct {
+	// 	name: "Sina",
+	// 	sureName: "Lalebakhsh",
+	// }
+
+
+
 	var animals []string
 	animals = append(animals, "dog")
 	animals = append(animals, "fish")
@@ -16,4 +28,9 @@ func main() {
 	animals = append(animals, "horse")
 
 	fmt.Println(animals)
+
+
+	for _, x := range animals  {
+		fmt.Println(x)
+	}
 }
