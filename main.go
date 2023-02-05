@@ -1,4 +1,4 @@
-//035 Pointers
+//036 Slices
 
 package main
 
@@ -9,19 +9,11 @@ import "fmt"
 // interface type
 
 func main() {
-	x := 10
-	myFirstPointer := &x
-	fmt.Println("x is", x)
-	fmt.Println("myFirstPointer is to Memory Location:", myFirstPointer)
+	var animals []string
+	animals = append(animals, "dog")
+	animals = append(animals, "fish")
+	animals = append(animals, "cat")
+	animals = append(animals, "horse")
 
-	*myFirstPointer = 15
-	fmt.Println("x is now", x)
-
-	changeValueOfPointer(&x)
-	fmt.Println("After function call, x is now", x)
-}
-
-
-func changeValueOfPointer(num *int)  {
-	*num = 25
+	fmt.Println(animals)
 }
