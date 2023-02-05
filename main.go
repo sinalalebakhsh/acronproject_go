@@ -22,10 +22,8 @@ type Car struct {
 // interface type
 
 func main() {
-
-	var myStrings [3]int
-	myStrings[0] = 0
-	myStrings[1] = 1
-	myStrings[2] = 2
-	log.Println("First Elements is:", myStrings[0])
+	var myCar Car
+	myCar.NumberOfTires = 4
+	myCar.Luxery = false
+	myCar.Make = "mercedes-benz-unimog"
 }
