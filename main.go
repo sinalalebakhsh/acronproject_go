@@ -14,6 +14,8 @@ package main
 func main() {
 
 	var myStrings [3]string
-	
+	myStrings[0] = "cat1"
+	myStrings[1] = "cat2"
+	myStrings[2] = "cat3"
 
 }
