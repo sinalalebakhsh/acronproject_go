@@ -8,6 +8,16 @@ import "log"
 
 // aggregate types (array, struct)
 
+type Car struct {
+	NumberOfTires int
+	Luxery bool
+	BucketSeats bool
+	Make string
+	Model string
+
+}
+
+
 // reference types (pointers, silence, maps, functions, channels)
 
 // interface type
@@ -18,7 +28,5 @@ func main() {
 	myStrings[0] = 0
 	myStrings[1] = 1
 	myStrings[2] = 2
-
-
 	log.Println("First Elements is:", myStrings[0])
 }
