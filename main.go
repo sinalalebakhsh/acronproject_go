@@ -13,4 +13,7 @@ package main
 
 func main() {
 
+	var myStrings [3]string
+	
+
 }
