@@ -4,11 +4,12 @@ package main
 
 // basic types (numbers, string, booleans)
 var myInt int
-var myInt16 int16
-var myInt32 int32
-var myInt64 int64
 
+var myUnit uint
 
+var myFloat float32
+
+var myFloat float64
 
 
 
@@ -21,5 +22,3 @@ var myInt64 int64
 func main() {
 
 }
-  
-
