@@ -24,6 +24,15 @@ type Car struct {
 func main() {
 	var myCar Car
 	myCar.NumberOfTires = 4
-	myCar.Luxery = false
+	myCar.Luxery = true
 	myCar.Make = "mercedes-benz-unimog"
+
+	// ---------------------------------------- Another Definition
+	maCar1 := Car{
+		NumberOfTires: 4,
+		Luxery:        true,
+		BucketSeats:   true,
+		Make:          "mercedes-benz-unimog",
+		
+	}
 }
