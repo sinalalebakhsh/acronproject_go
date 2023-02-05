@@ -9,8 +9,8 @@ import "fmt"
 // interface type
 
 func main() {
-	var myInt int
-	myInt = 10
-
-	fmt.Println(myInt)
+	x := 10
+	myFirstPointer := &x
+	fmt.Println("x is", x)
+	fmt.Println("myFirstPointer is to Memory Location:", myFirstPointer)
 }
