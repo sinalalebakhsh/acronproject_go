@@ -14,7 +14,7 @@ import "log"
 
 func main() {
 
-	var myStrings [3]string
+	var myStrings [3]int
 	myStrings[0] = "cat1"
 	myStrings[1] = "dog2"
 	myStrings[2] = "fish3"
