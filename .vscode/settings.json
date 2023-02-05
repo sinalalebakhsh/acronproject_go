@@ -2,5 +2,8 @@
     "editor.tokenColorCustomizations": {
         "comments": "#ffbd00"
     },
-    
+
+    "workbench.colorCustomizations": {
+        "editorError.foreground": "#d50000",
+   }
 }
