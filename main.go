@@ -29,4 +29,10 @@ func main() {
 	log.Println(myString)
 	myString = "Kimia"
 
+
+
+	var myBool = true
+	myBool = false
+
+	log.Println(myBool)
 }
