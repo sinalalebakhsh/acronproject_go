@@ -2,7 +2,10 @@
 
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"sort"
+)
 
 // reference types (pointers, silence, maps, functions, channels)
 
@@ -39,4 +42,13 @@ func main() {
 
 	// How many elements we have ?
 	fmt.Println("The slice is", len(animals), "elements long.")
+
+	// Diognosis sort a slice
+	fmt.Println("Is it sorted?", sort.StringsAreSorted(animals))
+
+	// sorting a slice
+	sort.Strings(animals)
+	fmt.Println("first two elements are", animals[:])
+	fmt.Println("Is it sorted?", sort.StringsAreSorted(animals))
+
 }
