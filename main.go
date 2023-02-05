@@ -25,4 +25,7 @@ func main() {
 
 	log.Println(myInt, myUint, myFloat, myFloat64)
 
+	myString := ""
+
+	log.Println(myString)
 }
