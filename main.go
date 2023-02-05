@@ -19,8 +19,6 @@ func main() {
 	// 	sureName: "Lalebakhsh",
 	// }
 
-
-
 	var animals []string
 	animals = append(animals, "dog")
 	animals = append(animals, "fish")
@@ -29,17 +27,16 @@ func main() {
 
 	fmt.Println(animals)
 
-
-	for i, x := range animals  {
+	for i, x := range animals {
 		fmt.Println(i, x)
 	}
-
 
 	//  Single Element
 	fmt.Println("Element 0 is", animals[0])
 
-
-
 	//  More than one Element
 	fmt.Println("first two elements are", animals[0:2])
+
+	// How many elements we have ?
+	fmt.Println("The slice is", len(animals), "elements long.")
 }
