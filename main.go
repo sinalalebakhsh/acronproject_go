@@ -13,4 +13,5 @@ func main() {
 	myFirstPointer := &x
 	fmt.Println("x is", x)
 	fmt.Println("myFirstPointer is to Memory Location:", myFirstPointer)
+
 }
