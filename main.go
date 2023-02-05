@@ -2,7 +2,7 @@
 
 package main
 
-import "log"
+import "fmt"
 
 // basic types (numbers, string, booleans)
 
@@ -22,17 +22,19 @@ type Car struct {
 // interface type
 
 func main() {
-	var myCar Car
-	myCar.NumberOfTires = 4
-	myCar.Luxery = true
-	myCar.Make = "mercedes-benz-unimog"
+	// var myCar Car
+	// myCar.NumberOfTires = 4
+	// myCar.Luxery = true
+	// myCar.Make = "mercedes-benz-unimog"
 
 	// ---------------------------------------- Another Definition
-	maCar1 := Car{
+	myCar1 := Car{
 		NumberOfTires: 4,
 		Luxery:        true,
 		BucketSeats:   true,
 		Make:          "mercedes-benz-unimog",
-		
+		Year:          2030,
 	}
+
+	fmt.Println(myCar1)
 }
