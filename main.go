@@ -48,7 +48,21 @@ func main() {
 
 	// sorting a slice
 	sort.Strings(animals)
+
+	// showing all elements in slice
 	fmt.Println("first two elements are", animals[:])
+
+	// Diognosis sort a slice again
 	fmt.Println("Is it sorted?", sort.StringsAreSorted(animals))
 
+	// Delete a element from slice
+	animals = DeleteFromSlice(animals, 1)
+	fmt.Println(animals)
+}
+
+func DeleteFromSlice(a []string, i int) []string {
+	a[i] = a[len(a)-1]
+	a[len(a)-1] = ""
+	a = a[:len(a)-1]
+	return a
 }
