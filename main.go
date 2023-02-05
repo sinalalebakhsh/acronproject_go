@@ -15,9 +15,9 @@ import "log"
 func main() {
 
 	var myStrings [3]int
-	myStrings[0] = "cat1"
-	myStrings[1] = "dog2"
-	myStrings[2] = "fish3"
+	myStrings[0] = 0
+	myStrings[1] = 1
+	myStrings[2] = 2
 
 
 	log.Println("First Elements is:", myStrings[0])
