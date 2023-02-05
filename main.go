@@ -5,18 +5,11 @@ package main
 // basic types (numbers, string, booleans)
 var myInt int
 
-var myUnit uint
+var myUint uint
 
 var myFloat float32
 
 var myFloat float64
-
-
-
-
-
-
-
 
 // aggregate types (array, struct)
 
@@ -25,5 +18,6 @@ var myFloat float64
 // interface type
 
 func main() {
-
+	myInt = 10
+	myUint =
 }
