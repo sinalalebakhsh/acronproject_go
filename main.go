@@ -2,6 +2,8 @@
 
 package main
 
+import "log"
+
 // basic types (numbers, string, booleans)
 var myInt int
 var myUint uint
@@ -20,5 +22,7 @@ func main() {
 
 	myFloat = 10.1
 	myFloat64 = 100.1
+
+	log.Println(myInt, myUint, myFloat, myFloat64)
 
 }
