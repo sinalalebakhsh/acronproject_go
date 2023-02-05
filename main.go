@@ -30,7 +30,11 @@ func main() {
 	fmt.Println(animals)
 
 
-	for _, x := range animals  {
-		fmt.Println(x)
+	for i, x := range animals  {
+		fmt.Println(i, x)
 	}
+
+
+
+	fmt.Println("Element 0 is", animals[0])
 }
