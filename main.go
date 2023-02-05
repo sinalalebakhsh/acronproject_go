@@ -25,7 +25,8 @@ func main() {
 
 	log.Println(myInt, myUint, myFloat, myFloat64)
 
-	myString := ""
-
+	myString := "Sina"
 	log.Println(myString)
+	myString = "Kimia"
+
 }
