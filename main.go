@@ -35,6 +35,11 @@ func main() {
 	}
 
 
-
+	//  Single Element
 	fmt.Println("Element 0 is", animals[0])
+
+
+
+	//  More than one Element
+	fmt.Println("first two elements are", animals[0:2])
 }
