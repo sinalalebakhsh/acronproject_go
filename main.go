@@ -4,12 +4,9 @@ package main
 
 // basic types (numbers, string, booleans)
 var myInt int
-
 var myUint uint
-
 var myFloat float32
-
-var myFloat float64
+var myFloat64 float64
 
 // aggregate types (array, struct)
 
@@ -19,5 +16,9 @@ var myFloat float64
 
 func main() {
 	myInt = 10
-	myUint =
+	myUint = 20
+
+	myFloat = 10.1
+	myFloat64 = 100.1
+
 }
