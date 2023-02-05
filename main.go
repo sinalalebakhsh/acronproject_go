@@ -10,13 +10,12 @@ import "log"
 
 type Car struct {
 	NumberOfTires int
-	Luxery bool
-	BucketSeats bool
-	Make string
-	Model string
-
+	Luxery        bool
+	BucketSeats   bool
+	Make          string
+	Model         string
+	Year          int
 }
-
 
 // reference types (pointers, silence, maps, functions, channels)
 
