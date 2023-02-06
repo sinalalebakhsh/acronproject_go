@@ -2,20 +2,6 @@
 package main
 import "fmt"
 
-/*
-Interfaces type
--------------------------------
-When you're defining an interface, all you do are
-define the functions for an interface.
-all we have to do is make sure that the types 
-we define have associated functions or methods of the same name as specified in the interface.
-*/
-type Animal interface {
-	/* Like this --> */ 
-	Says() string
-	HowManyLegs() int
-}
-
 func main() {
 	// ask a riddle !!! یک معما بپرس
 	dog := Dog {
@@ -37,7 +23,22 @@ func main() {
 	*/
 	Riddle(&cat)
 }
-
+/*
+Interfaces type
+-------------------------------
+When you're defining an interface, all you do are
+define the functions for an interface.
+all we have to do is make sure that the types 
+we define have associated functions or methods of the same name as specified in the interface.
+*/
+type Animal interface {
+	Says() string
+	HowManyLegs() int
+}
+func Riddle(a Animal) {
+	riddle := fmt.Sprintf(`This animal says "%s" and has %d legs. What animal is it?`, a.Says(), a.HowManyLegs())
+	fmt.Println(riddle)
+}
 // Dog id the type for dogs
 type Dog struct {
 	Name         string
@@ -62,9 +63,4 @@ func (d *Cat) Says() string {
 }
 func (d *Cat) HowManyLegs() int {
 	return d.NumberOfLegs
-}
-
-func Riddle(a Animal) {
-	riddle := fmt.Sprintf(`This animal says "%s" and has %d legs. What animal is it?`, a.Says(), a.HowManyLegs())
-	fmt.Println(riddle)
 }
