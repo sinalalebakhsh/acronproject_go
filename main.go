@@ -13,6 +13,18 @@ func main() {
 	fmt.Println(z)
 }
 
-func addTwoNumber(x, y int) int {
-	return x + y
+// func addTwoNumber(x, y int) int {
+// 	return x + y
+// }
+
+//Also you can write like it:
+// But it's bad readable for another programmer
+func addTwoNumber(x, y int) (sum int) {
+	sum = x + y
+	return
 }
+
+
+
+
+
