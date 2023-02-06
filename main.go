@@ -30,14 +30,16 @@ func main() {
 	employees = append(employees, sina)
 
 	for _, x := range employees {
-		if x.Age > 30 {
-			fmt.Println(x.Name, "is 30 or older.")
-		} else {
-			fmt.Println(x.Name, "is under 30.")
-		}
+		// if x.Age > 30 {
+		// 	fmt.Println(x.Name, "is 30 or older.")
+		// } else {
+		// 	fmt.Println(x.Name, "is under 30.")
+		// }
 
 		if x.Age < 35 &&  x.Salary > 50000 {
 			fmt.Println(x.Name, "is under 35 and makes more than 50,000$")
+		} else {
+			fmt.Println(x.Name, "is over 35 Or makes less than 50,000$")
 		}
 
 
