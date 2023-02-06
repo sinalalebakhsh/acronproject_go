@@ -8,6 +8,13 @@ package main
 
 // Go routine
 
+var keyPressChannel chan rune
+
 func main() {
-	
+
+}
+
+
+func listenForKeyPress() {
+
 }
