@@ -3,17 +3,38 @@ package main
 
 import "fmt"
 
+type Employee struct {
+	Name     string
+	Age      int
+	Salary   int
+	FullTime bool
+}
+
 func main() {
-	apples := 18
-	oranges := 9
+	jack := Employee{
+		Name:     "Jack",
+		Age:      40,
+		Salary:   30000000,
+		FullTime: true,
+	}
 
-	// boolean expression
-	fmt.Println(apples == oranges)
-	fmt.Println(apples != oranges)
+	sina := Employee{
+		Name:     "Sina",
+		Age:      29,
+		Salary:   20000000000,
+		FullTime: true,
+	}
 
-	// > < >= <=
-	fmt.Printf("%d > %d: %t \n", apples, oranges, apples > oranges)
-	fmt.Printf("%d < %d: %t \n", apples, oranges, apples < oranges)
-	fmt.Printf("%d >= %d: %t \n", apples, oranges, apples >= oranges)
-	fmt.Printf("%d <= %d: %t \n", apples, oranges, apples <= oranges)
+	var employees []Employee
+	employees = append(employees, jack)
+	employees = append(employees, sina)
+
+	for _, x := range employees {
+		if x.Age > 30 {
+			fmt.Println(x.Name, "is 30 or older.")
+		} else {
+			fmt.Println(x.Name, "is under 30.")
+		}
+	}
+
 }
