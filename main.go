@@ -10,7 +10,7 @@ import "fmt"
 
 func main() {
 
-	mySumNumbers := sumMany(1,1,2,30)
+	mySumNumbers := sumMany(1,1,2,30,1,1,1,1,1)
 
 	fmt.Println(mySumNumbers)
 
