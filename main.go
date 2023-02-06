@@ -2,6 +2,8 @@
 
 package main
 
+import "fmt"
+
 /*
 Interfaces type
 -------------------------------
@@ -25,4 +27,17 @@ type Cat struct {
 
 func main() {
 	// ask a riddle !!! یک معما بپرس
+	dog := Dog {
+		Name: "dog",
+		Sound: "haaphaap",
+		NumberOfLegs: 4,
+	}
+	Riddle(dog)
+}
+
+
+
+func Riddle(d Dog) {
+	riddle := fmt.Sprintf(`This animal says "%s" and has %d legs. What animal is it?`, d.Sound, d.NumberOfLegs)
+	fmt.Println(riddle)
 }
