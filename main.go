@@ -7,14 +7,40 @@ import "fmt"
 /*
 Interfaces type
 -------------------------------
-
+When you're defining an interface, all you do are
+define the functions for an interface.
+all we have to do is make sure that the types 
+we define have associated functions or methods of the same name as specified in the interface.
 */
+type Animal interface {
+	/* Like this --> */ 
+	Says() string
+	HowManyLegs() int
+}
+
+
 
 // Dog id the type for dogs
 type Dog struct {
 	Name         string
 	Sound        string
 	NumberOfLegs int
+}
+
+func (d *Dog) Says() string {
+	return d.Sound
+}
+// ----------------
+func (d *Dog) HowManyLegs() int {
+	return d.NumberOfLegs
+}
+
+func (d *Cat) Says() string {
+	return d.Sound
+}
+// ----------------
+func (d *Cat) HowManyLegs() int {
+	return d.NumberOfLegs
 }
 
 // Cat is the type for cats
@@ -32,7 +58,7 @@ func main() {
 		Sound: "haaphaap",
 		NumberOfLegs: 4,
 	}
-	Riddle(dog)
+	Riddle(&dog)
 
 	//------------------- another way for get from struct
 	var cat Cat
@@ -44,12 +70,12 @@ func main() {
 	I can't pass this type to this function because
 	this expects to see a dog and this is where interfaces come in and they become very useful.
 	*/
-	Riddle(cat)
+	Riddle(&cat)
 }
 
 
 
-func Riddle(d Dog) {
-	riddle := fmt.Sprintf(`This animal says "%s" and has %d legs. What animal is it?`, d.Sound, d.NumberOfLegs)
+func Riddle(a Animal) {
+	riddle := fmt.Sprintf(`This animal says "%s" and has %d legs. What animal is it?`, a.Says(), a.HowManyLegs())
 	fmt.Println(riddle)
 }
