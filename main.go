@@ -29,9 +29,10 @@ func main() {
 
 	fmt.Println("--------------")
 	// For delete an element in Map
-	delete(intMap, "five")
+	// If comment it below first code
+	// delete(intMap, "five")
 	
-	// For diagnosis to be an element is exist in Map
+
 	element, ok := intMap["five"]
 	if ok  {
 		fmt.Println(element, "exsit In intMap.")
