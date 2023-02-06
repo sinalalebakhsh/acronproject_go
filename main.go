@@ -14,6 +14,7 @@ func main() {
 	dog.Sound = "HapHap..."
 	dog.NumberOfLegs = 4
 	dog.Says()
+	dog.Legs()
 }
 
 // For sum infinite numbers:
@@ -37,6 +38,7 @@ type Animal struct  {
 func (a *Animal) Says()  {
 	fmt.Printf("A %s says %s\n", a.Name, a.Sound)
 }
+// another For use struct in functions: 
 func (b *Animal) Legs()  {
-	fmt("A %s have %v\n")
+	fmt.Printf("A %s have %v legs.\n",b.Name, b.NumberOfLegs)
 }
