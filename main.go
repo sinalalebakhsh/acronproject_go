@@ -1,4 +1,4 @@
-//041-Expressions.go
+//042-Booleans.go
 package main
 
 func main() {
@@ -6,7 +6,3 @@ func main() {
 
 	
 }
-
-/*
-It's so simple and I prefer to doesn't write codes
-*/ 
