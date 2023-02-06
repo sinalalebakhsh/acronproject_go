@@ -14,7 +14,14 @@ func main() {
 	dog.Sound = "HapHap..."
 	dog.NumberOfLegs = 4
 	dog.Says()
-	dog.Legs()
+
+	// another variable definition from struct
+	cat := Animal {
+		Name: "cat",
+		Sound: "miyaou",
+		NumberOfLegs: 4,
+	}
+	cat.Legs()
 }
 
 // For sum infinite numbers:
