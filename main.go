@@ -17,10 +17,23 @@ func main() {
 	intMap["one"] = 1
 	intMap["two"] = 2
 	intMap["three"] = 3
+	intMap["four"] = 4
+	intMap["five"] = 5
 
 	// In the Go language, reading by the loop is done randomly.
-		for key, value := range intMap  {
+	// This behavior is weird !!!
+	for key, value := range intMap  {
 		fmt.Println(key, value)
 	}
+
+
+	fmt.Println("--------------")
+	// For delete an element in Map
+	delete(intMap, "five")
+	for key, value := range intMap  {
+		fmt.Println(key, value)
+	}
+
+
 }
 
