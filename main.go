@@ -47,5 +47,5 @@ func (a *Animal) Says()  {
 }
 // another For use struct in functions: 
 func (b *Animal) Legs()  {
-	fmt.Printf("A %s have %v legs.\n",b.Name, b.NumberOfLegs)
+	fmt.Printf("A %s have %d legs.\n",b.Name, b.NumberOfLegs)
 }
