@@ -37,3 +37,6 @@ type Animal struct  {
 func (a *Animal) Says()  {
 	fmt.Printf("A %s says %s\n", a.Name, a.Sound)
 }
+func (b *Animal) Legs()  {
+	fmt("A %s have %v\n")
+}
