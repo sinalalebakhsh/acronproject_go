@@ -18,7 +18,8 @@ func main() {
 	intMap["two"] = 2
 	intMap["three"] = 3
 
-	for key, value := range intMap  {
+	// In the Go language, reading by the loop is done randomly.
+		for key, value := range intMap  {
 		fmt.Println(key, value)
 	}
 }
