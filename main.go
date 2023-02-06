@@ -43,7 +43,7 @@ func main() {
 		}
 
 		if (x.Age > 35 || x.Salary < 5000) && x.FullTime == false {
-			fmt.Println(x.Name, "is more than 35 age OR makes money less than 5,000$ and doesn't Full Time job!!!")
+			fmt.Println("\n" + x.Name, "is more than 35 age OR\nmakes money less than 5,000$ and doesn't Full Time job!!!\nSo It's better to get a Full Time job.\n")
 		}
 
 	}
