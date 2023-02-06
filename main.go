@@ -10,4 +10,10 @@ func main() {
 	// boolean expression
 	fmt.Println(apples == oranges)
 	fmt.Println(apples != oranges)
+
+	// > < >= <=
+	fmt.Printf("%d > %d: %t \n", apples, oranges, apples > oranges)
+	fmt.Printf("%d < %d: %t \n", apples, oranges, apples < oranges)
+	fmt.Printf("%d >= %d: %t \n", apples, oranges, apples >= oranges)
+	fmt.Printf("%d <= %d: %t \n", apples, oranges, apples <= oranges)
 }
