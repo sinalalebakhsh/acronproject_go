@@ -9,11 +9,11 @@ import "fmt"
 // interface type
 
 func main() {
-
-	mySumNumbers := sumMany(1,1,2,30,1,1,1,1,1)
-
-	fmt.Println(mySumNumbers)
-
+	var dog Animal
+	dog.Name = "dog"
+	dog.Sound = "HapHap..."
+	dog.NumberOfLegs = 4
+	dog.Says()
 }
 
 // For sum infinite numbers:
@@ -28,3 +28,12 @@ func sumMany(nums ...int) int  {
 }
 
 
+// For use struct in functions: 
+type Animal struct  {
+	Name string
+	Sound string
+	NumberOfLegs int
+}
+func (a *Animal) Says()  {
+	fmt.Printf("A %s says %s\n", a.Name, a.Sound)
+}
