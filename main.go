@@ -30,8 +30,13 @@ func main() {
 	fmt.Println("--------------")
 	// For delete an element in Map
 	delete(intMap, "five")
-	for key, value := range intMap  {
-		fmt.Println(key, value)
+	
+	// For diagnosis to be an element is exist in Map
+	element, ok := intMap["five"]
+	if ok  {
+		fmt.Println(element, "exsit In intMap.")
+	} else {
+		fmt.Println(element, "exsit not In intMap.")
 	}
 
 
