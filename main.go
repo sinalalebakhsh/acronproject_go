@@ -33,6 +33,18 @@ func main() {
 		NumberOfLegs: 4,
 	}
 	Riddle(dog)
+
+	//------------------- another way for get from struct
+	var cat Cat
+	cat.Name = "cat"
+	cat.NumberOfLegs = 4
+	cat.Sound = "meow"
+	cat.HasTail = true
+	/*
+	I can't pass this type to this function because
+	this expects to see a dog and this is where interfaces come in and they become very useful.
+	*/
+	Riddle(cat)
 }
 
 
