@@ -35,6 +35,12 @@ func main() {
 		} else {
 			fmt.Println(x.Name, "is under 30.")
 		}
+
+		if x.Age < 35 &&  x.Salary > 50000 {
+			fmt.Println(x.Name, "is under 35 and makes more than 50,000$")
+		}
+
+
 	}
 
 }
