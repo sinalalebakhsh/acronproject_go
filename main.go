@@ -11,8 +11,9 @@ func main() {
 		AllStaff: employees,
 	}
 	// fmt.Println(myStaff.All())
-	staff.OverPaidLimit = 800
-	fmt.Println(myStaff.Overpaid())
+	
+	fmt.Println("Overpaid staff:",myStaff.Overpaid())
+	fmt.Println("Underpaid staff:",myStaff.Underpaid())
 }
 
 var employees = []staff.Employee {
