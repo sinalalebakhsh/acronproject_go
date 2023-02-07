@@ -5,6 +5,21 @@ import "fmt"
 
 func main() {
 
+	pickup := Vehicle {
+		NumberOfWheels: 4,
+		NumberOfPassengers: 6,
+	}
+
+	unimog := Car {
+		Make: "Mercedes Benz",
+		Model: "U 5000",
+		Year: 2020,
+		IsElectric: true,
+		IsHybrid: false,
+		Vehicle: pickup,
+	}
+
+	unimog.show()
 }
 
 type Vehicle struct {
