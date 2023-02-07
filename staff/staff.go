@@ -1,6 +1,9 @@
 package staff
 
-var OverPaidLimit = 75000
+var OverPaidLimit = 80000
+var UnderPaidLimit = 10000
+
+
 
 type Employee struct {
 	FirstName string
@@ -26,4 +29,15 @@ func (e *Office) Overpaid() []Employee {
 		}
 	}
 	return overpaid
+}
+
+func (e *Office) Underpaid() []Employee{
+	var underpaid []Employee
+
+	for _, x := range e.AllStaff {
+		if x.Salary < UnderPaidLimit {
+			underpaid = append(underpaid, x)
+		}
+	}
+	return underpaid
 }
