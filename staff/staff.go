@@ -1,5 +1,7 @@
 package staff
 
+var overPaidLimit = 75000
+
 type Employee struct {
 	FirstName string
 	LastName string
@@ -19,7 +21,7 @@ func (e *Office) Overpaid() []Employee {
 	var overpaid []Employee
 
 	for _, x := range e.AllStaff {
-		if x.Salary > 75000 {
+		if x.Salary > overPaidLimit {
 			overpaid = append(overpaid, x)
 		}
 	}
