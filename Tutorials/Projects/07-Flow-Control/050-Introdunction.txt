@@ -11,3 +11,7 @@ Looping:
         * infinite loop
         * for each range
         * getting out of a loop
+
+Making Decisions:
+    * if / the / else
+    * switch
