@@ -15,3 +15,8 @@ Looping:
 Making Decisions:
     * if / the / else
     * switch
+
+Debugging:
+    * Using dlv, the Go debugger
+    * Setting break point
+    * Stepping through our code 
