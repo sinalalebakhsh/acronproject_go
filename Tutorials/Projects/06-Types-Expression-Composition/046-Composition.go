@@ -1,4 +1,4 @@
-//044-Hammer-Bitcoin-Challenge.go
+//046-Composition.go
 package main
 
 import "fmt"
