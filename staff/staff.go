@@ -1,5 +1,7 @@
 package staff
 
+import "fmt"
+
 var OverPaidLimit = 80000
 var UnderPaidLimit = 10000
 
@@ -39,5 +41,21 @@ func (e *Office) Underpaid() []Employee{
 			underpaid = append(underpaid, x)
 		}
 	}
+	e.notVisible()
 	return underpaid
 }
+
+
+func (e *Office) notVisible() {
+	fmt.Println("It's Unexported function.")
+}
+
+/*
+RESULT is:
+-----
+sina-lalebakhsh@sinalalebakhsh:~/Desktop/acronproject_Go$ go run main.go 
+Overpaid staff: [{Mahsa Gilani 7543211 false}]
+It's Unexported function.
+Underpaid staff: [{Sina Lalebakhsh 400 true} {Gandom Irani 1233 false}]
+sina-lalebakhsh@sinalalebakhsh:~/Desktop/acronproject_Go$ 
+*/ 
