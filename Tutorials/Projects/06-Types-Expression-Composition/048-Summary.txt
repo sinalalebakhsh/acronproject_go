@@ -1,0 +1,17 @@
+048-Summary.txt
+Summary:
+    
+    * Basic types - int, float32, float64, boolean, string, rune
+
+    * Aggregate types - arrays, structs
+
+    * Reference types - pointers, slice, maps, function, channel
+
+    * Interface type
+
+    * In order to implement an interface, a type must implement All
+      of the methods of that interface.
+
+    * Boolean expressions - false, num > 10, == != > < >= <=
+
+    * Compound booleans - (x > 10) && (y < 20)
