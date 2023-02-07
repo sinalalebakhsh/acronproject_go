@@ -14,6 +14,7 @@ func main() {
 	
 	fmt.Println("Overpaid staff:",myStaff.Overpaid())
 	fmt.Println("Underpaid staff:",myStaff.Underpaid())
+
 }
 
 var employees = []staff.Employee {
