@@ -6,6 +6,7 @@ import (
 	"bufio"
 	"fmt"
 	"os"
+	"time"
 )
 
 
@@ -19,8 +20,9 @@ func main() {
 
 	fmt.Println("Enter something:")
 	for i:= 0; i < 5; i++ {
-		fmt.Println("-> ")
+		fmt.Print("-> ")
 		input, _ := reader.ReadString('\n')
 		ch <- input
+		time.Sleep(time.Second)
 	}
 }
