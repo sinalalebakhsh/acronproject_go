@@ -14,4 +14,7 @@ func main() {
 	ch := make(chan string)			
 
 	fmt.Println("Enter something:")
+	for i:= 0; i < 5; i++ {
+		fmt.Println("-> ")
+	}
 }
