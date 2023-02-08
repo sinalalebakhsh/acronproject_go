@@ -18,7 +18,8 @@ func main() {
 		i = rand.Intn(1000) + 1
 		fmt.Println("i:",i)
 		if i > 100 {
-			fmt.Println("i:", i, "loop keeps going...")
+			fmt.Println("i:", i, "loop keeps going..")
 		}
 	}
+	fmt.Println("Got", i, "and broke out of loop [**]")
 }
