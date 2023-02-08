@@ -17,5 +17,8 @@ func main() {
 		// this is infinite loop
 		i = rand.Intn(1000) + 1
 		fmt.Println("i:",i)
+		if i > 100 {
+			fmt.Println("i:", i, "loop keeps going...")
+		}
 	}
 }
