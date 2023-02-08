@@ -1,6 +1,17 @@
 // 053-The-Infinite-Loop.go
 package main
 
-func main() {
+import (
+	"bufio"
+	"fmt"
+	"os"
+)
 
+
+func main() {
+	// read input from the user 5 times and write it to a log
+	reader := bufio.NewReader(os.Stdin)
+	ch := make(chan string)			
+
+	fmt.Println("Enter something:")
 }
