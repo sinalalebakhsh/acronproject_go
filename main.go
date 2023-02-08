@@ -1,4 +1,4 @@
-// 051-Three-Part-Loop.go
+// 052-The-While-Loop.go
 package main
 
 import "fmt"
