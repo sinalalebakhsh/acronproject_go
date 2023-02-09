@@ -5,6 +5,14 @@ import "fmt"
 
 func main() {
 	for i := 1; i <= 10; i++ {
-		fmt.Println("i:", i)
+		fmt.Print("i:", i)
+		for j := 1; j<= 3; j++ {
+			if i >= 10 {
+				fmt.Print("   j: ", j)
+			} else {
+				fmt.Print("    j: ", j)
+			}
+		}
+		fmt.Println()
 	}
 }
