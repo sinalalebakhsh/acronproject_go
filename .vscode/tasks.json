@@ -1,12 +1,10 @@
 {
-    // see https://go.microsoft.com/fwlink/?LinkId=733558
-    // fir the documentation about the tasks.jaon format
     "version": "2.0.0",
     "tasks": [
         {
             "label": "delve",
             "type": "shell",
-            "command": "div debug --headless --listen=:23456 --api-version=2 \"${workspaceFolder}\"",
+            "command": "dlv debug --headless --listen=:23456 --api-version=2 \"${workspaceFolder}\"",
             "isBackground": true,
             "presentation": {
                 "focus": true,
@@ -21,7 +19,7 @@
                 "pattern": {
                     "regexp": ""
                 },
-                "Background": {
+                "background": {
                     "activeOnStart": true,
                     "beginsPattern": {
                         "regexp": ".*"
@@ -30,7 +28,7 @@
                         "regexp": ".*server listening.*"
                     }
                 }
-            }
+            },
         }
     ]
 }
