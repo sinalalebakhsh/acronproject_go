@@ -1,0 +1,22 @@
+050-Introduction.txt
+Alter the execution of our programs
+
+Looping:
+
+    * Execute one section of code a set number of times
+    * Execute one section of code based on a condition
+    * the for loop in more detail
+        * three component loop
+        * while loop
+        * infinite loop
+        * for each range
+        * getting out of a loop
+
+Making Decisions:
+    * if / the / else
+    * switch
+
+Debugging:
+    * Using dlv, the Go debugger
+    * Setting break point
+    * Stepping through our code 

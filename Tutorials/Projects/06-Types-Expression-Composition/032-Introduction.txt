@@ -1,0 +1,34 @@
+use a particular type at a particular place in your program.
+Go is not an object oriented programming language like Java or C sharp.
+Instead, it uses something called composition.
+And that's something we need to learn about in a bit more detail.
+
+Category of types:
+  ----------------
+Basic Types: numbers, strings, booleans.
+
+Aggregate Types: arrays, structs.
+
+Reference Types: Pointers, slices, maps, functions, channels.
+
+Interface Type: The very general type known as the interface type,
+    which is a type that can hold literally anything you want for expression's.
+
+Expressions:
+    Boolean if
+    Compound boolean if 
+    switch()
+
+Composition:
+    Composition vs. Inheritance
+    Go is not OOP
+    Example: car is OOP, car with composition.
+    ------
+    If you have an object oriented programming language,
+    you might have something called a class and that class might be occur and you can inherit 
+    from that class to create a new class say type ford.
+    So you might make a class ford that extends the class cur.
+    but:
+    with composition you might define your own type called cut 
+    and a car would have a steering wheel, tires, seats, an engine.
+     
