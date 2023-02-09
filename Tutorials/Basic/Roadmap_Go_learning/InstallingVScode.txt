@@ -1,6 +1,0 @@
-Installing Visual Studio Code
-|   1 https://code.visualstudio.com/
-|   2 Download
-|   3 Then you want to bring up the command palette, Press Ctrl + shift + P
-|   4 Write: >Go:install/update tools 
-|   5 Choose all and Click OK and wait for Installing Dependencies
