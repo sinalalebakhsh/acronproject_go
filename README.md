@@ -2,6 +2,7 @@
 
 In here I want to Create Security Tool for Discover Vulnerabilities Web Applications.
 
+this purpose is for defence of  information security and privacy.
 
 |Tag                                       |Issue                        |
 |------------------------------------------|-----------------------------|
