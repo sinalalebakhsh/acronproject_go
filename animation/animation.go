@@ -3,7 +3,13 @@ package animation
 import (
 	"fmt"
 	"time"
+	"github.com/MasterDimmy/go-cls"
 )
+
+
+func ClearSceenTerminal() {
+	cls.CLS()
+}
 
 
 func Clear_123() {
@@ -16,33 +22,33 @@ func Animation() {
 		Clear_123()
 		if j == 0 {
 			fmt.Print("*")
-			time.Sleep(500 * time.Millisecond)
+			time.Sleep(90 * time.Millisecond)
 			fmt.Print("*")
-			time.Sleep(500 * time.Millisecond)
+			time.Sleep(90 * time.Millisecond)
 			fmt.Print("*")
-			time.Sleep(500 * time.Millisecond)
+			time.Sleep(90 * time.Millisecond)
 			fmt.Print("*")
-			time.Sleep(500 * time.Millisecond)
+			time.Sleep(90 * time.Millisecond)
 			fmt.Println()
 		} else if j == 1 {
 			fmt.Print("*")
-			time.Sleep(500 * time.Millisecond)
+			time.Sleep(90 * time.Millisecond)
 			fmt.Print("*")
-			time.Sleep(500 * time.Millisecond)
+			time.Sleep(90 * time.Millisecond)
 			fmt.Print("*")
-			time.Sleep(500 * time.Millisecond)
+			time.Sleep(90 * time.Millisecond)
 			fmt.Print("*")
-			time.Sleep(500 * time.Millisecond)
+			time.Sleep(90 * time.Millisecond)
 			fmt.Println()
 		} else {
 			fmt.Print("*")
-			time.Sleep(500 * time.Millisecond)
+			time.Sleep(90 * time.Millisecond)
 			fmt.Print("*")
-			time.Sleep(500 * time.Millisecond)
+			time.Sleep(90 * time.Millisecond)
 			fmt.Print("*")
-			time.Sleep(500 * time.Millisecond)
+			time.Sleep(90 * time.Millisecond)
 			fmt.Print("*")
-			time.Sleep(500 * time.Millisecond)
+			time.Sleep(90 * time.Millisecond)
 			fmt.Println()
 		}
 	}
