@@ -44,18 +44,16 @@ func convertToThird() {
 	}
 
 	counter := 0
-	for number := range listNumbers{
+	for _, number := range listNumbers{
 		if counter < 5 {
-			defer fmt.Print(listNumbers[number], " ")
+			defer fmt.Print(number, " ")
 			counter = counter + 1
 		} else {
 			defer fmt.Println(" ")
-			defer fmt.Print(listNumbers[number], " ")
+			defer fmt.Print(number, " ")
 			counter = 1
 		}
 	}
-
-	
 }
 
 
