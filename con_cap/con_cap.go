@@ -8,9 +8,6 @@ import (
 	"math/rand"
 )
 
-type K string
-type V string
-
 
 func ChoiceOfComputer(m map[K]V) K {
 	k := rand.Intn(len(m))
@@ -22,6 +19,9 @@ func ChoiceOfComputer(m map[K]V) K {
 	}
 	panic("unreachable")
 }
+
+type K string
+type V string
 
 var CountriesCapital = map[K]V{
 	"AFGHANISTAN": "KABUL",

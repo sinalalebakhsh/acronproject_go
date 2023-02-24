@@ -6,6 +6,7 @@ import (
 	"acron/con_cap"
 	"fmt"
 	"acron/askQuestion"
+	"acron/userAnswerDiagnosis"
 )
 
 
@@ -20,6 +21,7 @@ func main() {
 	fmt.Println(AskQuestion_)
 	
 	// 3. Diagnosis true/false user answer  
+	userAnswerDiagnosis.UserAnswer(string(ChoiceOfComputer))
 	
 }
 
