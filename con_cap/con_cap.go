@@ -9,7 +9,7 @@ import (
 )
 
 
-func ChoiceOfComputer(m map[K]V) K {
+func ChoiceOfComputerOrg(m map[K]V) K {
 	k := rand.Intn(len(m))
 	for CountryName , _ := range m {
 		if k == 0 {

@@ -4,26 +4,19 @@ package main
 
 import (
 	"acron/con_cap"
-	"fmt"
 	"acron/askQuestion"
 	"acron/userAnswerDiagnosis"
 )
 
-
-
 func main() {
 	// 1. Choice of Computer
-	ChoiceOfComputer := con_cap.ChoiceOfComputer(con_cap.CountriesCapital)
+	ChoiceOfComputer_ := con_cap.ChoiceOfComputerOrg(con_cap.CountriesCapital)
 
 	// 2. Ask Question from User
-	AskQuestion_ := askQuestion.AskQuestion(string(ChoiceOfComputer))
-
-	fmt.Println(AskQuestion_)
+	AskQuestion_ := askQuestion.AskQuestion(string(ChoiceOfComputer_))
 	
 	// 3. Diagnosis true/false user answer
-	getTrueAnswer := userAnswerDiagnosis.UserAnswer(string(ChoiceOfComputer))
-	fmt.Println(getTrueAnswer)
-	
+	userAnswerDiagnosis.UserAnswer(AskQuestion_, string(ChoiceOfComputer_))	
 }
 
 

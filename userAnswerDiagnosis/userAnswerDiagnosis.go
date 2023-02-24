@@ -5,11 +5,12 @@ import (
 	"fmt"
 )
 
-func UserAnswer(ChoiceOfComputer string) con_cap.V {
-	GetTrueAnswer :=   con_cap.CountriesCapital[con_cap.K(ChoiceOfComputer)]
+func UserAnswer(AskQuestion_, ChoiceOfComputer string) {
+	GetTrueAnswer := con_cap.CountriesCapital[con_cap.K(ChoiceOfComputer)]
 	
-	fmt.Println("capital of", ChoiceOfComputer, "is", GetTrueAnswer)
-	fmt.Printf("Type of, GetTrueAnswer is %T\n", GetTrueAnswer )
-	
-	return GetTrueAnswer
+	if string(GetTrueAnswer) == AskQuestion_ {
+		fmt.Println("Yes! Capital of", ChoiceOfComputer, "is", GetTrueAnswer)
+	} else if string(GetTrueAnswer) != AskQuestion_ {
+		fmt.Println("No! Capital of", ChoiceOfComputer, "is'n", AskQuestion_ + ".\nBut is", GetTrueAnswer + ".")
+	}
 }
