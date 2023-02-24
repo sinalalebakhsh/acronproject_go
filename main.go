@@ -20,8 +20,9 @@ func main() {
 
 	fmt.Println(AskQuestion_)
 	
-	// 3. Diagnosis true/false user answer  
-	userAnswerDiagnosis.UserAnswer(string(ChoiceOfComputer))
+	// 3. Diagnosis true/false user answer
+	getTrueAnswer := userAnswerDiagnosis.UserAnswer(string(ChoiceOfComputer))
+	fmt.Println(getTrueAnswer)
 	
 }
 
