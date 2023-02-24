@@ -5,6 +5,7 @@ package main
 import (
 	"acron/con_cap"
 	"fmt"
+	"acron/askQuestion"
 )
 
 
@@ -12,9 +13,11 @@ import (
 func main() {
 	// 1. Choice of Computer
 	ChoiceOfComputer := con_cap.ChoiceOfComputer(con_cap.CountriesCapital)
-	fmt.Println(ChoiceOfComputer)
 
-	// 2. Get Question from User
+	// 2. Ask Question from User
+	AskQuestion_ := askQuestion.AskQuestion(string(ChoiceOfComputer))
+
+	fmt.Println(AskQuestion_)
 	
 	// 3. Diagnosis true/false user answer  
 	
