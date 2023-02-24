@@ -1,3 +1,7 @@
+// Source: https://go.dev/play/p/ZyBKX0T7I2-
+// 		https://programming-idioms.org/idiom/250/pick-a-random-value-from-a-map/4435/go
+
+
 package con_cap
 
 import (
@@ -48,7 +52,8 @@ var CountriesCapital = map[K]V{
 
 /*
 
-	Source: https://go.dev/play/p/ZyBKX0T7I2-
+	// Source: https://go.dev/play/p/ZyBKX0T7I2-
+	// 		https://programming-idioms.org/idiom/250/pick-a-random-value-from-a-map/4435/go
 
 	package main
 
