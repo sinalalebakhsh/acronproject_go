@@ -1,7 +1,25 @@
 package con_cap
 
+import (
+	"math/rand"
+)
 
-var CountriesCapital = map[string]string{
+type K string
+type V string
+
+
+func ChoiceOfComputer(m map[K]V) K {
+	k := rand.Intn(len(m))
+	for CountryName , _ := range m {
+		if k == 0 {
+			return CountryName 
+		}
+		k--
+	}
+	panic("unreachable")
+}
+
+var CountriesCapital = map[K]V{
 	"AFGHANISTAN": "KABUL",
 	"ALBANIA": "TIRANA",
 	"ALGERIA": "ALGIERS",
@@ -28,5 +46,43 @@ var CountriesCapital = map[string]string{
 }
 
 
+/*
+
+	Source: https://go.dev/play/p/ZyBKX0T7I2-
+
+	package main
+
+	import (
+		"fmt"
+		"math/rand"
+	)
+
+	type K string
+	type V string
+
+	func pick(m map[K]V) V {
+		k := rand.Intn(len(m))
+		for _, x := range m {
+			if k == 0 {
+				return x
+			}
+			k--
+		}
+		panic("unreachable")
+	}
+
+	func main() {
+		m := map[K]V{
+			"one":   "un",
+			"two":   "deux",
+			"three": "trois",
+			"four":  "quatre",
+		}
+
+		x := pick(m)
+
+		fmt.Println(x)
+	}
+*/
 
 
