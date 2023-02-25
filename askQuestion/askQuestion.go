@@ -16,7 +16,7 @@ func AskQuestion( ChoiceOfComputer string) string {
 	
 	// declaring the variable using the var keyword
 	var answerUser string
-	fmt.Printf("What is the capital of %v\n", ChoiceOfComputer)
+	fmt.Printf("What is the capital of %v\n", strings.Title(ChoiceOfComputer))
 	
 	anotherOffers(ChoiceOfComputer)
 
