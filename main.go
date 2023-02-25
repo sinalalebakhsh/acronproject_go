@@ -6,15 +6,21 @@ import (
 	"acron/con_cap"
 	"acron/askQuestion"
 	"acron/userAnswerDiagnosis"
+	"acron/animation"
 )
 
 func main() {
+
+	animation.Animation()
+
 	// 1. Choice of Computer
 	ChoiceOfComputer_ := con_cap.ChoiceOfComputerOrg(con_cap.CountriesCapital)
 
 	// 2. Ask Question from User
 	AskQuestion_ := askQuestion.AskQuestion(string(ChoiceOfComputer_))
 	
+	animation.Animation()
+
 	// 3. Diagnosis true/false user answer
 	userAnswerDiagnosis.UserAnswer(AskQuestion_, string(ChoiceOfComputer_))	
 }

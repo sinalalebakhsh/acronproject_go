@@ -30,6 +30,7 @@ func AskQuestion( ChoiceOfComputer string) string {
 	// remove the delimiter from the string
 	answerUser = strings.TrimSuffix(answerUser, "\n")
 	
+	// Source https://www.tutorialkart.com/golang-tutorial/golang-remove-all-spaces-from-string/
 	answerUser = strings.ReplaceAll(answerUser, " ", "")	
 	answerUser = strings.ReplaceAll(answerUser, "	", "")	
 
