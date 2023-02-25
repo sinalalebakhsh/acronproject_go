@@ -30,18 +30,19 @@ func AskQuestion( ChoiceOfComputer string) string {
 	// remove the delimiter from the string
 	answerUser = strings.TrimSuffix(answerUser, "\n")
 	
-	
-	
+	answerUser = strings.ReplaceAll(answerUser, " ", "")	
+	answerUser = strings.ReplaceAll(answerUser, "	", "")	
 
 	return strings.ToLower(answerUser)
 }
 
 
-
 func anotherOffers( ChoiceOfComputer string) {
 	
+	Choice2 := con_cap.ChoiceOfComputerOrg(con_cap.CountriesCapital)
+	Choice3 := con_cap.ChoiceOfComputerOrg(con_cap.CountriesCapital)
+
 	Choice1 := con_cap.CountriesCapital[con_cap.K(ChoiceOfComputer)]
 
-
-	fmt.Println(Choice1)
+	fmt.Println("1.",Choice2, "\n2.",  Choice1, "\n3.", Choice3)
 }
