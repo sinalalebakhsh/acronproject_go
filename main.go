@@ -1,9 +1,9 @@
 package main
 
 import (
-	"fmt"
 	"log"
 	"net/http"
+	"text/template"
 )
 
 func main() {
@@ -16,7 +16,17 @@ func main() {
 
 
 func homePage(w http.ResponseWriter, r *http.Request) {
-	html := `<strong>Hello Sina</strong>`
-	w.Header().Set("Content-Type", "text/html")
-	fmt.Fprint(w, html)
+	renderTemplate(w, "index.html")
+}
+
+func renderTemplate(w http.ResponseWriter, page string) {
+	t, err := template.ParseFiles(page)
+	if err != nil {
+		log.Panicln(err)
+	}
+
+	err = t.Execute(w, nil)
+	if err != nil {
+		log.Panicln(err)
+	}
 }
