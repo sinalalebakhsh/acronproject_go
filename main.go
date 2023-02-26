@@ -1,6 +1,7 @@
 package main
 
 import (
+	"acron/rps"
 	"log"
 	"net/http"
 	"text/template"
@@ -8,6 +9,8 @@ import (
 
 func main() {
 	http.HandleFunc("/", homePage)
+	http.HandleFunc("/play", playRound)
+
 	log.Println("Starting web server on port 8080")
 	http.ListenAndServe(":8080", nil)
 
@@ -29,4 +32,9 @@ func renderTemplate(w http.ResponseWriter, page string) {
 	if err != nil {
 		log.Panicln(err)
 	}
+}
+
+func playRound (w http.ResponseWriter, r *http.Request) {
+	winner, computerChoice, roundResult := rps.PlayRound(1)
+	log.Println(winner, computerChoice, roundResult)
 }
