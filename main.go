@@ -36,5 +36,5 @@ func renderTemplate(w http.ResponseWriter, page string) {
 
 func playRound (w http.ResponseWriter, r *http.Request) {
 	winner, computerChoice, roundResult := rps.PlayRound(1)
-	log.Println(winner, computerChoice, roundResult)
+	log.Println(winner, computerChoice, roundResult                                   )
 }
