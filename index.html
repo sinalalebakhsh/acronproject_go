@@ -27,13 +27,16 @@
         <br>
         <br>
 
-        <button class="btn btn-outline-secondary">Rock</button>
-
+        <button class="btn btn-outline-secondary" onclick="choose(0);">Rock</button>
         <button class="btn btn-outline-secondary">Paper</button>
-
         <button class="btn btn-outline-secondary">Scissors</button>
 
     </div>
 </body>
+<script>
+    function choose(x) {
+        document.getElementById("player_choice").innerHTML = "You clicked Rock";
+    }
+</script>
 
 </html>
