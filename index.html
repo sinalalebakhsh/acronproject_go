@@ -18,36 +18,36 @@
         <h1 class="mt-4">Acron Project</h1>
         <hr>
 
-        <p id="player_choice">&nbsp;</p>
-        <p id="computer_choice">&nbsp;</p>
-        <p id="round_result">&nbsp; </p>
+        <p id="player_choice">Player chose:  &nbsp;</p>
+        <p id="computer_choice">Computer Choice: &nbsp;</p>
+        <p id="round_result">Result:  &nbsp;</p>
         <hr>
 
-        <p>Choose rock, paper, scissors</p>
-        <br>
-        <br>
-
+        
+        <h6 class="text-primary">Choose</h6>
+        
         <button class="btn btn-outline-secondary" onclick="choose(0);">Rock</button>
         <button class="btn btn-outline-secondary" onclick="choose(1);">Paper</button>
         <button class="btn btn-outline-secondary" onclick="choose(2);">Scissors</button>
+    
 
     </div>
 </body>
 <script>
     function choose(x) {
         fetch('/play?c=' + x)
-        .then(respponse => respponse.json())
-        .then(data => {
-            console.log(data);
-        })
-
-        if (x == 0) {
-            document.getElementById("player_choice").innerHTML = "You clicked Rock";
-        } else if (x == 1) {
-            document.getElementById("player_choice").innerHTML = "You clicked Paper";
-        } else {
-            document.getElementById("player_choice").innerHTML = "You clicked Scissors";
-        }
+            .then(respponse => respponse.json())
+            .then(data => {
+                if (x == 0) {
+                    document.getElementById("player_choice").innerHTML = "Player chose: ROCK";
+                } else if (x == 1) {
+                    document.getElementById("player_choice").innerHTML = "Player chose: PAPER";
+                } else {
+                    document.getElementById("player_choice").innerHTML = "Player chose: SCISSORS";
+                }
+                document.getElementById("computer_choice").innerHTML = "Computer Choice: " + data.computer_choice;
+                document.getElementById("round_result").innerHTML = "Result: " + data.round_result;
+            })
     }
 </script>
 

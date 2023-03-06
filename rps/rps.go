@@ -29,13 +29,13 @@ func PlayRound(playerValue int) Round {
 
 	switch computerValue {
 	case ROCK:
-		computerChoice = "Computer Chose ROCK"
+		computerChoice = "ROCK"
 		break
 	case PAPER:
-		computerChoice = "Computer Chose PAPER"
+		computerChoice = "PAPER"
 		break
 	case SCISSORS:
-		computerChoice = "Computer Chose SCISSORS"
+		computerChoice = "SCISSORS"
 		break
 	default:
 	}
