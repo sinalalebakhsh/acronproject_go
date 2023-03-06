@@ -35,6 +35,12 @@
 </body>
 <script>
     function choose(x) {
+        fetch('/play?c=' + x)
+        .then(respponse => respponse.json())
+        .then(data => {
+            console.log(data);
+        })
+
         if (x == 0) {
             document.getElementById("player_choice").innerHTML = "You clicked Rock";
         } else if (x == 1) {
