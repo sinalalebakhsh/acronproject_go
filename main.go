@@ -2,6 +2,7 @@ package main
 
 import (
 	"acron/rps"
+	"encoding/json"
 	"log"
 	"net/http"
 	"text/template"
@@ -35,6 +36,16 @@ func renderTemplate(w http.ResponseWriter, page string) {
 }
 
 func playRound (w http.ResponseWriter, r *http.Request) {
-	winner, computerChoice, roundResult := rps.PlayRound(1)
-	log.Println(winner, computerChoice, roundResult                                   )
+
+	result := rps.PlayRound(1)
+
+	out, err := json.MarshalIndent(result, "", "   ")
+	if err != nil {
+		log.Println(err)
+		return
+	}
+	w.Header().Set("Content-Type", "application/json")
+	w.Write(out)
+
+	log.Println()
 }
