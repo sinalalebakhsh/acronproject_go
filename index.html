@@ -28,14 +28,20 @@
         <br>
 
         <button class="btn btn-outline-secondary" onclick="choose(0);">Rock</button>
-        <button class="btn btn-outline-secondary">Paper</button>
-        <button class="btn btn-outline-secondary">Scissors</button>
+        <button class="btn btn-outline-secondary" onclick="choose(1);">Paper</button>
+        <button class="btn btn-outline-secondary" onclick="choose(2);">Scissors</button>
 
     </div>
 </body>
 <script>
     function choose(x) {
-        document.getElementById("player_choice").innerHTML = "You clicked Rock";
+        if (x == 0) {
+            document.getElementById("player_choice").innerHTML = "You clicked Rock";
+        } else if (x == 1) {
+            document.getElementById("player_choice").innerHTML = "You clicked Paper";
+        } else {
+            document.getElementById("player_choice").innerHTML = "You clicked Scissors";
+        }
     }
 </script>
 
