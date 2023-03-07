@@ -8,3 +8,5 @@
 | 0.1.4Refrustructure-Guess-the-Number-Game| Game                        |  
 | 0.1.5Animation                           | Animation for better show   |  
 | 0.1.6RockPaperScissors                   | Game of Rock Paper Scissors |
+| 0.1.9Trevor-Sawler                       | I Learned a lot of thing    |
+| 0.1.47Akhil-YouTube-Channel
